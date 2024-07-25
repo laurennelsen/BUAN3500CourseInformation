@@ -13,29 +13,30 @@
             <title>Grading Category Weights</title>
         <tabular>
             <row>
-                <cell>Quiz Objectives</cell>
-                <cell><m>25\%</m></cell>
+                <cell>Reading Quizzes</cell>
+                <cell><m>5\%</m></cell>
             </row>
             <row>
-                <cell>MyLab Homework (Conceptual)</cell>
-                <cell><m>10\%</m></cell>
+                <cell>Written Assignments</cell>
+                <cell><m>15\%</m></cell>
             </row>
             <row>
-                <cell>MyLab Homework (Problems)</cell>
+                <cell>MindTap Assignments</cell>
                 <cell><m>20\%</m></cell>
             </row>
             <row>
-                <cell>Exam 1</cell>
-                <cell><m>15\%</m></cell>
+                <cell>Case Problems</cell>
+                <cell><m>20\%</m></cell>
             </row>
             <row>
-                <cell>Exam 2</cell>
-                <cell><m>15\%</m></cell>
+                <cell>Midterm Project</cell>
+                <cell><m>20\%</m></cell>
             </row>
             <row>
-                <cell>Final Exam</cell>
-                <cell><m>15\%</m></cell>
+                <cell>Final Project</cell>
+                <cell><m>20\%</m></cell>
             </row>
+            
             <row>
                 <cell>Total:</cell>
                 <cell><m>100\%</m></cell>
@@ -45,80 +46,7 @@
     </p>
 
 
-    <p>
-        <em>Types of Assignments:</em>
-        <ul>
-            <li>
-                <p>
-                    <em>MyLab Homework:</em>
-                    <ul>
-                        <li>
-                            <p>
-                                Homework problems will require your understanding of statistical concepts and their application to problem contexts.  You will complete these each week in MyLab Statistics.  The homework assignments will typically be due each week at 11:59pm the weeknight before our class meeting.  (However, I strongly recommend trying to complete the homework before then.)  You should get multiple attempts for MyLab homework problems.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                I will drop the lowest conceptual score from each of the MyLab Homework categories.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <em>Quizzes:</em>
-                    <ul>
-                        <li>
-                            <p>
-                                There will be several quizzes throughout the course.  Each of quizzes will be made up of several objectives.  You need to do the problem(s) corresponding to each objective perfectly to earn full credit for that objective. 
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                On each of the days specified in the schedule, you will be allowed to re-try certain quizzes/objectives.  This will give you another chance to earn credit for objectives that you missed on your first attempt.  
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                For quizzes you may use a 4x6 inch notecard, a basic, nonprogrammable calculator (no phone) and Excel (if the problem allows it).  
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                During quizzes you may NOT search the internet or use other resources that are not allowed.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <em>Exams:</em>
-                    <ul>
-                        <li>
-                            <p>
-                                There will be 3 in-class exams during this course: 2 <q>midterm</q> exams and a final exam.  Questions will require your understanding of statistical concepts and their application to problem contexts.  
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                You will be allowed to use an 8.5x11 inch sheet of notes and a basic, nonprogrammable calculator (no phone) during the exams.  You must show your work and answers must be clearly presented to receive full credit.   (Some problems may also allow the use of Excel.)
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                During exams you may NOT search the internet or use other resources that are not allowed.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-        </ul>
-    </p>
-    
-</subsection>
-
+    </subsection>
 
 <subsection xml:id="subsec-missed-late-work">
     <title>Missed/Late Work</title>
@@ -131,7 +59,7 @@
 
 
 <subsection xml:id="subsec-be-successful">
-    <title>How to be successful in QUAN 2010</title>
+    <title>How to be successful in BUAN 3500</title>
 
     <p>
         <ul>
@@ -159,7 +87,7 @@
             </li>
             <li>
                 <p>
-                    Form a study group with your classmates and meet regularly to practice problems.
+                    Form a study group with your classmates and meet regularly to work on the material.
 
                 </p>
             </li>
@@ -181,7 +109,7 @@
             </li>
             <li>
                 <p>
-                    Go to the QUAN tutoring center in Dwire ( <url href="https://bit.ly/4a4c4rx" />) and/or the Mathematics Excel Center (<url href="https://mathcenter.uccs.edu">https://mathcenter.uccs.edu</url>) for tutoring 
+                    Go to the QUAN tutoring center in Dwire ( <url href="https://bit.ly/4a4c4rx" />) and/or the Mathematics Excel Center (<url href="https://mathcenter.uccs.edu">https://mathcenter.uccs.edu</url>) for tutoring related to QUAN/statistics topics
                 </p>
             </li>
         </ul>

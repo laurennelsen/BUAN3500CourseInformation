@@ -5,7 +5,7 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="syllabus">
-    <title>QUAN 2010 Course Information</title>
+    <title>BUAN 3500: Data Visualization and Descriptive Analytics</title>
     <subtitle>Fall 2024</subtitle>
 
     <!-- Include frontmatter -->
@@ -13,7 +13,13 @@
 
     <!-- Include chapters -->
      <xi:include href="./ch-syllabus.ptx" />
-    <xi:include href="./ch-quiz-problems.ptx" />
+    <xi:include href="./ch-intro-bus-analytics.ptx" />
+    <xi:include href="./ch-descriptive-statistics.ptx" />
+    <xi:include href="./ch-data-visualization.ptx" />
+    <xi:include href="./ch-dashboards.ptx" />
+    <xi:include href="./ch-probability.ptx" />
+    <xi:include href="./ch-descriptive-data-mining.ptx" />
+    <xi:include href="./ch-statistical-inference.ptx" />
 
 
     <!-- Include backmatter -->

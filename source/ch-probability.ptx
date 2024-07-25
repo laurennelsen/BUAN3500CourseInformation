@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-probability" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Probability</title>
+
+<introduction>
+  <p>
+    <p> (This is Chapter 5 in our textbook.) </p>
+
+  </p>
+</introduction>
+
+  <!-- include sections -->
+   <xi:include href="sec-probability-slides.ptx" />
+
+</chapter>

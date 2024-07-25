@@ -8,15 +8,13 @@
     <title>Course Description</title>
 
     <p>
-        Statistical applications in business. Includes descriptive statistics, probability distributions, sampling theory, estimation, hypothesis testing, and simple and multiple regression. 
-    </p>
+        This course will provide students with an understanding of how organizations can successfully collect, organize, manipulate, use, prospect and present data. Students will manipulate and interpret actual data using software such as Excel, SPSS, Power BI, Tableau, or Watson.    </p>
     <p>
         <em>Prerequisite Information: 
         </em>
     </p>
     <p>
-        Prer., INFS 1100; MATH 1040, Sophomore standing or MATH 1120, Business students only
-    </p>
+        Successful completion of QUAN 2020 and Junior standing in the College of Business are required.  You are expected to be proficient in Excel – do not expect class time to be devoted to learning Excel basics.    </p>
     
 </subsection>
 
@@ -28,31 +26,13 @@
         The course will meet in person in Dwire Hall 122 (A tentative schedule is included later in the syllabus.)  On Canvas, the course is organized by weekly modules. 
     </p>
     <p>
-        I will provide you with blank notes, Excel templates that go along with the notes, and homework problems to work in MyLab Statistics.  Here is the routine I recommend you follow to get the most out of this course:
-<ul>
-    <li>
-        <p>
-           Read the assigned sections of the book from the attached schedule.
+        Based on a background coverage of Descriptive Statistics, Data Visualization, Probability, Statistical Inference, and the philosophy of information presentation, we will use Excel and Tableau to produce data analysis of real-world data samples.
 
         </p>
-    </li>
-    <li>
-        <p>
-           Come to class meetings and work the example problems alongside me.
-        </p>
-    </li>
-    <li>
-        <p>
-            Complete your MyLab Statistics homework assignments.
-        </p>
-    </li>
-    <li>
-        <p>
-           Look at quiz objectives before each quiz.
-        </p>
-    </li>
-</ul>
 
+        <p>
+        This class may be run more informally than what you might have experienced in QUAN 2010 and 2020.  You are now more experienced and mature learners, and our course will focus mostly on projects/case studies/writing assignments instead of quizzes and exams.  You should do the assigned reading from the schedule below before each class meeting.
+        
     </p>
     
 </subsection>
@@ -62,41 +42,33 @@
     <title>Course Learning Objectives</title>
 
     <p>
-        Upon successful completion of this course:
-    </p>
-    <p>
-        <ul>
-            <li>
-                <p>
-                  Students will demonstrate the appropriate graphical and numerical descriptive statistics to summarize different types of data.
 
-                </p>
-            </li>
-            <li>
-                <p>
-                   Students will apply basic probability and probability distribution concepts to business scenarios.
+<ul>
+    <li>
+        <p>
+            Students will understand the principles and concepts of descriptive statistics in a business context, extending the coverage in QUAN 2010 and QUAN 2020.
 
-                </p>
-            </li>
-            <li>
-                <p>
-                 Students will utilize tools of inferential statistics to estimate population parameters and test claims made about population parameters within business contexts.
+        </p>
+    </li>
+    <li>
+        <p>
+           Students will develop a philosophy of information presentation, and apply the concepts of descriptive statistics to make effective data displays to support decision making.
 
-                </p>
-            </li>
-            <li>
-                <p>
-                  Students will build and assess regression models to analyze relationships between variables.
+        </p>
+    </li>
+    <li>
+        <p>
+           Students will apply descriptive analytics tools and software to uncover patterns and relationships in data.
 
-                </p>
-            </li>
-            <li>
-                <p>
-                   Students will perform data analysis by selecting the appropriate quantitative tool (Microsoft Excel).
+        </p>
+    </li>
+    <li>
+        <p>
+            Students will summarize and communicate insights provided by data in a professional business context.
 
-                </p>
-            </li>
-        </ul>
+        </p>
+    </li>
+</ul>
     </p>
 
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-intro-bus-analytics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to Business Analytics</title>
+
+<introduction>
+  <p>
+    <p> (This is Chapter 1 in our textbook.) </p>
+
+  </p>
+</introduction>
+
+  <!-- include sections -->
+ <xi:include href="sec-intro-slides.ptx" />
+
+</chapter>
