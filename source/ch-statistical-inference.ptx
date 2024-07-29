@@ -11,6 +11,6 @@
 </introduction>
 
   <!-- include sections -->
-  <!-- <xi:include href="sec-" />-->
+   <xi:include href="sec-stats-inference-slides.ptx" />
 
 </chapter>
