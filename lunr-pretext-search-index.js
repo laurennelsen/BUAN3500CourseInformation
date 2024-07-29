@@ -59,7 +59,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-assignments-and-grading.html#subsec-assignments-3-1",
   "type": "Table",
-  "number": "1.1",
+  "number": "0.1",
   "title": "Grading Category Weights",
   "body": " Grading Category Weights    Reading Quizzes     Written Assignments     MindTap Assignments     Case Problems     Midterm Project     Final Project     Total:     "
 },
@@ -68,7 +68,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-assignments-and-grading.html#subsec-grading-scale-2-1",
   "type": "Table",
-  "number": "1.2",
+  "number": "0.2",
   "title": "Grading Scale",
   "body": " Grading Scale    Percent  Grade     A     A-     B+     B     B-     C+     C     C-     D+     D     D-     F    "
 },
@@ -113,7 +113,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-course-schedule.html#sec-course-schedule-2",
   "type": "Note",
-  "number": "1.3",
+  "number": "0.3",
   "title": "",
   "body": " The schedule for our course is below, but other important dates for the semester can be found at this link   "
 },
@@ -172,13 +172,22 @@ var ptx_lunr_docs = [
   "body": " Descriptive Data Mining Slides  "
 },
 {
-  "id": "ch-statistical-inference",
+  "id": "sec-stats-inference-slides",
   "level": "1",
-  "url": "ch-statistical-inference.html",
-  "type": "Chapter",
-  "number": "8",
-  "title": "Statistical Inference",
-  "body": " Statistical Inference    (This is Chapter 7 in our textbook.)      "
+  "url": "sec-stats-inference-slides.html",
+  "type": "Section",
+  "number": "",
+  "title": "Statistical Inference Slides",
+  "body": " Statistical Inference Slides  "
+},
+{
+  "id": "sec-week-1-videos",
+  "level": "1",
+  "url": "sec-week-1-videos.html",
+  "type": "Section",
+  "number": "",
+  "title": "YouTube Video Playlists",
+  "body": " YouTube Video Playlists    Below are links to YouTube videos for the planned course content for each week.  I want to give you a heads-up that these videos are from an old online course, and so the content might not exactly line up with what we do each week, and the chapter numbers might not match our current textbook.  (So I do not recommend using these as your primary source, but they might be helpful if you ever need to miss class and\/or want to watch videos of some examples.)   The videos embedded below are playlists, so subsequent videos should start once the previous ones finish. (You should be able to click the icon on the upper right to see all videos in the playlist.)    Week 1 Playlist     Week 2 Playlist     Week 3 Playlist     Week 4 Playlist     Week 5 Playlist     Week 6 Playlist     Week 7 Playlist     Week 10 Playlist     Week 11 Playlist     Week 12 Playlist     Week 13 Playlist     Week 14 Playlist    "
 },
 {
   "id": "backmatter-2",
