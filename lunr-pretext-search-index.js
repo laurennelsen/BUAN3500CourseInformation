@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Required Materials",
-  "body": " Required Materials   Required Texts\/Readings\/Materials     Business Analytics, 5th edition, by Camm, Cochran, Fry, and Ohlmann, with MindTap. (ISBN ????).    Note: This text will automatically appear as an eBook in the course Canvas page. There will be an option to purchase a soft-bound edition if desired.     We will be using an online system called MindTap for this course, which comes with our book and will be integrated with Canvas.       The Visual Display of Quantitative Information, 2nd edition (paperback); by Edward R. Tufte; ISBN #978-1930824133    Microsoft Excel with the Data Analysis Add-In enabled.    Tableau: In addition to Excel, we will be using a tool called Tableau for data visualization that you can download and register for free using the code below:        (Tableau should also be installed on computers in the classroom.)     Product Key for Tableau: TCBG-E3E8-A290-0FAA-E898        Technology Requirements  This course requires the use of a UCCS email account, a computer\/laptop, and a reliable internet connection. Review the UCCS Online Technical Requirements for exact specifications. Communication will be by UCCS email and Canvas. If your UCCS email is not your primary address, consider forwarding your UCCS email address to another account you check often. All official course information must be sent through your UCCS account or Canvas.  (We will be meeting in a computer lab, so it's okay if you don't have a personal computer -- you can use a computer in our classroom. But you are still expected to check email\/Canvas regularly.)    Technology Competencies  You are expected to begin this course with basic computing skills that include using Canvas, Microsoft Word, accessing online research databases, and corresponding using your UCCS email. Knowledge of certain multimedia tools, such as PowerPoint or other audio\/video platforms is a plus. See UCCS Online Technical Skills for more information.   "
+  "body": " Required Materials   Required Texts\/Readings\/Materials     Business Analytics, 5th edition, by Camm, Cochran, Fry, and Ohlmann, with MindTap. (ISBN 9780357902226).    Note: This text will automatically appear as an eBook in the course Canvas page. There will be an option to purchase a soft-bound edition if desired.     We will be using an online system called MindTap for this course, which comes with our book and will be integrated with Canvas.       The Visual Display of Quantitative Information, 2nd edition (paperback); by Edward R. Tufte; ISBN #978-1930824133    Microsoft Excel with the Data Analysis Add-In enabled.    Tableau: In addition to Excel, we will be using a tool called Tableau for data visualization that you can download and register for free using the code below:        (Tableau should also be installed on computers in the classroom.)     Product Key for Tableau: TCBG-E3E8-A290-0FAA-E898        Technology Requirements  This course requires the use of a UCCS email account, a computer\/laptop, and a reliable internet connection. Review the UCCS Online Technical Requirements for exact specifications. Communication will be by UCCS email and Canvas. If your UCCS email is not your primary address, consider forwarding your UCCS email address to another account you check often. All official course information must be sent through your UCCS account or Canvas.  (We will be meeting in a computer lab, so it's okay if you don't have a personal computer -- you can use a computer in our classroom. But you are still expected to check email\/Canvas regularly.)    Technology Competencies  You are expected to begin this course with basic computing skills that include using Canvas, Microsoft Word, accessing online research databases, and corresponding using your UCCS email. Knowledge of certain multimedia tools, such as PowerPoint or other audio\/video platforms is a plus. See UCCS Online Technical Skills for more information.   "
 },
 {
   "id": "sec-assignments-and-grading",
@@ -127,6 +127,33 @@ var ptx_lunr_docs = [
   "body": " Introduction to Business Analytics Slides  "
 },
 {
+  "id": "sec-intro-exercises",
+  "level": "1",
+  "url": "sec-intro-exercises.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exercises",
+  "body": " Exercises  Data Visualization Introduction Activity Go to the following link, and use the data in the document to create a visualization: to an external site. Rules:   You may not use ALL the data. Choose some that you want to highlight.    You can create your visualization using anything you want. (Draw on paper, use Excel, Desmos, etc.)    I want you to think about how the following two questions:   What do you notice about the data?    What do you wonder about the data?       (It's okay if your visualization doesn't look perfect! We'll be talking a lot more about creating visualizations in the coming weeks -- this is just to get started creating something and thinking about what data you want to highlight.) (Here is a link to the checklist referenced in the document that you can look at if you'd like, but you do not need to: to an external site.)  Dow Jones Data Open up the file Dow Jones Industrial Average Historical Data below:  Create a graphic depicting the price over time so the viewer can gain some insight into the relationship. If you finish this, here are some other things you can think about:   Is there a way you could modify your graph that might help the viewer more easily see what is happening?    Think about if there is a different graphic you could create using this dataset that would provide useful insight.    Are there any questions that you have about the data? (Are there any calculations you could do that would give you a better understanding of the data?)     "
+},
+{
+  "id": "sec-intro-exercises-2",
+  "level": "2",
+  "url": "sec-intro-exercises.html#sec-intro-exercises-2",
+  "type": "Example",
+  "number": "1.1",
+  "title": "Data Visualization Introduction Activity.",
+  "body": "Data Visualization Introduction Activity Go to the following link, and use the data in the document to create a visualization: to an external site. Rules:   You may not use ALL the data. Choose some that you want to highlight.    You can create your visualization using anything you want. (Draw on paper, use Excel, Desmos, etc.)    I want you to think about how the following two questions:   What do you notice about the data?    What do you wonder about the data?       (It's okay if your visualization doesn't look perfect! We'll be talking a lot more about creating visualizations in the coming weeks -- this is just to get started creating something and thinking about what data you want to highlight.) (Here is a link to the checklist referenced in the document that you can look at if you'd like, but you do not need to: to an external site.) "
+},
+{
+  "id": "sec-intro-exercises-3",
+  "level": "2",
+  "url": "sec-intro-exercises.html#sec-intro-exercises-3",
+  "type": "Example",
+  "number": "1.2",
+  "title": "Dow Jones Data.",
+  "body": "Dow Jones Data Open up the file Dow Jones Industrial Average Historical Data below:  Create a graphic depicting the price over time so the viewer can gain some insight into the relationship. If you finish this, here are some other things you can think about:   Is there a way you could modify your graph that might help the viewer more easily see what is happening?    Think about if there is a different graphic you could create using this dataset that would provide useful insight.    Are there any questions that you have about the data? (Are there any calculations you could do that would give you a better understanding of the data?)    "
+},
+{
   "id": "sec-desc-stat-slides",
   "level": "1",
   "url": "sec-desc-stat-slides.html",
@@ -134,6 +161,195 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Descriptive Statistics Slides",
   "body": " Descriptive Statistics Slides  "
+},
+{
+  "id": "sec-desc-stats-exercises",
+  "level": "1",
+  "url": "sec-desc-stats-exercises.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exercises",
+  "body": " Exercises  Top Cars Open the data file Top20Cars2019 :     The data is currently sorted by Feb 2019 sales. What if we want to sort by Feb 2018 sales?    What if we want to see only Nissan data? (Filter.)     Top Cars Continued ( Continued) Look at the file Top20Cars2019 again:  Highlight Feb 2019 sales that are between 10,000 and 20,000.  Soft Drinks Open the file SoftDrinks in Excel:    If we make a frequency distribution, what should the bins be?    Create a frequency distribution in Excel.     Soft Drinks Continued ( Continued) Open the file SoftDrinks again in Excel:  Construct a percent frequency distribution in Excel.  Audit Time Open the file AuditTime .  (This shows the number of days to complete audits for 20 different customers.) We are going to construct a frequency distribution for this data.  Audit Time Continued Open the file AuditTime again:  Use the frequency distribution we found above to construct a histogram for this data. Then determine if the distribution is skewed left, skewed right, or symmetric.  Audit Time Continued Open the file ``AuditTime\" again.  Use the frequency distribution we found above to construct the cumulative frequency distribution for this data.  Home Sales Open the file HomeSales in Excel: This file shows a sample of home selling prices for 12 homes in a suburb of Cincinnati, Ohio. Use Excel to find the mean (average), median, and mode(s) for the home sale values.  Mutual Fund Returns Open the file MutualFundReturns in Excel:  Assume we invest in the fund.   What would the balance in the fund at the end of year 1 be?    What about the balance at the end of year 2?    What would the balance be at the end of 10 years?     Home Sales Continued Open the file HomeSales again in Excel:  Calculate the following quantities:   Range of home sale prices    The sample variance, for the 12 given home sale prices    The sample standard deviation, , for the 12 given home sale prices    The coefficient of variation for the home sales data     Home Sales Continued (Percentiles) Open the file HomeSales again in Excel:    Sort the sale prices in ascending order.    Find the sale price that would be the 50th percentile using Excel.    Find what percentile the sale price of would be.    Home Sales (Continued) Percentile Location Open the file HomeSales again in Excel:  Find the location of the th percentile, using this formula. Does this make sense with your previous answer(s)?  Home Sales Continued (Quartiles) Open the file HomeSales again in Excel:  Find , , and for home sales prices.  -score meaning What does a -score (or -value) of -1.5 mean?  that is 1.5 standard deviations below the mean of the data set   Home Sales (Continued) -scores Find the -values for the home sales prices in the Excel file.   Tablets Sold A group of electronics stores wants to better understand how well a certain tablet is selling at their stores. Below is the number of those tables each store sold in a given day: Find the IQR of this data set, and use it to identify any potential outliers. (Create a boxplot in Excel to see if this lines up with what you got.)  Bottled Water Open the BottledWater file in Excel. This data shows the daily water bottle sales at Queensland Amusement Park and the high temperature for each of 14 summer days. The sales manager believes that daily bottled water sales in the summer are related to the outdoor temperature.   Create a scatter chart showing the relationship between sales and temperature.  Bottled Water (Covariance) Open the BottledWater file again in Excel. Find the sample covariance using the formula COVARIANCE.S(A2:A15, B2:B15).    Bottled Water (Correlation) Open the BottledWater file again in Excel. You can find the correlation coefficient for the sales of bottled water using the formula CORREL(A2:A15, B2:B15).   (A2:A15 defines the range for the variable, and B2:B15 defines the range for the variable.)  Blakely Tires (This is on pg. 64-65 of our textbook.) Open the Excel file TreadWear .  (We will likely not work through this entire example that is in the book. I recommend reading through this on your own.) Blakely Tires is a U.S. producer of automobile tires. In an attempt to learn about the conditions of its tires on automobiles in Texas, the company has obtained information for each of the four tires from 116 automobiles with Blakely brand tires that have been collected through recent state automobile inspection facilities in Texas. The data obtained by Blakely includes the position of the tire on the automobile (left front, left rear, right front, right rear), age of the tire, mileage on the tire, and depth of the remaining tread on the tire. Before Blakely management attempts to learn more about its tires on automobiles in Texas, it wants to assess the quality of these data. The tread depth of a tire is a vertical measurement between the top of the tread rubber to the bottom of the tire’s deepest grooves, and is measured in 32nds of an inch in the United States. New Blakely brand tires have a tread depth of 10\/32nds of an inch, and a tire’s tread depth is considered insufficient if it is 2\/32nds of an inch or less. Shallow tread depth is dangerous as it results in poor traction and so makes steering the automobile more difficult. Blakely’s tires generally last for four to five years or 40,000 to 60,000 miles.  Let's assess the quality of these data by determining which (if any) observations have missing values for any of the variables in the data.   "
+},
+{
+  "id": "ex-topcars",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#ex-topcars",
+  "type": "Example",
+  "number": "2.1",
+  "title": "Top Cars.",
+  "body": "Top Cars Open the data file Top20Cars2019 :     The data is currently sorted by Feb 2019 sales. What if we want to sort by Feb 2018 sales?    What if we want to see only Nissan data? (Filter.)    "
+},
+{
+  "id": "sec-desc-stats-exercises-3",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-3",
+  "type": "Example",
+  "number": "2.2",
+  "title": "Top Cars Continued.",
+  "body": "Top Cars Continued ( Continued) Look at the file Top20Cars2019 again:  Highlight Feb 2019 sales that are between 10,000 and 20,000. "
+},
+{
+  "id": "ex-softdrinks",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#ex-softdrinks",
+  "type": "Example",
+  "number": "2.3",
+  "title": "Soft Drinks.",
+  "body": "Soft Drinks Open the file SoftDrinks in Excel:    If we make a frequency distribution, what should the bins be?    Create a frequency distribution in Excel.    "
+},
+{
+  "id": "sec-desc-stats-exercises-5",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-5",
+  "type": "Example",
+  "number": "2.4",
+  "title": "Soft Drinks Continued.",
+  "body": "Soft Drinks Continued ( Continued) Open the file SoftDrinks again in Excel:  Construct a percent frequency distribution in Excel. "
+},
+{
+  "id": "sec-desc-stats-exercises-6",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-6",
+  "type": "Example",
+  "number": "2.5",
+  "title": "Audit Time.",
+  "body": "Audit Time Open the file AuditTime .  (This shows the number of days to complete audits for 20 different customers.) We are going to construct a frequency distribution for this data. "
+},
+{
+  "id": "sec-desc-stats-exercises-7",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-7",
+  "type": "Example",
+  "number": "2.6",
+  "title": "Audit Time Continued.",
+  "body": "Audit Time Continued Open the file AuditTime again:  Use the frequency distribution we found above to construct a histogram for this data. Then determine if the distribution is skewed left, skewed right, or symmetric. "
+},
+{
+  "id": "sec-desc-stats-exercises-8",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-8",
+  "type": "Example",
+  "number": "2.7",
+  "title": "Audit Time Continued.",
+  "body": "Audit Time Continued Open the file ``AuditTime\" again.  Use the frequency distribution we found above to construct the cumulative frequency distribution for this data. "
+},
+{
+  "id": "sec-desc-stats-exercises-9",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-9",
+  "type": "Example",
+  "number": "2.8",
+  "title": "Home Sales.",
+  "body": "Home Sales Open the file HomeSales in Excel: This file shows a sample of home selling prices for 12 homes in a suburb of Cincinnati, Ohio. Use Excel to find the mean (average), median, and mode(s) for the home sale values. "
+},
+{
+  "id": "sec-desc-stats-exercises-10",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-10",
+  "type": "Example",
+  "number": "2.9",
+  "title": "Mutual Fund Returns.",
+  "body": "Mutual Fund Returns Open the file MutualFundReturns in Excel:  Assume we invest in the fund.   What would the balance in the fund at the end of year 1 be?    What about the balance at the end of year 2?    What would the balance be at the end of 10 years?    "
+},
+{
+  "id": "sec-desc-stats-exercises-11",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-11",
+  "type": "Example",
+  "number": "2.10",
+  "title": "Home Sales Continued.",
+  "body": "Home Sales Continued Open the file HomeSales again in Excel:  Calculate the following quantities:   Range of home sale prices    The sample variance, for the 12 given home sale prices    The sample standard deviation, , for the 12 given home sale prices    The coefficient of variation for the home sales data    "
+},
+{
+  "id": "sec-desc-stats-exercises-12",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-12",
+  "type": "Example",
+  "number": "2.11",
+  "title": "Home Sales Continued (Percentiles).",
+  "body": "Home Sales Continued (Percentiles) Open the file HomeSales again in Excel:    Sort the sale prices in ascending order.    Find the sale price that would be the 50th percentile using Excel.    Find what percentile the sale price of would be.   "
+},
+{
+  "id": "sec-desc-stats-exercises-13",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-13",
+  "type": "Example",
+  "number": "2.12",
+  "title": "Home Sales (Continued) Percentile Location.",
+  "body": "Home Sales (Continued) Percentile Location Open the file HomeSales again in Excel:  Find the location of the th percentile, using this formula. Does this make sense with your previous answer(s)? "
+},
+{
+  "id": "sec-desc-stats-exercises-14",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-14",
+  "type": "Example",
+  "number": "2.13",
+  "title": "Home Sales Continued (Quartiles).",
+  "body": "Home Sales Continued (Quartiles) Open the file HomeSales again in Excel:  Find , , and for home sales prices. "
+},
+{
+  "id": "sec-desc-stats-exercises-15",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-15",
+  "type": "Example",
+  "number": "2.14",
+  "title": "<span class=\"process-math\">\\(z\\)<\/span>-score meaning.",
+  "body": "-score meaning What does a -score (or -value) of -1.5 mean?  that is 1.5 standard deviations below the mean of the data set  "
+},
+{
+  "id": "sec-desc-stats-exercises-16",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-16",
+  "type": "Example",
+  "number": "2.15",
+  "title": "Home Sales (Continued) <span class=\"process-math\">\\(z\\)<\/span>-scores.",
+  "body": "Home Sales (Continued) -scores Find the -values for the home sales prices in the Excel file.  "
+},
+{
+  "id": "sec-desc-stats-exercises-17",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-17",
+  "type": "Example",
+  "number": "2.16",
+  "title": "Tablets Sold.",
+  "body": "Tablets Sold A group of electronics stores wants to better understand how well a certain tablet is selling at their stores. Below is the number of those tables each store sold in a given day: Find the IQR of this data set, and use it to identify any potential outliers. (Create a boxplot in Excel to see if this lines up with what you got.) "
+},
+{
+  "id": "sec-desc-stats-exercises-18",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-18",
+  "type": "Example",
+  "number": "2.17",
+  "title": "Bottled Water.",
+  "body": "Bottled Water Open the BottledWater file in Excel. This data shows the daily water bottle sales at Queensland Amusement Park and the high temperature for each of 14 summer days. The sales manager believes that daily bottled water sales in the summer are related to the outdoor temperature.   Create a scatter chart showing the relationship between sales and temperature. "
+},
+{
+  "id": "sec-desc-stats-exercises-19",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-19",
+  "type": "Example",
+  "number": "2.18",
+  "title": "Bottled Water (Covariance).",
+  "body": "Bottled Water (Covariance) Open the BottledWater file again in Excel. Find the sample covariance using the formula COVARIANCE.S(A2:A15, B2:B15).   "
+},
+{
+  "id": "sec-desc-stats-exercises-20",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-20",
+  "type": "Example",
+  "number": "2.19",
+  "title": "Bottled Water (Correlation).",
+  "body": "Bottled Water (Correlation) Open the BottledWater file again in Excel. You can find the correlation coefficient for the sales of bottled water using the formula CORREL(A2:A15, B2:B15).   (A2:A15 defines the range for the variable, and B2:B15 defines the range for the variable.) "
+},
+{
+  "id": "sec-desc-stats-exercises-21",
+  "level": "2",
+  "url": "sec-desc-stats-exercises.html#sec-desc-stats-exercises-21",
+  "type": "Example",
+  "number": "2.20",
+  "title": "Blakely Tires.",
+  "body": "Blakely Tires (This is on pg. 64-65 of our textbook.) Open the Excel file TreadWear .  (We will likely not work through this entire example that is in the book. I recommend reading through this on your own.) Blakely Tires is a U.S. producer of automobile tires. In an attempt to learn about the conditions of its tires on automobiles in Texas, the company has obtained information for each of the four tires from 116 automobiles with Blakely brand tires that have been collected through recent state automobile inspection facilities in Texas. The data obtained by Blakely includes the position of the tire on the automobile (left front, left rear, right front, right rear), age of the tire, mileage on the tire, and depth of the remaining tread on the tire. Before Blakely management attempts to learn more about its tires on automobiles in Texas, it wants to assess the quality of these data. The tread depth of a tire is a vertical measurement between the top of the tread rubber to the bottom of the tire’s deepest grooves, and is measured in 32nds of an inch in the United States. New Blakely brand tires have a tread depth of 10\/32nds of an inch, and a tire’s tread depth is considered insufficient if it is 2\/32nds of an inch or less. Shallow tread depth is dangerous as it results in poor traction and so makes steering the automobile more difficult. Blakely’s tires generally last for four to five years or 40,000 to 60,000 miles.  Let's assess the quality of these data by determining which (if any) observations have missing values for any of the variables in the data.  "
 },
 {
   "id": "sec-data-viz-slides",
