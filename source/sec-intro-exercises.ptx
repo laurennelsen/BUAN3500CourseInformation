@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-intro-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exercises</title>
+
+
+
+
+
+<exercise>
+ <title>Data Visualization Introduction Activity</title>
+
+ <p>
+Go to the following link, and use the data in the document to create a visualization: <url href="https://bit.ly/47BYPhc" /> to an external site.
+
+</p>
+
+
+<p>
+    
+
+Rules:
+
+<ul>
+    <li>
+        <p>
+            You may not use ALL the data. Choose some that you want to highlight.
+        </p>
+    </li>
+    <li>
+        <p>
+            You can create your visualization using anything you want. (Draw on paper, use Excel, Desmos, etc.)
+        </p>
+    </li>
+    <li>
+        <p>
+            I want you to think about how the following two questions:
+            <ul>
+                <li>
+                    <p>
+                        What do you notice about the data?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What do you wonder about the data?
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </li>
+</ul>
+
+
+</p>
+
+<p>
+
+(It's okay if your visualization doesn't look perfect!  We'll be talking a lot more about creating visualizations in the coming weeks -- this is just to get started creating something and thinking about what data you want to highlight.)
+
+</p>
+
+<p>
+
+(Here is a link to the checklist referenced in the document that you can look at if you'd like, but you do not need to:  <url href="https://bit.ly/45cFilX" /> to an external site.)
+</p>
+
+</exercise>
+
+
+
+
+
+<exercise>
+    <title>Dow Jones Data</title>
+    
+    <p>
+Open up the file <q>Dow Jones Industrial Average Historical Data</q> below:
+
+<url href="external/sheets/Dow Jones Industrial Average Historical Data.xlsx" />
+    </p>
+
+
+
+    <p>
+Create a graphic depicting the price over time so the viewer can gain some insight into the relationship.
+
+</p>
+
+<p>
+
+If you finish this, here are some other things you can think about:
+
+<ul>
+    <li>
+        <p>
+            Is there a way you could modify your graph that might help the viewer more easily see what is happening?
+        </p>
+    </li>
+    <li>
+        <p>
+            Think about if there is a different graphic you could create using this dataset that would provide useful insight. 
+        </p>
+    </li>
+    <li>
+        <p>
+            Are there any questions that you have about the data?  (Are there any calculations you could do that would give you a better understanding of the data?)
+        </p>
+    </li>
+</ul>
+
+</p>
+
+</exercise>
+
+
+
+</section>

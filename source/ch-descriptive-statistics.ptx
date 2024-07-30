@@ -12,5 +12,6 @@
 
   <!-- include sections -->
  <xi:include href="sec-desc-stat-slides.ptx" />
+ <xi:include href="sec-desc-stats-exercises.ptx" />
 
 </chapter>

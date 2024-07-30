@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-desc-stats-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exercises</title>
+
+
+
+<exercise xml:id="ex-topcars">
+    <title>Top Cars</title>
+    
+    
+    <p>
+Open the data file <q>Top20Cars2019</q>:
+<url href="external/sheets/Top20Cars2019.xlsx" />
+
+</p>
+
+<p>
+    
+<ul>
+    <li>
+        <p>
+            The data is currently sorted by Feb 2019 sales.  What if we want to sort by Feb 2018 sales?
+        </p>
+    </li>
+    <li>
+        <p>
+            What if we want to see only Nissan data? (Filter.)
+        </p>
+    </li>
+</ul>
+
+
+
+
+</p>
+
+
+
+</exercise>
+
+
+
+<exercise>
+    <title>Top Cars Continued</title>
+    
+    
+    <p>(<xref ref="ex-topcars"/> Continued)  Look at the file <q>Top20Cars2019</q> again:
+        <url href="external/sheets/Top20Cars2019.xlsx" />
+        </p>
+
+<p>
+Highlight Feb 2019 sales that are between 10,000 and 20,000.
+
+    </p>
+</exercise>
+
+
+
+<exercise xml:id="ex-softdrinks">
+    <title>Soft Drinks</title>
+    
+    
+<p>
+Open the file <q>SoftDrinks</q> in Excel:
+<url href="external/sheets/SoftDrinks.xlsx" />
+
+<ul>
+    <li>
+        <p>
+            If we make a frequency distribution, what should the bins be?
+        </p>
+    </li>
+    <li>
+        <p>
+            Create a frequency distribution in Excel.
+        </p>
+    </li>
+</ul>
+
+</p>
+
+
+</exercise>
+
+
+
+<exercise>
+    <title>Soft Drinks Continued</title>
+    
+    
+    <p>
+        (<xref ref="ex-softdrinks"/> Continued)
+    </p>
+    <p>
+        Open the file <q>SoftDrinks</q> again in Excel:
+        <url href="external/sheets/SoftDrinks.xlsx" />
+        </p>
+
+        <p>
+
+        Construct a percent frequency distribution in Excel.
+
+    </p>
+</exercise>
+
+
+
+<exercise>
+    <title>Audit Time</title>
+    
+    
+<p>
+Open the file <q>AuditTime</q>.    
+<url href="external/sheets/AuditTime.xlsx" />
+
+</p>
+
+<p>
+
+(This shows the number of days to complete audits for 20 different customers.)
+
+</p>
+
+<p>
+    We are going to construct a frequency distribution for this data.
+
+</p>
+
+</exercise>
+
+
+
+<exercise>
+    <title>Audit Time Continued</title>
+    <p>
+            Open the file <q>AuditTime</q> again:    
+            <url href="external/sheets/AuditTime.xlsx" />
+    </p>
+
+    <p>
+        Use the frequency distribution we found above to construct a histogram for this data.
+
+    </p>
+
+    <p>
+        Then determine if the distribution is skewed left, skewed right, or symmetric.
+    </p>
+    
+</exercise>
+
+
+
+
+<exercise>
+    <title>Audit Time Continued</title>
+    <p>
+        
+Open the file ``AuditTime" again.
+<url href="external/sheets/AuditTime.xlsx" />
+
+</p>
+
+<p>
+
+Use the frequency distribution we found above to construct the cumulative frequency distribution for this data.
+</p>
+
+</exercise>
+
+
+
+<exercise>
+    <title>Home Sales</title>
+    
+    
+<p>
+    Open the file <q>HomeSales</q> in Excel:  
+    <url href="external/sheets/HomeSales.xlsx" />
+
+    This file shows a sample of home selling prices for 12 homes in a suburb of Cincinnati, Ohio.
+
+</p>
+
+<p>
+    Use Excel to find the mean (average), median, and mode(s) for the home sale values.
+
+</p>
+
+</exercise>
+
+
+
+<exercise>
+    <title>Mutual Fund Returns</title>
+    
+    
+    <p>
+        Open the file <q>MutualFundReturns</q> in Excel:
+        <url href="external/sheets/MutualFundReturns.xlsx" />
+
+
+    </p>
+    <p>
+        Assume we invest <m>\$ 100</m> in the fund.
+
+        <ul>
+            <li>
+                <p>
+                    What would the balance in the fund at the end of year 1 be?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What about the balance at the end of year 2?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What would the balance be at the end of 10 years?
+                </p>
+            </li>
+        </ul>
+    </p>
+
+
+</exercise>
+
+
+
+
+<exercise>
+    <title>Home Sales Continued</title>
+
+    <p>
+        Open the file <q>HomeSales</q> again in Excel:  
+    <url href="external/sheets/HomeSales.xlsx" />
+    </p>
+    
+    <p>
+        Calculate the following quantities:
+
+        <ul>
+            <li>
+                <p>
+                    Range of home sale prices
+                </p>
+            </li>
+            <li>
+                <p>
+                    The sample variance, <m>s^2</m> for the 12 given home sale prices
+                </p>
+            </li>
+            <li>
+                <p>
+                    The sample standard deviation, <m>s</m>, for the 12 given home sale prices
+                </p>
+            </li>
+            <li>
+                <p>
+                    The coefficient of variation for the home sales data
+                </p>
+            </li>
+        </ul>
+
+    </p>
+
+
+    
+</exercise>
+
+
+
+
+
+<exercise>
+    <title>Home Sales Continued (Percentiles)</title>
+    
+    
+    <p>
+        Open the file <q>HomeSales</q> again in Excel:  
+        <url href="external/sheets/HomeSales.xlsx" />
+    </p>
+    
+    <ul>
+        <li>
+            <p>
+                Sort the sale prices in ascending order.
+            </p>
+        </li>
+        <li>
+            <p>
+                Find the sale price that would be the 50th percentile using Excel.
+            </p>
+        </li>
+        <li>
+            <p>
+                Find what percentile the sale price of <m>\$ 298,000</m> would be.
+            </p>
+        </li>
+    </ul>
+
+</exercise>
+
+
+
+<exercise>
+    <title>Home Sales (Continued) Percentile Location</title>
+    
+    
+    <p>
+        Open the file <q>HomeSales</q> again in Excel:  
+        <url href="external/sheets/HomeSales.xlsx" />
+    </p>
+    <p>
+        Find the location of the <m>85</m>th percentile, <m>L_{85}</m> using this formula.  Does this make sense with your previous answer(s)?
+    </p>
+
+</exercise>
+
+
+
+<exercise>
+    <title>Home Sales Continued (Quartiles)</title>
+    
+    
+    <p>
+        Open the file <q>HomeSales</q> again in Excel:  
+        <url href="external/sheets/HomeSales.xlsx" />
+    </p>
+    <p>
+        Find <m>Q_1</m>, <m>Q_2</m>, and <m>Q_3</m> for home sales prices.
+    </p>
+</exercise>
+
+
+
+<exercise>
+    <title><m>z</m>-score meaning</title>
+    
+    
+    <p>
+        What does a <m>z</m>-score (or <m>z</m>-value) of -1.5 mean?
+    </p>
+<answer>
+    <p>
+        that <m>x</m> is 1.5 standard deviations below the mean of the data set
+
+    </p>
+</answer>
+</exercise>
+
+
+<exercise>
+    <title>Home Sales (Continued) <m>z</m>-scores</title>
+    
+    <p>
+    Find the <m>z</m>-values for the home sales prices in the Excel file.
+    <url href="external/sheets/HomeSales.xlsx" />
+</p>
+</exercise>
+
+
+
+<exercise>
+    <title>Tablets Sold</title>
+    <p>
+        A group of electronics stores wants to better understand how well a certain tablet is selling at their stores.  Below is the number of those tables each store sold in a given day:
+        </p>
+<me> 58,67,67,82,91,92,92,103,110,178. </me>
+<p>
+Find the IQR of this data set, and use it to identify any potential outliers.  (Create a boxplot in Excel to see if this lines up with what you got.)
+    </p>
+    
+</exercise>
+
+
+
+<exercise>
+    <title>Bottled Water</title>
+    
+    <p>
+    Open the <q>BottledWater</q> file in Excel.  This data shows the daily water bottle sales at Queensland Amusement Park and the high temperature for each of 14 summer days.  The sales manager believes that daily bottled water sales in the summer are related to the outdoor temperature.
+    </p>
+
+    <p>
+        <url href="external/sheets/BottledWater.xlsx" />
+
+    </p>
+
+    <p>
+Create a scatter chart showing the relationship between sales and temperature.
+</p>
+</exercise>
+
+
+<exercise>
+    <title>Bottled Water (Covariance)</title>
+    
+    <p>
+    Open the <q>BottledWater</q> file again in Excel.  Find the sample covariance using the formula COVARIANCE.S(A2:A15, B2:B15).
+    </p>
+    <p>
+        <url href="external/sheets/BottledWater.xlsx" />
+
+    </p>
+
+
+</exercise>
+
+
+
+<exercise>
+    <title>Bottled Water (Correlation)</title>
+    
+    <p>
+    Open the <q>BottledWater</q> file again in Excel.  You can find the correlation coefficient for the sales of bottled water using the formula CORREL(A2:A15, B2:B15).
+    </p>
+    <p>
+        <url href="external/sheets/BottledWater.xlsx" />
+
+    </p>
+<p>
+
+(A2:A15 defines the range for the <m>x</m> variable, and B2:B15 defines the range for the <m>y</m> variable.)
+</p>
+</exercise>
+
+
+
+<exercise>
+    <title>Blakely Tires</title>
+    
+    <p>
+    (This is on pg. 64-65 of our textbook.)
+    </p>
+
+<p>
+    Open the Excel file <q>TreadWear</q>.
+    <url href="external/sheets/TreadWear.xlsx" />
+
+</p>
+
+<p>
+   (We will likely not work through this entire example that is in the book.  I recommend reading through this on your own.)
+
+</p>
+
+<p>
+    Blakely Tires is a U.S. producer of automobile tires. In an attempt to learn about the conditions of its tires on automobiles in Texas, the company has obtained information for each of the four tires from 116 automobiles with Blakely brand tires that have been collected through recent state automobile inspection facilities in Texas. The data obtained by Blakely includes the position of the tire on the automobile (left front, left rear, right front, right rear), age of the tire, mileage on the tire, and depth of the remaining tread on the tire. Before Blakely management attempts to learn more about its tires on automobiles in Texas, it wants to assess the quality of these data.
+
+</p>
+
+<p>
+    The tread depth of a tire is a vertical measurement between the top of the tread rubber to the bottom of the tire’s deepest grooves, and is measured in 32nds of an inch in the United States. New Blakely brand tires have a tread depth of 10/32nds of an inch, and a tire’s tread depth is considered insufficient if it is 2/32nds of an inch or less. Shallow tread depth is dangerous as it results in poor traction and so makes steering the automobile more difficult. Blakely’s tires generally last for four to five years or 40,000 to 60,000 miles.
+</p>
+
+<p>
+
+<em>Let's assess the quality of these data by determining which (if any) observations have missing values for any of the variables in the data.</em>
+</p>
+</exercise>
+
+
+  </section>
