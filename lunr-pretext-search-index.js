@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Introduction to Business Analytics Slides",
-  "body": " Introduction to Business Analytics Slides  "
+  "body": " Introduction to Business Analytics Slides     "
 },
 {
   "id": "sec-intro-exercises",
@@ -160,7 +160,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Descriptive Statistics Slides",
-  "body": " Descriptive Statistics Slides  "
+  "body": " Descriptive Statistics Slides     "
 },
 {
   "id": "sec-desc-stats-exercises",
@@ -358,7 +358,106 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Data Visualization Slides",
-  "body": " Data Visualization Slides  "
+  "body": " Data Visualization Slides     "
+},
+{
+  "id": "sec-data-viz-exercises",
+  "level": "1",
+  "url": "sec-data-viz-exercises.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exercises",
+  "body": " Exercises  Restaurant Reviews The data file Restaurant contains data from Zagat's Restaurant Review. Data on the quality rating, meal price, and the usual wait time for a table during peak hours were collected for a sample of 300 Los Angeles area restaurants.   What if we want to know the number of restaurants in each combination of Quality and Price?   We could manually count how many restaurants are rated Good with mean prices between and for example, and so on, and create a table like Table 3.7 in the book:       Let's use PivotTables instead of doing it manually!    Ajax Open the file Ajax . We're going to make a scatter plot using some of this data. Let's think about how we can improve on the default chart that Excel displays so that the data stands out.    Kirkland Regional Sales Open the file KirklandRegional that shows regional sales data by month for air compressors at Kirkland Industries. We're going to investigate some of the charts we can make with this data. (These steps are in the textbook if you want to follow along.)    Accounts Managed Open the file AccountsManaged . We're going to create a sorted bar chart with data labels for this data.    Auto Production Open the file AutoProduction . Let's see how we can create bad pie charts and 3-D charts in Excel (and why they are not helpful ways to visualize the data).    Billionaires Bubble Chart Open the file billionaires . We're going to create a bubble chart using Excel to further exam the data.    Heat Map in Excel Open the file samestoresales . We're going to create a heat map in Excel.    Parallel Coordinates Plot Let's look at an example of what is called a ``parallel coordinates\" plot. (There might be a homework problem about this type of plot.)   This example uses something called Python to create the visualization.  Restaurants PivotChart Open the Restaurant file again. We'll work through how to create a PivotChart together. (If we don't have time for this in class, then work through this on your own following the steps in the textbook!)   Tableau Visualizations We're going to see how to create several visualizations in Tableau using the files listed below:    NewHouseSalesUS         electronics         KirklandRegional         AccountsManaged         billionaires         NYCityData         global100         WorldGDP2014         AuditTime         HomeSalesStacked         "
+},
+{
+  "id": "sec-data-viz-exercises-2",
+  "level": "2",
+  "url": "sec-data-viz-exercises.html#sec-data-viz-exercises-2",
+  "type": "Example",
+  "number": "3.1",
+  "title": "Restaurant Reviews.",
+  "body": "Restaurant Reviews The data file Restaurant contains data from Zagat's Restaurant Review. Data on the quality rating, meal price, and the usual wait time for a table during peak hours were collected for a sample of 300 Los Angeles area restaurants.   What if we want to know the number of restaurants in each combination of Quality and Price?   We could manually count how many restaurants are rated Good with mean prices between and for example, and so on, and create a table like Table 3.7 in the book:       Let's use PivotTables instead of doing it manually!   "
+},
+{
+  "id": "sec-data-viz-exercises-3",
+  "level": "2",
+  "url": "sec-data-viz-exercises.html#sec-data-viz-exercises-3",
+  "type": "Example",
+  "number": "3.2",
+  "title": "Ajax.",
+  "body": "Ajax Open the file Ajax . We're going to make a scatter plot using some of this data. Let's think about how we can improve on the default chart that Excel displays so that the data stands out.   "
+},
+{
+  "id": "sec-data-viz-exercises-4",
+  "level": "2",
+  "url": "sec-data-viz-exercises.html#sec-data-viz-exercises-4",
+  "type": "Example",
+  "number": "3.3",
+  "title": "Kirkland Regional Sales.",
+  "body": "Kirkland Regional Sales Open the file KirklandRegional that shows regional sales data by month for air compressors at Kirkland Industries. We're going to investigate some of the charts we can make with this data. (These steps are in the textbook if you want to follow along.)   "
+},
+{
+  "id": "sec-data-viz-exercises-5",
+  "level": "2",
+  "url": "sec-data-viz-exercises.html#sec-data-viz-exercises-5",
+  "type": "Example",
+  "number": "3.4",
+  "title": "Accounts Managed.",
+  "body": "Accounts Managed Open the file AccountsManaged . We're going to create a sorted bar chart with data labels for this data.   "
+},
+{
+  "id": "sec-data-viz-exercises-6",
+  "level": "2",
+  "url": "sec-data-viz-exercises.html#sec-data-viz-exercises-6",
+  "type": "Example",
+  "number": "3.5",
+  "title": "Auto Production.",
+  "body": "Auto Production Open the file AutoProduction . Let's see how we can create bad pie charts and 3-D charts in Excel (and why they are not helpful ways to visualize the data).   "
+},
+{
+  "id": "sec-data-viz-exercises-7",
+  "level": "2",
+  "url": "sec-data-viz-exercises.html#sec-data-viz-exercises-7",
+  "type": "Example",
+  "number": "3.6",
+  "title": "Billionaires Bubble Chart.",
+  "body": "Billionaires Bubble Chart Open the file billionaires . We're going to create a bubble chart using Excel to further exam the data.   "
+},
+{
+  "id": "sec-data-viz-exercises-8",
+  "level": "2",
+  "url": "sec-data-viz-exercises.html#sec-data-viz-exercises-8",
+  "type": "Example",
+  "number": "3.7",
+  "title": "Heat Map in Excel.",
+  "body": "Heat Map in Excel Open the file samestoresales . We're going to create a heat map in Excel.   "
+},
+{
+  "id": "sec-data-viz-exercises-9",
+  "level": "2",
+  "url": "sec-data-viz-exercises.html#sec-data-viz-exercises-9",
+  "type": "Example",
+  "number": "3.8",
+  "title": "Parallel Coordinates Plot.",
+  "body": "Parallel Coordinates Plot Let's look at an example of what is called a ``parallel coordinates\" plot. (There might be a homework problem about this type of plot.)   This example uses something called Python to create the visualization. "
+},
+{
+  "id": "sec-data-viz-exercises-10",
+  "level": "2",
+  "url": "sec-data-viz-exercises.html#sec-data-viz-exercises-10",
+  "type": "Example",
+  "number": "3.9",
+  "title": "Restaurants PivotChart.",
+  "body": "Restaurants PivotChart Open the Restaurant file again. We'll work through how to create a PivotChart together. (If we don't have time for this in class, then work through this on your own following the steps in the textbook!)  "
+},
+{
+  "id": "sec-data-viz-exercises-11",
+  "level": "2",
+  "url": "sec-data-viz-exercises.html#sec-data-viz-exercises-11",
+  "type": "Example",
+  "number": "3.10",
+  "title": "Tableau Visualizations.",
+  "body": "Tableau Visualizations We're going to see how to create several visualizations in Tableau using the files listed below:    NewHouseSalesUS         electronics         KirklandRegional         AccountsManaged         billionaires         NYCityData         global100         WorldGDP2014         AuditTime         HomeSalesStacked        "
 },
 {
   "id": "sec-dashboards-slides",
@@ -367,7 +466,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Dashboards Slides",
-  "body": " Dashboards Slides  "
+  "body": " Dashboards Slides     "
+},
+{
+  "id": "sec-dashboards-exercises",
+  "level": "1",
+  "url": "sec-dashboards-exercises.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exercises",
+  "body": " Exercises  Austin Animal Center Intakes Download the following dataset: (This file is from ) We're going to see how to use Tableau to create a Dashboard and upload it to Tableau Public.   New House Sales The file NewHouseSalesUS.xls contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.   (This file can also be found at .) Use Tableau to create a Dashboard communicating any aspects of this data that you choose.  Denver Public Libraries Dashboard The file libraries.csv contains data about Denver Public Libraries within the City and County of Denver.   The data includes patronage and circulation for the previous calendar year. (This file can also be found at .) Use Tableau to create a Dashboard or Story communicating any aspects of this data that you choose.  "
+},
+{
+  "id": "sec-dashboards-exercises-2",
+  "level": "2",
+  "url": "sec-dashboards-exercises.html#sec-dashboards-exercises-2",
+  "type": "Example",
+  "number": "4.1",
+  "title": "Austin Animal Center Intakes.",
+  "body": "Austin Animal Center Intakes Download the following dataset: (This file is from ) We're going to see how to use Tableau to create a Dashboard and upload it to Tableau Public.  "
+},
+{
+  "id": "sec-dashboards-exercises-3",
+  "level": "2",
+  "url": "sec-dashboards-exercises.html#sec-dashboards-exercises-3",
+  "type": "Example",
+  "number": "4.2",
+  "title": "New House Sales.",
+  "body": "New House Sales The file NewHouseSalesUS.xls contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.   (This file can also be found at .) Use Tableau to create a Dashboard communicating any aspects of this data that you choose. "
+},
+{
+  "id": "sec-dashboards-exercises-4",
+  "level": "2",
+  "url": "sec-dashboards-exercises.html#sec-dashboards-exercises-4",
+  "type": "Example",
+  "number": "4.3",
+  "title": "Denver Public Libraries Dashboard.",
+  "body": "Denver Public Libraries Dashboard The file libraries.csv contains data about Denver Public Libraries within the City and County of Denver.   The data includes patronage and circulation for the previous calendar year. (This file can also be found at .) Use Tableau to create a Dashboard or Story communicating any aspects of this data that you choose. "
 },
 {
   "id": "sec-probability-slides",
