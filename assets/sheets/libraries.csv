@@ -1,0 +1,28 @@
+LIBRARY_NAME,BRANCH_CODE,ADDRESS_ID,ADDRESS_LINE1,ADDRESS_LINE2,CITY,STATE,ZIP,DOOR_COUNT,CIRCULATION,TOTAL_BLDG_SQFT,STATUS
+Bear Valley,BVL,121573.0,5171 W Dartmouth Ave,None,Denver,CO,80236,86013,172341,11410.0,None
+Eugene Field,FIE,85982.0,810 S University Blvd,None,Denver,CO,80209,76312,288863,10500.0,None
+Valdez-Perry,VAL,179029.0,4690 N Vine St,None,Denver,CO,80216,29007,17525,4883.0,None
+Ford-Warren,FOR,41520.0,2825 N High St,None,Denver,CO,80205,57639,119114,10573.0,None
+Hadley,HAD,101460.0,1890 S Grove St,None,Denver,CO,80219,58760,58705,12962.0,None
+Montbello,MLO,12074.0,12955 Albrook Dr,None,Denver,CO,80239,64679,36266,11443.0,None
+Schlessman Family,SCH,162724.0,100 N Poplar St,None,Denver,CO,80220,131211,413231,14884.0,None
+"John ""Thunderbird Man"" Emhoolah, Jr. ",BYR,69509.0,675 N Santa Fe Dr,None,Denver,CO,80204,32049,18912,3999.0,None
+Ross-Barnum,BAR,77271.0,3570 W 1ST Ave,None,Denver,CO,80219,33864,52057,10500.0,None
+Park Hill,PKH,179230.0,4705 E Montview Blvd,None,Denver,CO,80207,105874,308240,10260.0,None
+Ross-Cherry Creek,CRK,84797.0,305 N Milwaukee St,None,Denver,CO,80206,3291,11917,17808.0,The Ross-Cherry Creek Branch Library is temporarily closed until furth
+Bob Ragland,RGL,None,1900 35th Street,Suite A,Denver,CO,80216,18646,10036,7000.0,None
+Woodbury,WDB,46116.0,3265 N Federal Blvd,None,Denver,CO,80211,64330,172060,10023.0,None
+Blair-Caldwell,BCL,54793.0,2401 Welton St,None,Denver,CO,80205,19995,21624,34957.0,The Blair-Caldwell African American Research Library is temporarily cl
+Green Valley Ranch,GVR,356186.0,4856 N Andes Ct,None,Denver,CO,80249,104422,166756,25602.0,None
+Ross-University Hills,UNH,143542.0,4310 E Amherst Ave,None,Denver,CO,80222,105668,430152,21143.0,None
+Virginia Village,VVI,138200.0,1500 S Dahlia St,None,Denver,CO,80222,66829,244300,11524.0,None
+Decker,DKR,105064.0,1501 S Logan St,None,Denver,CO,80210,56866,114925,4932.0,None
+Central,CEN,179022.0,10 W 14TH Ave,None,Denver,CO,80204,124768,255269,540315.0,"Due to Elevate Denver Bond Program construction, Central Library is op"
+Hampden,HMP,179231.0,9755 E Girard Ave,None,Denver,CO,80231,77840,203382,11560.0,None
+Westwood,WES,94263.0,1000 S Lowell Blvd,None,Denver,CO,80219,19212,18239,1073.0,None
+"Rodolfo ""Corky"" Gonzalez Branch",GON,381139.0,1498 Irving St,None,Denver,CO,80204,81205,137201,26973.0,None
+Pauline Robinson,ROB,14970.0,5575 E 33RD Ave,None,Denver,CO,80207,28687,39909,5285.0,None
+Athmar Park,ATH,92427.0,1055 S Tejon St,None,Denver,CO,80223,39933,46305,6478.0,None
+Smiley,SMI,27605.0,4501 W 46TH Ave,None,Denver,CO,80212,66293,122717,4726.0,None
+Sam Gary,SGB,372322.0,2961 Roslyn St,None,Denver,CO,80238,147673,480299,28490.0,None
+Ross-Broadway,BDY,80946.0,33 E Bayaud Ave,None,Denver,CO,80209,51031,117747,4500.0,None

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-data-viz-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exercises</title>
+
+
+
+  <exercise>
+    <title>Restaurant Reviews</title>
+    <p>
+
+The data file <q>Restaurant</q> contains data from Zagat's Restaurant Review.  Data on the quality rating, meal price, and the usual wait time for a table during peak hours were collected for a sample of 300 Los Angeles area restaurants.
+
+</p>
+<p>
+    <url href="external/sheets/Restaurant.xlsx" />
+</p>
+<p>
+What if we want to know the number of restaurants in each combination of Quality and Price?
+</p>
+<ul>
+    <li>
+        <p>
+            We could manually count how many restaurants are rated Good with mean prices between <m>\$ 10</m> and <m>\$ 19</m> for example, and so on, and create a table like Table 3.7 in the book:
+            <image source="sheets/Table37.png" width="100%">
+
+<!--                <shortdescription>(for accessibility)</shortdescription>
+-->            </image>
+        </p>
+    </li>
+    <li>
+        <p>
+            Let's use PivotTables instead of doing it manually!
+        </p>
+    </li>
+</ul>
+
+
+  </exercise>
+
+
+
+
+
+  <exercise>
+    <title>Ajax</title>
+    
+    <p>
+    Open the file <q>Ajax</q>.  We're going to make a scatter plot using some of this data.  Let's think about how we can improve on the default chart that Excel displays so that the data stands out.
+    </p>
+    <p>
+        <url href="external/sheets/Ajax.xlsx" />
+
+    </p>
+
+  </exercise>
+
+
+
+  <exercise>
+    <title>Kirkland Regional Sales</title>
+    
+    <p>
+        Open the file <q>KirklandRegional</q> that shows regional sales data by month for air compressors at Kirkland Industries.  We're going to investigate some of the charts we can make with this data.  (These steps are in the textbook if you want to follow along.)
+    </p>
+        <p>
+            <url href="external/sheets/KirklandRegional.xlsx" />
+    
+        </p>
+   
+    
+  </exercise>
+
+
+
+
+  <exercise>
+    <title>Accounts Managed</title>
+    
+    <p>
+        Open the file <q>AccountsManaged</q>.  We're going to create a sorted bar chart with data labels for this data.
+
+    </p>
+    <p>
+        <url href="external/sheets/AccountsManaged.xlsx" />
+
+    </p>
+    
+  </exercise>
+
+
+
+  <exercise>
+    <title>Auto Production</title>
+    
+    <p>
+    Open the file <q>AutoProduction</q>.  Let's see how we can create bad pie charts and 3-D charts in Excel (and why they are not helpful ways to visualize the data).
+    </p>
+
+    <p>
+        <url href="external/sheets/AutoProduction.xlsx" />
+
+    </p>
+
+  </exercise>
+
+
+
+
+  <exercise>
+    <title>Billionaires Bubble Chart</title>
+    
+    <p>
+        Open the file <q>billionaires</q>.  We're going to create a bubble chart using Excel to further exam the data.
+
+    </p>
+    <p>
+        <url href="external/sheets/billionaires.xlsx" />
+
+    </p>
+    
+  </exercise>
+
+
+
+  <exercise>
+    <title>Heat Map in Excel</title>
+
+    <p>
+        Open the file <q>samestoresales</q>.  We're going to create a heat map in Excel.
+
+    </p>
+    <p>
+        <url href="external/sheets/samestoresales.xlsx" />
+
+    </p>
+    
+    
+    
+  </exercise>
+
+
+
+  <exercise>
+    <title>Parallel Coordinates Plot</title>
+    
+    <p>
+Let's look at an example of what is called a ``parallel coordinates" plot.  (There might be a homework problem about this type of plot.)
+
+</p>
+
+<p>
+    <url href="https://bit.ly/47IP54P" />
+</p>
+
+<p>
+    This example uses something called Python to create the visualization.
+
+</p>
+
+  </exercise>
+
+
+
+  <exercise>
+    <title>Restaurants PivotChart</title>
+    
+    <p>
+        Open the <q>Restaurant</q> file again.  We'll work through how to create a PivotChart together.  (If we don't have time for this in class, then work through this on your own following the steps in the textbook!)
+        <url href="external/sheets/Restaurant.xlsx" />
+
+    </p>
+    
+  </exercise>
+
+
+
+  <exercise>
+    <title>Tableau Visualizations</title>
+    
+    <p>
+        We're going to see how to create several visualizations in Tableau using the files listed below:
+
+        <ul>
+            <li>
+                <p>
+                    <q>NewHouseSalesUS</q>
+                </p>
+                <p>
+                    <url href="external/sheets/NewHouseSalesUS.xlsx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <q>electronics</q>
+                </p>
+                <p>
+                    <url href="external/sheets/electronics.xlsx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <q>KirklandRegional</q>
+                </p>
+                <p>
+                    <url href="external/sheets/KirklandRegional.xlsx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <q>AccountsManaged</q>
+                </p>
+                <p>
+                    <url href="external/sheets/AccountsManaged.xlsx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <q>billionaires</q>
+                </p>
+                <p>
+                    <url href="external/sheets/billionaires.xlsx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <q>NYCityData</q>
+                </p>
+                <p>
+                    <url href="external/sheets/NYCityData.xlsx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <q>global100</q>
+                </p>
+                <p>
+                    <url href="external/sheets/global100.xlsx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <q>WorldGDP2014</q>
+                </p>
+                <p>
+                    <url href="external/sheets/WorldGDP2014.xlsx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <q>AuditTime</q>
+                </p>
+                <p>
+                    <url href="external/sheets/AuditTime.xlsx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <q>HomeSalesStacked</q>
+                </p>
+                <p>
+                    <url href="external/sheets/HomeSalesStacked.xlsx" />
+                </p>
+            </li>
+        </ul>
+
+
+    </p>
+    
+  </exercise>
+
+  </section>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-dashboards-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exercises</title>
+
+<exercise>
+    <title>Austin Animal Center Intakes</title>
+    
+    <p>
+Download the following dataset:
+</p> 
+<p>
+    (This file is from <url href="bit.ly/3OANoxD" />)
+</p>
+
+<p>
+We're going to see how to use Tableau to create a Dashboard and upload it to Tableau Public.
+<url href="external/sheets/Austin_Animal_Center_Intakes.csv" />
+
+    </p>
+   
+    
+</exercise>
+
+
+
+
+<exercise>
+    <title>New House Sales</title>
+    
+    <p>
+    The file <q>NewHouseSalesUS.xls</q> contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.  
+    </p>
+    <p>
+        <url href="external/sheets/NewHouseSalesUS.xls" />
+
+    </p>
+    <p>
+    (This file can also be found at <url href="https://www.census.gov/construction/nrs/data/series.html" />.)
+    </p>
+
+    <p>
+Use Tableau to create a Dashboard communicating any aspects of this data that you choose.
+</p>
+
+</exercise>
+
+
+
+<exercise>
+    <title>Denver Public Libraries Dashboard</title>
+    <p>
+        The file <q>libraries.csv</q> contains data about Denver Public Libraries within the City and County of Denver. 
+
+        </p>
+
+        <p>
+            <url href="external/sheets/libraries.csv" />
+
+        </p>
+
+        <p>
+        
+        The data includes patronage and circulation for the previous calendar year.  
+        </p>
+
+        <p>
+        
+        (This file can also be found at <url href="https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-libraries" /> .)
+
+    </p>
+
+    <p>
+        Use Tableau to create a Dashboard or Story communicating any aspects of this data that you choose.
+
+    </p>
+    
+</exercise>
+
+
+
+
+
+  </section>
