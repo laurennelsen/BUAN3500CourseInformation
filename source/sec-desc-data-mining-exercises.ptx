@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-desc-data-mining-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exercises</title>
+
+<exercise>
+    <title>Euclidean Distance</title>
+    
+    <p>
+Let's look at a problem from the Chapter 6 MyLab assignment where we can calculate Euclidean distance.
+        </p>
+</exercise>
+
+
+<exercise>
+    <title>k-Means Clustering in Tableau</title>
+    
+    <p>
+        Use Tableau to do k-means clustering in the following examples:
+        <ul>
+            <li>
+                <p>
+                    Salary Data: 
+                    <url href="external/sheets/Salary_Data.csv" />
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    Online Retail Data:
+                    <url href="https://bit.ly/4c7cMVl" />
+
+                </p>
+            </li>
+        </ul>
+    </p>
+    
+</exercise>
+
+
+<exercise>
+    <title>k-Means Clustering</title>
+    
+    <p>
+    Let's look at a problem involving k-means clustering from the Chapter 6 MyLab assignment.
+    </p>
+</exercise>
+
+
+<exercise>
+    <title>Hierarchical Clustering</title>
+    
+    <p>
+    Let's look at a problem involving hierarchical clustering from the Chapter 6 MyLab assignment.
+    </p>
+</exercise>
+
+
+<exercise>
+    <title>Association Rules for Hy-Vee</title>
+    <p>
+    Let's apply the ideas we learned about association rules to the Hy-Vee data files:
+    </p>
+    <p>
+    <url href="external/sheets/hyveedemostacked.xlsx" />
+    </p>
+    <p>
+    <url href="external/sheets/hyveedemobinary.xlsx" />
+
+</p>
+    
+</exercise>
+
+
+
+<exercise>
+    <title>Apriori Algorithm in Python</title>
+    <p>
+        If we have time, we can see how to implement the \textbf{Apriori algorithm} to automate the process for analyzing transaction data in Python:
+        </p>
+        <p>
+            <url href="https://bit.ly/45M037i" />
+    </p>
+    
+</exercise>
+
+
+
+<exercise>
+    <title>Sentiment Analysis Example:  Classifying Product Reviews</title>
+
+    <p>
+        (Remember that this is an example of <em>predictive analytics</em> instead of <em>descriptive analytics</em>, which we focus on in this class.)
+    </p>
+    <p>
+        <url href="https://bit.ly/3Qwmvx0" />
+    </p>
+    
+    
+</exercise>
+
+
+<exercise>
+    <title>Visualizing Text Data</title>
+    
+    <p>
+        Let's see how to create a word cloud in Tableau and see when it might be helpful.
+    </p>
+    <p>
+        <url href="external/sheets/OneWordReviews.xlsx" />
+
+    </p>
+    
+</exercise>
+
+
+  </section>

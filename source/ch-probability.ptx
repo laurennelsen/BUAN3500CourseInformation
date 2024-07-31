@@ -12,5 +12,8 @@
 
   <!-- include sections -->
    <xi:include href="sec-probability-slides.ptx" />
+   <xi:include href="sec-probability-exercises.ptx" />
+   <xi:include href="worksheet-discrete-distributions.ptx" />
+   <xi:include href="worksheet-continuous-distributions.ptx" />
 
 </chapter>

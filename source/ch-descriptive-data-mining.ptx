@@ -12,5 +12,6 @@
 
   <!-- include sections -->
    <xi:include href="sec-desc-data-mining-slides.ptx" />
+   <xi:include href="sec-desc-data-mining-exercises.ptx" />
 
 </chapter>

@@ -7,15 +7,14 @@
     <title>Austin Animal Center Intakes</title>
     
     <p>
-Download the following dataset:
+Download the following dataset:  <url href="https://bit.ly/3WuohjT" />
 </p> 
 <p>
-    (This file is from <url href="bit.ly/3OANoxD" />)
+    (This file is from <url href="https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Intakes/wter-evkm" />)
 </p>
 
 <p>
 We're going to see how to use Tableau to create a Dashboard and upload it to Tableau Public.
-<url href="external/sheets/Austin_Animal_Center_Intakes.csv" />
 
     </p>
    

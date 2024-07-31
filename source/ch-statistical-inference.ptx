@@ -12,5 +12,6 @@
 
   <!-- include sections -->
    <xi:include href="sec-stats-inference-slides.ptx" />
+   <xi:include href="worksheet-confidence-intervals-hyp-testing.ptx" />
 
 </chapter>

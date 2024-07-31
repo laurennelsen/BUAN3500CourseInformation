@@ -18,5 +18,6 @@ Welcome to BUAN 3500!
    <xi:include href="sec-student-services.ptx" />
    <xi:include href="sec-policies.ptx" />
    <xi:include href="sec-course-schedule.ptx" />
+   <xi:include href="sec-badge.ptx" />
 
 </chapter>

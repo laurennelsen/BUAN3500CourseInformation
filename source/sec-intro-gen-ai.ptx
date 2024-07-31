@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-intro-gen-ai" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Generative AI</title>
+
+
+  <p>
+    As of July 2024, there are many examples of AI chatbots that are commonly used.  A few examples are:
+    <ul>
+        <li>
+            <p>
+                ChatGPT
+            </p>
+        </li>
+        <li>
+            <p>
+                Google Bard
+            </p>
+        </li>
+        <li>
+            <p>
+                Microsoft Copilot
+            </p>
+        </li>
+        <li>
+            <p>
+                Jasper
+            </p>
+        </li>
+    </ul>
+  </p>
+
+  <p>
+    The field of generative AI is constantly changing, and so by the time you read what is written here, it will almost certainly already be outdated.
+  </p>
+
+  <p>
+    At the moment, there are many things that generative AI is useful for, and there are things that it cannot do (reliably) quite yet.  It is important that we know how to use AI in our work but also understand its current limitations.  It is still important for us to have a good understanding of what we are doing so that we are not presenting misleading visualizations or analysis.
+  </p>
+
+  <p>
+    For example, here is a YouTube video showing how ChatGPT-4 did not provide correct analysis of a relatively simple data set:
+    <video youtube="n78Bhl6s_bY?si=2jKtgwgfjZDlBhlL"/>
+  </p>
+
+  <p>
+    Newer versions of ChatGPT allow us to upload a data file, and the chatbot can use Python behind the scenes to analyze the data.  We're going to play around with what it can currently do in terms of analyzing data and/or creating visualizations.
+  </p>
+
+  <!--subsection xml:id="subsec-code-gen">
+    <title>Code Generation</title>
+    
+
+  <p>
+    One thing generative AI can be helpful with is <em>code generation</em>.  We will only scratch the surface of what can be done with Tableau, but I want you to see an example of something that can be helpful.  (Keep in mind that we still need to understand the analysis and we still need to check the output we get from generative AI.)
+  </p>
+
+  <subsection xml:id="subsec-Einstein-Copilot">
+    <title>Einstein Copilot for Tableau</title>
+    
+<p>
+    In Tableau Cloud we can use a built-in AI assistant while working in Tableau.  (We have a Tableau Cloud site for this course...)
+</p>
+
+<p>
+    <url href="https://www.tableau.com/blog/einstein-copilot-tableau-data-analysis-with-ai" />
+</p>
+
+    
+  </subsection>
+-->
+
+<exercise>
+  <title>Netflix Data</title>
+  
+  
+  <p>
+    Let's download the Netflix Engagement Report from the first half of 2023 and upload the Excel file into ChatGPT to see what we can learn. 
+  </p>
+  <p>
+    <url href="https://about.netflix.com/en/news/what-we-watched-a-netflix-engagement-report" />
+  </p>
+  <p>
+    (Feel free to also open the file in Tableau to investigate and create visualizations.)
+  </p>
+</exercise>
+
+
+  </section>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="worksheet-confidence-intervals-hyp-testing" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Confidence Intervals and Hypothesis Testing Worksheet</title>
+
+
+  <p>
+    Our goal is to use a sample to understand what is happening in our population.  We are going to focus on estimating means and proportions for our population using a sample.
+
+  </p>
+
+
+  <subsection xml:id="subsec-conf-int-mean">
+    <title>Confidence Intervals for the Mean</title>
+
+    <p>
+        Cases that we need to consider separately:
+
+        <ul>
+            <li>
+                <p>
+                    Population standard deviation (<m>\sigma</m>) is known:
+                    <me>\bar{x}\pm z_{\alpha/2}\left(\frac{\sigma}{\sqrt{n}}\right)</me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Population standard deviation (<m>\sigma</m>) is not known, and we only know the sample standard deviation:
+                    <me>\bar{x}\pm t_{\alpha/2}\left(\frac{s}{\sqrt{n}}\right)</me>
+
+                </p>
+            </li>
+        </ul>
+    </p>
+
+  </subsection>
+
+
+  <subsection xml:id="subsec-conf-int-prop">
+    <title>Confidence Interval for the Proportion</title>
+
+    <me>\overline{p}\pm (z_{\alpha/2})\cdot\left(\sqrt{\frac{\overline{p}(1-\overline{p})}{n}}\right)</me>
+    
+  </subsection>
+
+
+  <exercise xml:id="ex-newbalance-conf-int">
+    <title>Credit Balance Confidence Interval</title>
+    
+    <p>
+        Open the file <q>NewBalance</q>.
+        <url href="external/sheets/NewBalance.xlsx" />
+
+    </p>
+    
+    <p>
+      This file shows credit balances for a sample of customers.  Construct a <m>95\%</m> confidence interval in Excel for the average credit balance.
+      </p>
+
+  </exercise>
+
+
+  <subsection xml:id="subsec-conf-int-Tableau">
+    <title>Confidence Intervals in Tableau</title>
+
+    <exercise>
+        Tableau can also construct confidence intervals!  Let's construct the confidence interval from <xref ref="ex-newbalance-conf-int"/> in Tableau.
+    </exercise>
+    
+  </subsection>
+
+  
+  <subsection xml:id="subsec-real-world-examples">
+    <title>Real-World Examples of Finding Confidence Intervals in Excel</title>
+    
+
+
+  <exercise xml:id="ex-Census-confidence-intervals">
+    <title>US Census Data Confidence Intervals</title>
+    
+    
+    <introduction>
+        <p>
+            Let's look at US Census data from October 2023:  <url href="https://bit.ly/3SskrqA" />
+
+        </p>
+        <p>
+            (This data can be found at <url href="https://www.census.gov/data/datasets/time-series/demo/cps/cps-basic.html" />)
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Use the sample data to estimate the average number of hours worked per week in the US among people who work a positive number of hours each week.  (Look at <q>pehract1</q>.)
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use the sample data to estimate the proportion of households in the US in which someone owns a business or a farm.  (Look at <q>HUBUS</q>.)
+            </p>
+        </statement>
+    </task>
+
+  </exercise>
+
+
+
+</subsection>
+
+
+
+
+<subsection xml:id="subsec-hypothesis-testing">
+    <title>Hypothesis Testing</title>
+
+    <p>
+        We have shown how a sample could be used to develop a point and interval estimates of population parameters such as the mean (<m>\mu</m>) and the proportion (<m>p</m>).  Now we will continue the discussion of statistical inference by showing how hypothesis testing can be used to determine whether a statement about the value of a population parameter should or should not be rejected.
+    </p>
+
+    <definition xml:id="def-hypothesis">
+        <statement>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            A <em>hypothesis</em> is an assumption about a population parameter.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The <em>null hypothesis</em>, denoted <m>H_0</m>, represents the status quo and involves stating the belief that the population parameter is <m>=,\leq, \geq</m> a specific value
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The <em>alternative hypothesis</em>, denoted <m>H_1</m>, represents the opposite of <m>H_0</m>, and is believed to be true if the null hypothesis is found to be false.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
+
+
+
+    <example xml:id="ex-onetail">
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <m>H_0</m>:  No more than <m>30\%</m> of the registered voters in Santa Clara County voted in the primary election.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>H_1</m>:  More than <m>30\%</m> of the registered voters in Santa Clara County voted in the primary election.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </example>
+
+
+
+    
+</subsection>
+
+
+<subsection xml:id="subsec-test-statistics">
+    <title>Test Statistics for Hypothesis Tests</title>
+
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Test statistic for hypothesis tests about a population mean if <m>\sigma</m> is known:
+<me> z = \frac{\overline{x}-(\mu)_{H_0}}{\sigma/\sqrt{n}} </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Test statistic for hypothesis tests about a population mean if <m>\sigma</m> is NOT known:
+<me> t = \frac{\overline{x}-(\mu)_{H_0}}{s/\sqrt{n}} </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Test statistic for hypothesis tests about a population proportion:
+<me> z = \frac{\overline{p}-(p)_{H_0}}{\sqrt{\frac{(p)_{H_0}(1-(p)_{H_0})}{n}}} </me>
+                </p>
+            </li>
+        </ul>
+    </p>
+    
+</subsection>
+
+
+<subsection xml:id="subsec-p-value">
+    <title>p-value</title>
+
+    <definition xml:id="def-p-value">
+        <statement>
+            <p>
+                A <em>p-value</em> is the probability, assuming that <m>H_0</m> is true, of obtaining a random sample of size <m>n</m> that results in a test statistic at least as extreme as the one observed in the current sample.
+
+            </p>
+        </statement>
+    </definition>
+    
+</subsection>
+
+
+<p>
+    
+</p>
+
+<exercise>
+    <p>
+    We want to test the hypothesis that the proportion of households in the US in which someones owns a business or a farm is <m>10.4\%</m> using the US Census sample data from October 2023::  <url href="https://bit.ly/3SskrqA" />
+
+    </p>
+    <p>
+       (This data can be found at <url href="https://www.census.gov/data/datasets/time-series/demo/cps/cps-basic.html" />.)
+    </p>
+
+    <p>
+        (Look at <q>HUBUS</q> like we did in <xref ref="ex-Census-confidence-intervals"/>.)
+    </p>
+
+    
+<p>
+Determine the null and alternative hypotheses and find the test statistic.
+</p>
+<p>
+    Then find the p-value and decide what you can conclude based on this sample.
+</p>
+</exercise>
+
+
+  </section>

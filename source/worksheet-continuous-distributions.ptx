@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="worksheet-continuous-distributions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Continuous Probability Distributions Worksheet</title>
+
+
+<introduction>
+    <p>
+        Now we will study probability distributions that arise from continuous random variables, which are outcomes that take on any numerical value in an interval, including numbers with decimal points.  Recall that probabilities for specific values of a discrete random variable were easy to calculate and the graph of the discrete probability distribution looks like a histogram with a countable number of bars.  By contrast, only the probability of a range of values (not a specific value) can be calculated for a continuous random variable.  Why?
+</p>
+
+<p>
+
+Since there is an infinite number of possible values for a continuous random variable, the probability of one specific value is theoretically equal to zero!
+
+</p>
+
+<p>
+
+Let's study four specific continuous probability distributions and identify the types of data where they are useful.
+
+    </p>
+
+    </introduction>
+
+    <subsection xml:id="subsec-common-cont-prob-distributions">
+        <title>Common Continuous Probability Distributions</title>
+        
+
+    <ul>
+        <li>
+          <p>
+            <em>Normal Distribution:</em>
+            <figure xml:id="figure-geogebra-normaldist">
+              <caption>
+                <p>Normal Distribution (Made in GeoGebra by the GeoGebra Materials Team)
+</p>
+<p>
+  Link to GeoGebra:  <url href="https://www.geogebra.org/m/W9Nz53Ct"></url>
+</p>
+
+                </caption>
+              <interactive xml:id="geogebra-normaldist" geogebra="W9Nz53Ct" aspect="9:5" />
+            </figure>
+          
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <em>Exponential Distribution:</em>
+            <figure xml:id="figure-geogebra-expondist">
+              <caption>
+                <p>Exponential Distribution (Made in GeoGebra by DavidK)
+</p>
+<p>
+  Link to GeoGebra:  <url href="https://www.geogebra.org/m/gjd2dmzw"></url>
+</p>
+
+                </caption>
+              <interactive xml:id="geogebra-expondist" geogebra="gjd2dmzw" aspect="9:5" />
+            </figure>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <em>Uniform Distribution:</em>
+            <figure xml:id="figure-geogebra-unifdist">
+              <caption>
+                <p>Uniform Distribution (Made in GeoGebra by David Ramsay)
+                  </p>
+                  <p>
+                    Link to GeoGebra:  <url href="https://www.geogebra.org/m/v2EnMNF9"></url>
+                  </p>
+                </caption>
+              <interactive xml:id="geogebra-unifdist" geogebra="v2EnMNF9" aspect="9:5" />
+            </figure>
+          </p>
+        </li>
+        <li>
+            <p>
+                <em>Triangular Probability Distribution:</em>
+                <figure xml:id="figure-desmos-triangular-dist">
+                    <caption>
+                      <p>Triangular Distribution (Made in Desmos)
+                        </p>
+                        <p>
+                          Link to Desmos:  <url href="https://www.desmos.com/calculator/mggnujhria"></url>
+                        </p>
+                      </caption>
+                    <interactive xml:id="desmos-triangular-dist" desmos="mggnujhria" aspect="9:5" />
+                  </figure>
+            </p>
+        </li>
+      </ul>
+
+
+
+
+    </subsection>
+
+
+  <exercise label="matching">
+    <title>Continuous Probability Distribution Matching Problem</title>
+    <statement>
+    <p>
+        Match each probability distribution with the situation in which it is useful.
+    </p>
+    </statement>
+
+ <matches>
+
+<match>
+    <premise>
+        Normal Distribution
+    </premise>
+    <response>
+        <p>
+            Useful when data tends to fall in the center and extreme values are rare
+            </p>
+    </response>
+</match>
+
+<match>
+    <premise>
+        exponential distribution
+    </premise>
+    <response>
+        <p>
+            Useful when low values for data occur often and high values are rare
+            </p>
+    </response>
+</match>
+
+<match>
+  <premise>
+      uniform distribution
+  </premise>
+  <response>
+      <p>
+          Useful when data of all values have an equal chance of occurring
+          </p>
+  </response>
+</match>
+
+</matches>
+
+</exercise>
+
+
+<subsection xml:id="subsec-normal-dist">
+    <title>The Normal Probability Distribution</title>
+
+<p>
+    The mathematical expression that describes the shape of the normal probability distribution is called the normal probability density function:
+<me> f(x) = \frac{1}{\sigma\sqrt{2\pi}}e^{-0.5[(x-\mu)/\sigma]^2} </me>
+</p>
+
+<p>
+
+Despite the complexity of this function, there are only two parameters that completely determine the shape of the distribution:  the mean, <m>\mu</m>, and the standard deviation, <m>\sigma</m>.  Let's take a closer look at how they impact the distribution.  (Don't worry -- we won't be using this formula to compute probabilities.  We have other tools!)
+</p>
+
+
+<question>
+    <statement>
+<p>
+    How does changing the standard deviation (<m>\sigma</m>) and the mean (<m>\mu</m>) change the curve?
+    <figure>
+        <caption>Graph of Normal Distribution powered by Desmos</caption>
+        <interactive xml:id="desmos-normal" desmos="jxzs8fz9qr" aspect="4:3" />
+      </figure>
+</p>
+    </statement>
+
+    <answer>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <m>\sigma:</m> controls the <q>spread</q> of the curve.  Larger <m>\sigma</m> results in a flatter, more spread out curve
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\mu:</m> controls the location of the center.  Larger <m>\mu</m> shifts the <q>hill</q> of the curve to the right
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </answer>
+</question>
+
+
+
+<p>
+    The first two commands apply to situations where the goal is to compute a probability associated with a data value.
+    <ul>
+        <li>
+            <p>
+                
+                The NORM.DIST(<m>x</m>, mean, standard deviation, cumulative) applies to problems involving a normal distribution with a specified mean and standard deviation. 
+
+            </p>
+        </li>
+        <li>
+            <p>
+                The NORM.S.DIST(<m>z</m>, cumulative) applies to problems involving the standard normal distribution (<m>\mu=0</m> and <m>\sigma=1</m>).
+            </p>
+        </li>
+    </ul>
+    (Cumulative = TRUE or FALSE)
+</p>
+
+
+
+
+
+
+<p>
+    What if we want to know the specific <m>X</m> that satisfies a given probability?  Then we can work backward using the tables (<url href="https://www.math.arizona.edu/~rsims/ma464/standardnormaltable.pdf">Standard Normal Table</url>) and use the <m>z</m>-score formula in reverse.  If the exact probability cannot be found in the table, then we can use the closest values.
+</p>
+
+
+<p>
+    The Excel formulas that apply to this situation are similar to the ones we saw earlier, replacing .DIST with .INV:
+    <ul>
+        <li>
+            <p>
+                NORM.INV(probability, mean, standard deviation) applies to normal distributions with a specified mean and standard deviation
+            </p>
+        </li>
+        <li>
+            <p>
+                NORM.S.INV(probability) is used for standard normal distributions
+            </p>
+        </li>
+    </ul>
+</p>
+
+
+<exercise>
+    <myopenmath problem="1102015" />
+  </exercise>
+
+  <exercise>
+    <myopenmath problem="803116" />
+  </exercise>
+
+  
+
+
+    
+</subsection>
+
+
+
+<subsection xml:id="subsec-expon-dist">
+    <title>The Exponential Probability Distribution</title>
+
+
+    <definition>
+
+        <p>
+            
+            The exponential probability distribution is a continuous distribution commonly used in business to measure the time between customer arrivals or the time between failures in a business process
+    
+        </p>
+    
+        <p>
+            The mathematical expression that describes the shape of the curve for the exponential probability distribution is called the exponential probability density function:
+            <me>f(x)=\lambda^{-\lambda x}\text{, where }\lambda=\text{the mean number of occurrences over an interval}</me>
+        </p>
+    
+        <p>
+            Recall the we saw <m>\lambda</m> in a previous chapter when the discrete Poisson distribution was introduced.  It is not a coincidence that we are using <m>\lambda</m> in both of these distributions.  A <em>discrete</em> random variable that follows a Poisson distribution with a mean equal to <m>\lambda</m> has a counterpart <em>continuous</em> random variable that follows the exponential distribution with a mean equal to <m>\mu=\frac{1}{\lambda}</m>.
+        </p>
+    
+        <p>
+            It is easy to confuse the two -- try to remember that <m>\lambda</m> is a countable (discrete) rate while <m>\mu</m> is a measurable (continuous) interval.
+        </p>
+    
+        <p>
+            A small bit of good news:  the standard deviation for an exponential distribution is equal to its mean.  That is, <m>\sigma=\mu=\frac{1}{\lambda}</m>.
+        </p>
+    
+        </definition>
+
+        <p>
+            The only parameter in the formula is <m>\lambda</m>.  Let's look at how it impacts the shape of the distribution.
+        
+            <figure>
+                <caption>Exponential Distribution powered by Desmos</caption>
+                <interactive xml:id="desmos-expon" desmos="kq2tps7jbe" aspect="4:3" />
+              </figure>
+        
+            </p>
+
+
+
+            <em>Computing Probabilities for the Exponential Distributions</em>
+
+
+            <p>
+                The formula for calculating the probability that a random variable is less than a specified value is:
+                <me>P(x\leq a)=1-e^{-a\lambda}</me>
+                where <m>\lambda=\text{the mean number of occurrences over an interval}</m>.
+            </p>
+
+            <p>
+                The Excel formula for calculating probabilities for the exponential distribution is
+                <me>EXPON.DIST(x,\lambda,\text{cumulative}),</me>
+                where cumulative=TRUE (if you want cumulative probability) or FALSE (if you do not want cumulative probability).
+            </p>
+
+
+            <exercise>
+                <statement>
+                    <p>
+                    An exponential probability distribution has lambda equal to <m>18</m> customers per hour.  Find the probability that the next customer will arrive within the next minute.  (Round your answer to 4 decimal places.)  <var/>
+                  </p>
+                </statement>
+                <setup>
+                  <var>
+              
+                  <condition number="0.2592" tolerance="0.0001">
+                  <feedback>
+                    <p>
+                      Any value in the interval <m>0.2592\pm 0.0001</m> is marked as correct for this problem.
+                    </p>
+                  </feedback>
+                  </condition>
+                  <condition string=".*">
+                  <feedback>
+                    <p>
+                      Incorrect.
+                      Did you round to four decimal places?
+                    </p>
+                    <p>
+                        (Here <m>\lambda=\frac{18\text{ customers}}{1\text{ hour}}\cdot\frac{1\text{ hour}}{60\text{ min}}=0.3\text{ customers per minute}.</m>)
+                    </p>
+                  </feedback>
+                  </condition>
+                  </var>
+                </setup>
+              </exercise> 
+
+    
+</subsection>
+
+
+
+
+<subsection xml:id="subsec-uniform-dist">
+    <title>The Uniform Distribution</title>
+    
+
+    <definition>
+
+        <p>
+            The uniform distribution is a continuous distribution where the probability of any interval is equal to any other interval with the same width.
+    
+        </p>
+    
+        <p>
+            The mathematical expression that describes the shape of the curve for the uniform probability distribution is called the continuous uniform probability density function:
+            <me>
+                f(x)=\begin{cases}
+                \frac{1}{b-a} \amp\text{ if } a\leq x\leq b\\
+                0 \amp\text{ otherwise}
+                \end{cases}.
+            </me>
+            
+        </p>
+    
+    
+        <p>
+            Uniform Distribution:
+            <figure xml:id="figure-geogebra-unifdist1">
+              <caption>Uniform Distribution (Made in GeoGebra by David Ramsay)</caption>
+              <interactive xml:id="geogebra-unifdist1" geogebra="v2EnMNF9" aspect="9:5" />
+            </figure>
+          </p>
+    
+          <p>
+            Since this function is a constant, the shape of the uniform probability distribution is a rectangle.  So computing probabilities associated with it simply involves finding areas of rectangles:
+            <me>
+                (\text{width})\cdot(\text{height})
+            </me>
+            
+    
+            </p>
+    
+        </definition>
+
+        <p>
+            The mean and standard deviation for the uniform distribution are:
+            <ul>
+                <li>
+                    <p>
+                        <m>\mu=\frac{a+b}{2}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\sigma=\frac{b-a}{\sqrt{12}}</m>
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+
+
+        <exercise>
+            <introduction>
+               <p>
+                   (Donnelly 6.34)
+               </p>
+           
+               <p>
+                   Assume the time required to pass through security at a particular airport follows the continuous uniform distribution with a minimum time of 8 minutes and a maximum time of 31 minutes.
+               </p>
+           </introduction>
+           <task>
+               <p>Calculate the value of <m> f(x) </m>. </p>
+               <answer>
+                   <p>
+                       <m> \frac{1}{23} </m>
+                   </p>
+               </answer>
+            </task>
+       
+            <task>
+               <p>What are the mean and standard deviation for this distribution? </p>
+               <answer>
+                   <p>
+                       <ul>
+                           <li>
+                               <p>
+                                   <m>\mu=19.5</m>
+                               </p>
+                           </li>
+                           <li>
+                               <p>
+                                   <m>\sigma\approx 6.64</m>
+                               </p>
+                           </li>
+                        </ul>
+                   </p>
+               </answer>
+            </task>
+       
+            <task>
+               <statement>
+                   <p>
+                       What is the probability that the next passenger will require less than 25 minutes to pass through security?
+                   </p>
+               </statement>
+               <answer>
+                   <p>
+                       <m>P(X\lt 25)= \frac{17}{23}</m>
+                   </p>
+               </answer>
+            </task>
+       
+            <task>
+               <statement>
+                   <p>
+                       What is the probability that the next passenger will require more than 23 minutes to pass through security?
+                   </p>
+               </statement>
+               <answer>
+                   <p>
+                       <m>P(X\gt 23)=\frac{8}{23}</m>
+                   </p>
+               </answer>
+            </task>
+       
+            <task>
+               <statement>
+                   <p>
+                       What is the probability that the next passenger will require between 13 and 20 minutes to pass through security?
+                   </p>
+               </statement>
+               <answer>
+                   <p>
+                       <m>P(13\lt X\lt 20)= \frac{7}{23}</m>
+                   </p>
+               </answer>
+            </task>
+       
+            <task>
+               <statement>
+                   <p>
+                       What time represents the 75th percentile of this distribution?
+                   </p>
+               </statement>
+               <answer>
+                   <p>
+                       <m>25.25</m> minutes
+                   </p>
+               </answer>
+            </task>
+       
+            </exercise>
+
+</subsection>
+
+
+
+
+<subsection xml:id="subsec-triangular-dist">
+    <title>The Triangular Probability Distribution</title>
+
+<p>
+    <q>The triangular probability distribution is useful when only subjective probability estimates are available. There are many situations for which we do not have sufficient data and only subjective estimates of possible values are available. In the triangular probability distribution, we need only to specify the minimum possible value <m>a</m>, the maximum possible value <m>b</m>, and the most likely value (or mode) of the distribution <m>m</m>. 
+    
+        If these values can be knowledgeably estimated for a continuous random variable by a subject-matter expert, then as an approximation of the actual probability density function, we can assume that the triangular distribution applies.</q>
+        </p>
+
+
+
+        <exercise>
+            <statement>
+            <p>
+            Consider a situation in which a project manager is attempting to estimate the time that will be required to complete an initial assessment of the capital project of constructing a new corporate headquarters. The assessment process includes completing environmental-impact studies, procuring the required permits, and lining up all the contractors and subcontractors needed to complete the project. There is considerable uncertainty regarding the duration of these tasks, and generally little or no historical data are available to help estimate the probability distribution for the time required for this assessment process.
+            </p>
+
+<p>
+Suppose that we are able to discuss this project with several subject-matter experts who have worked on similar projects. From these expert opinions and our own experience, we estimate that the minimum required time for the initial assessment phase is six months and that the worst-case estimate is that this phase could require 24 months if we are delayed in the permit process or if the results from the environmental-impact studies require additional action. While a time of six months represents a best case and 24 months a worst case, the consensus is that the most likely amount of time required for the initial assessment phase of the project is 12 months. From these estimates, we can use a triangular distribution as an approximation for the probability density function for the time required for the initial assessment phase of constructing a new corporate headquarters.
+</p>
+
+</statement>
+<answer>
+    <p>
+        <m>a=6,\; b=24,\; m=12 \text{ (mode)}</m>
+    </p>
+    <p>
+        <m>1=\frac{1}{2}(6)(h)+\frac{1}{2}(12)(h)</m>
+    </p>
+    <p>
+        <m>1=3h+6h=9h\Rightarrow h=\frac{1}{9}</m>
+    </p>
+    <p>
+        <m>P(6\leq X\leq 12)=\frac{1}{2}(6)(h)=3\left(\frac{1}{9}\right)=\boxed{\frac{1}{3}}</m>
+    </p>
+</answer>
+        </exercise>
+    
+</subsection>
+
+
+
+
+
+
+</section>

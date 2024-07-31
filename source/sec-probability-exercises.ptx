@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-probability-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exercises</title>
+
+
+<exercise>
+    <title>California Power &amp; Light Company</title>
+    
+    <introduction>
+    <p>
+The California Power &amp; Light Company (CP&amp;L) is starting a project designed to increase the generating capacity of one of its plants in Southern California.
+    </p>
+
+    <p>
+An analysis of similar construction projects indicated that the possible completion times for the project are 8, 9, 10, 11, and 12 months.
+</p>
+
+
+<ul>
+    <li>
+        <p>
+            Let <m>C</m> denote the event that the project is completed in 10 months or less:
+            <me>C=\{8,9,10\}</me>
+        </p>
+    </li>
+    <li>
+        <p>
+            Let <m>L</m> be the event that the project is completed in less than 10 months:
+            <me>L=\{8,9\}</me>
+        </p>
+    </li>
+    <li>
+        <p>
+            Let <m>M</m> be the event that the project is completed in more than 10 months:
+            <me>M=\{11,12\}</me>
+        </p>
+    </li>
+</ul>
+
+<p>
+    The table below gives the past completion times for 40 CP&amp;L projects.
+
+
+    <tabular>
+        <row header="yes" bottom="medium" halign="center">
+            <cell>Completion Time (months)</cell>
+            <cell>No. of Past Projects Having This Completion Time</cell>
+            <cell>Probability of Outcome</cell>
+        </row>
+        <row bottom="minor" halign="center">
+            <cell>8</cell>
+            <cell>6</cell>
+            <cell></cell>
+        </row>
+        <row bottom="minor" halign="center">
+            <cell>9</cell>
+            <cell>10</cell>
+            <cell></cell>
+        </row>
+        <row bottom="minor" halign="center">
+            <cell>10</cell>
+            <cell>12</cell>
+            <cell></cell>
+        </row>
+        <row bottom="minor" halign="center">
+            <cell>11</cell>
+            <cell>6</cell>
+            <cell></cell>
+        </row>
+        <row bottom="minor" halign="center">
+            <cell>12</cell>
+            <cell>6</cell>
+            <cell></cell>
+        </row>
+        <row top="medium" halign="center">
+            <cell>Total</cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+    </tabular>
+
+   
+    </p>
+
+</introduction>
+
+    <task>
+        <statement>
+            <p>
+                Calculate the probability of the different outcomes.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Calculate the probabilities of the events on the previous slide:
+                <ul>
+                    <li>
+                        <p>
+                            <m>C=\{8,9,10\}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>L = \{8,9\}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>M = \{11,12\}</m>
+                        </p>
+                    </li>
+                </ul>
+                (Feel free to do these in Excel!)
+            </p>
+        </statement>
+    </task>
+
+
+</exercise>
+
+
+
+<exercise>
+    <title>Employee Dissatisfaction</title>
+
+    <p>
+The HR manager of a software company conducted a study and found the following:
+<ul>
+    <li>
+        <p>
+            <m>30\%</m> of the employees who left the firm within two years listed dissatisfaction with their salary as one of the reasons
+        </p>
+    </li>
+    <li>
+        <p>
+            <m>20\%</m> listed dissatisfaction with their work assignments as one of the reasons
+        </p>
+    </li>
+    <li>
+        <p>
+            <m>12\%</m> listed dissatisfaction with both their salary and their work assignments.
+        </p>
+    </li>
+</ul>
+
+What is the probability that an employee who leaves within two years does so because of dissatisfaction with salary, dissatisfaction with the work assignment, or both?
+</p>
+
+<p>
+
+Let
+<ul>
+    <li>
+        <p>
+            <m>S=</m> the event that the employee leaves because of salary
+        </p>
+    </li>
+    <li>
+        <p>
+            <m>W=</m> the event that the employee leaves because of work assignment
+        </p>
+    </li>
+</ul>
+
+    </p>
+    
+    
+</exercise>
+
+
+
+<exercise xml:id="ex-mortgagedefault">
+    <title>Mortgage Default Data</title>
+    
+    <p>
+        Open the <q>mortgagedefaultdata</q> file in Excel.  
+        <url href="external/sheets/mortgagedefaultdata.xlsx" />
+
+        </p>
+
+        <p>
+        
+        This data is from a bank that is interested in the mortgage default risk for its home mortgage customers.  Some of these customers have defaulted on their mortgages and others have continued to make on-time payments.
+</p>
+
+<p>
+
+The data includes the age of the customer at the time of the mortgage origination, the marital status of the customer, the annual income of the customer, the mortgage amount, the number of payments made by the customer per year on the mortgage, the total amount paid by the customer over the lifetime of the mortgage, and whether or not the customer defaulted on the mortgage.
+    </p>
+    <p>
+        Create a PivotTable for the marital status and whether the customer defaults on their mortgage.
+    </p>
+</exercise>
+
+
+<exercise xml:id="ex-mortgagedefault-continued">
+    <title>Mortgage Default Data Continued</title>
+    
+    <p>
+        Open the <q>mortgagedefaultdata</q> file again in Excel.  
+        <url href="external/sheets/mortgagedefaultdata.xlsx" />
+
+        </p>
+
+        <p>
+            Using the PivotTable you made in <xref ref="ex-mortgagedefault"/>, calculate the following probabilities: 
+
+            <ul>
+                <li>
+                    <p>
+                        the probability a customer is single and defaults
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        the probability a customer is married and does not default
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        the probability a customer who is married will default
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        the probability a customer is single if you know they do not default
+                    </p>
+                </li>
+            </ul>
+
+        </p>
+    
+</exercise>
+
+
+<exercise>
+    <title>Mortgage Default Data Conditional Probability</title>
+    
+    <p>
+        If we look back at <xref ref="ex-mortgagedefault-continued"/>, we can see that
+        <me>P(M) = 0.4766 \text{  and  } P(D|M) = 0.5524.</me>
+
+
+Using this information, what is the probability that a customer defaults on their mortgage and is married?
+
+    </p>
+    
+</exercise>
+
+
+<exercise xml:id="ex-manufacturing">
+    <title>Manufacturing Parts Quality</title>
+    
+    <p>
+        Consider a manufacturing firm that receives shipments of parts from two different suppliers.
+
+        <ul>
+            <li>
+                <p>
+                    <m>A_1</m>: the event that a part is from supplier 1
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>A_2</m>: the event that a part is from supplier 2
+                </p>
+            </li>
+        </ul>
+
+        </p>
+<p>
+Currently <m>65\%</m> of the parts purchased by the company are from supplier 1 and the remaining <m>35\%</m> are from supplier 2.
+</p>
+
+<p>
+The quality of the parts varies according to their source. 
+
+<ul>
+    <li>
+        <p>
+            <m>G</m>:  the event that a part is good
+        </p>
+    </li>
+    <li>
+        <p>
+            <m>B</m>:  the event that a part is bad
+        </p>
+    </li>
+</ul>
+
+</p>
+<p>
+Historical data suggests the following:
+<ul>
+    <li>
+        <p>
+            <m>P(G|A_1) = 0.98 ~~~~~~~~~ P(B|A_1)=0.02</m>
+        </p>
+    </li>
+    <li>
+        <p>
+            <m>P(G|A_2) = 0.95 ~~~~~~~~~ P(B|A_2) = 0.05</m>
+        </p>
+    </li>
+</ul>
+    </p>
+
+    <p>
+        Find <m>P(A_1,G) = P(A_1\cap G)</m>.
+    </p>
+    
+</exercise>
+
+
+<exercise>
+    <title>Manufacturing Parts Quality (Continued)</title>
+    
+    <statement>
+    <p>
+        Now suppose that the parts from the two suppliers in <xref ref="ex-manufacturing"/> are used in the firm's manufacturing process and that a machine breaks down while attempting the process using a bad part.  Given the information that the part is bad, what is the probability that it came from supplier 1 and what is the probability that it came from supplier 2?
+    </p>
+    </statement>
+    <hint>
+        <p>
+            (Find <m>P(A_1|B)</m> and <m>P(A_2|B)</m>.)
+        </p>
+    </hint>
+</exercise>
+
+
+<exercise xml:id="ex-mortgagepayments">
+    <title>Mortgage Payments</title>
+
+    <p>
+        Let's consider a mortgage provider that has information on customers who default on their mortgages.  Customers can make monthly payments, two payments per month, or quarterly payments.
+</p>
+
+<p>
+
+Consider the random variable describing the number of payments made per year by the customers.  
+
+</p>
+
+<p>
+    Find the probability distribution/<q>probability mass function</q>, <m>f(x)</m>:
+</p>
+
+<p>
+
+<tabular>
+    <row header="yes" bottom="medium" halign="center">
+        <cell>Number of payments per year</cell>
+        <cell>Number of observations</cell>
+        <cell><m>f(x)</m></cell>
+    </row>
+    <row halign="center">
+        <cell><m>x=4</m></cell>
+        <cell>45</cell>
+        <cell></cell>
+    </row>
+    <row halign="center">
+        <cell><m>x=12</m></cell>
+        <cell>180</cell>
+        <cell></cell>
+    </row>
+    <row halign="center">
+        <cell><m>x=24</m></cell>
+        <cell>75</cell>
+        <cell></cell>
+    </row>
+</tabular>
+
+
+    </p>
+    
+    
+</exercise>
+
+
+<exercise>
+    <title>Mortgage Payments (Continued)</title>
+    
+    
+    <p>
+        Let's go back to the mortgage example from <xref ref="ex-mortgagepayments"/>.  What is the expected value of the number of payments made by a mortgage customer in a year?
+    </p>
+</exercise>
+
+
+<exercise>
+    <title>Mortgage Payments (Continued)</title>
+
+    <p>
+        Let's go back to the mortgage example from <xref ref="ex-mortgagepayments"/>.  Calculate the variance and the standard deviation of the number of payments per year.
+    </p>
+</exercise>
+
+
+
+<exercise>
+    <title>Plant Expansion Project</title>
+
+    <introduction>
+    <p>
+        A computer company is considering a plant expansion to enable the company to begin production of a new computer product.  The company's president must determine whether to make the expansion a medium- or large-scale project.  Demand for the new product is uncertain, which for planning purposes may be low demand, medium demand, or high demand.  The probability estimates for demand are 0.2, 0.5, and 0.3, respectively.  Letting <m>x</m> and <m>y</m> indicate the annual profit in thousands of dollars, the firm's planners developed the following profit forecasts for the medium- and large-scale expansion projects:
+
+    </p>
+
+    <p>
+        <image source="sheets/plantdemand.png" width="100%"/>
+    </p>
+</introduction>
+
+
+    <task>
+        <statement>
+            <p>
+                Compute the expected value for the profit associated with the two expansion alternatives. Which decision is preferred for the objective of maximizing the expected profit?
+            </p>
+        </statement>
+        <answer>
+            <p>
+                Medium is preferred
+            </p>
+        </answer>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Compute the variance for the profit associated with the two expansion alternatives. Which decision is preferred for the objective of minimizing the risk or uncertainty?
+            </p>
+        </statement>
+        <answer>
+            <p>
+                Medium is preferred due to less variance
+            </p>
+        </answer>
+    </task>
+          
+    
+    
+</exercise>
+
+
+
+<exercise>
+    <title>Basketball Free Throw Probability</title>
+    
+    <p>
+        Consider a basketball player whose probability of making a free throw is 0.7.  If they shoot 5 free throws, what is the probability they make exactly 3 of them?
+
+    </p>
+    
+</exercise>
+
+  </section>
