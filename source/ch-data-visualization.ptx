@@ -13,5 +13,6 @@
   <!-- include sections -->
    <xi:include href="sec-data-viz-slides.ptx" />
    <xi:include href="sec-data-viz-exercises.ptx" />
+   <xi:include href="sec-generative-ai-and-data-viz.ptx" />
 
 </chapter>

@@ -3,6 +3,9 @@
 <section xml:id="sec-intro-gen-ai" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Generative AI</title>
 
+  <p>
+    In <xref ref="sec-generative-ai-and-data-viz"/> we talked a little about generative AI in the context of creating and describing data visualizations.  
+  </p>
 
   <p>
     As of July 2024, there are many examples of AI chatbots that are commonly used.  A few examples are:
@@ -44,7 +47,7 @@
   </p>
 
   <p>
-    Newer versions of ChatGPT allow us to upload a data file, and the chatbot can use Python behind the scenes to analyze the data.  We're going to play around with what it can currently do in terms of analyzing data and/or creating visualizations.
+    Newer versions of ChatGPT allow us to upload a data file, and the chatbot can use Python behind the scenes to analyze the data.  We're going to play around more with what it can currently do in terms of analyzing data and/or creating visualizations.
   </p>
 
   <!--subsection xml:id="subsec-code-gen">

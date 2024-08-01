@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-generative-ai-and-data-viz" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Generative AI and Data Visualization</title>
+
+
+<introduction>
+    <p>
+        Generative AI can be useful when it comes to both creating visualizations of data and describing data visualizations.  We are just going to briefly touch on some ways that ChatGPT can be used for these things.
+    </p>
+</introduction>
+
+
+<subsection xml:id="subsec-gen-ai-describe-data-viz">
+    <title>Using Generative AI to Describe a Data Visualization</title>
+    
+
+<exercise>
+    <p>
+        Choose (or create) a visualization of data that you want to describe.
+    </p>
+    <p>
+       Use either ChatGPT or Copilot to generate a description of the image.  Think about the following questions after generating the description:
+       <ul>
+        <li>
+            <p>
+                (Is the image you used misleading in any way?)
+            </p>
+        </li>
+        <li>
+            <p>
+                Is the description accurate?
+            </p>
+        </li>
+        <li>
+            <p>
+                Is there anything notable that the generated description does not mention/include?
+            </p>
+        </li>
+        <li>
+            <p>
+                Does the description make sense?
+            </p>
+        </li>
+       </ul>
+    </p>
+    <p>
+        If you aren't sure what image to use, here are some that you can try:
+        <ul>
+            <li>
+                <p>
+                    <url href="external/sheets/chart11a.png" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <url href="external/sheets/chart11b.png" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <url href="external/sheets/pie2.png" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <url href="external/sheets/chart1.png" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <url href="external/sheets/chart9b.png" />
+                </p>
+            </li>
+        </ul>
+    </p>
+</exercise>
+ 
+
+
+</subsection>
+
+
+
+<subsection xml:id="subsec-gen-ai-generate-data-viz">
+    <title>Using Generative AI to Create Data Visualizations</title>
+
+<p>
+    The analysis we can do and the visualizations we can create often depend on what version of a particular chatbot we are using.  Some won't do much analysis with the free versions.  (ChatGPT currently has Python incorporated into it and can do some of the analysis/creating of visualizations using Python, but the free version is limited in what it will do in one day.)
+</p>
+
+<exercise>
+    <p>
+    The file below shows the number of Snapchat messages sent per day for a particular user.
+    </p>
+    <p>
+        <url href="external/sheets/Snapchat.xlsx" />
+
+    </p>
+    <p>
+        Think about what type of chart you would want to use to visualize the data and try to use either ChatGPT or Copilot to create a visualization of the data.
+    </p>
+</exercise>
+
+
+<exercise>
+    <p>
+        Choose a larger dataset that you would like to analyze.  Try to use either ChatGPT or Copilot to create a visualization of the data.
+    </p>
+    <p>
+        Here is a link to some datasets that you could use:
+        <url href="https://github.com/probjects/ewf-database" />
+    </p>
+</exercise>
+
+    
+</subsection>
+
+
+
+
+
+</section>
