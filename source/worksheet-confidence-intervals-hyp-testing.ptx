@@ -64,7 +64,9 @@
     <title>Confidence Intervals in Tableau</title>
 
     <exercise>
+        <p>
         Tableau can also construct confidence intervals!  Let's construct the confidence interval from <xref ref="ex-newbalance-conf-int"/> in Tableau.
+        </p>
     </exercise>
     
   </subsection>
@@ -239,4 +241,4 @@ Determine the null and alternative hypotheses and find the test statistic.
 </exercise>
 
 
-  </section>
+</section>

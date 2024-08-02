@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="worksheet-discrete-distributions" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="worksheet-discrete-distributions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Discrete Probability Distributions Worksheet</title>
 
 
@@ -419,4 +419,4 @@ As the number of trials in a binomial experiment increases, calculating the prob
   </subsection>
   
 
-  </worksheet>
+</section>
