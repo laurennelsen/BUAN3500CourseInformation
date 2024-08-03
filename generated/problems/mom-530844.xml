@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="530844">
+<statement>
+<p>Determine if the following scenario is a binomial experiment. If it is not binomial, then select all of the reasons why.</p>
+<p><em>Brand A has a history of recalling 27<percent/> of their products. An employee at Walmart is going through a list of 54 recalls, and records the number of products being recalled by Brand A.</em></p>
+<p><ol style="list-style-type:upper-alpha"><li>The variable is not discrete.</li> 
+<li>There is not a fixed number of trials.</li> 
+<li>There are more than two outcomes.</li> 
+<li>The trials are not independent.</li> 
+<li>The probability of success is not the same for each trial.</li> 
+<li>All of the conditions for being a binomial experiement are met, i.e., this is a binomial experiment.</li> 
+</ol></p>
+
+
+</statement>
+<solution>
+<p><ul><li><p>All of the conditions for being a binomial experiement are met, i.e., this is a binomial experiment.</p></li></ul></p>
+</solution>
+</myopenmath>
+
