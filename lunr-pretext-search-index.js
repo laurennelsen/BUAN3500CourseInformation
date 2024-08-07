@@ -691,7 +691,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Discrete Probability Distributions Worksheet",
-  "body": " Discrete Probability Distributions Worksheet   Discrete Uniform Probability Mass Function     Discrete Uniform Probability Mass Function:        The Binomial Distribution    A binomial experiment is a probability experiment possessing the following characteristics:   It has a fixed number of trials, .    Each trial has only two possible outcomes: success or failure.    The probability of success, , and the probability of failure, , are constant.    Each trial is independent of the other trials.       The outcomes of a binomial experiment and the corresponding probabilities of these outcomes are called a binomial distribution .  The probability of exactly successes in trials with probability of success, , is where .  Good news! The mean and standard deviation of a binomial distribution are simple computations:   As the number of trials in a binomial experiment increases, calculating the probabilities required using the complex formula becomes tedious. Therefore, we will compute probabilities using Excel formulas.  In Excel:            The Poisson Distribution    We might want to understand how busy traffic is near campus. Let's say that we stand at the intersection of Clyde Way and Austin Bluffs Parkway and count how many cars drive by on Austin Bluffs from noon-1pm on a particular day. Is this a binomial experiment?      A Poisson process is a probability experiment possessing the following characteristics:     It counts the number of occurrences of an event over a period of time, area, distance, or some other measurement.    The mean is the same for each equal interval of measurement.    The number of occurences in distinct intervals is indpendent.    The intervals defined in the Poisson process cannot overlap.        (From )  A bank expects to receive six bad checks per day, on average. What is the probability of the bank getting fewer than five bad checks on any given day? Of interest is the number of checks the bank receives in one day, so the time interval of interest is one day. Let the number of bad checks the bank receives in one day. If the bank expects to receive six bad checks per day then the average is six checks per day. Which of the following is a mathematical statement for the probability question.                                              The outcome for the random variable for a Poisson distribution is the actual number of occurrences of an event over a period of time, area, distance, or any other type of measurement.  The probability of exactly occurrences over a given interval is:   The mean and standard deviation of a Poisson distribution are even simpler than what we saw for a binomial distribution:   Once again, we will usually use Excel or tables to compute probabilities associated with Poisson distributions.  (Here is a link to a table that you can use as well: . Make sure to pay attention to if any table you're using is giving you a cumulative probability or not.)  In Excel, we'll use the formula: where cumulative=TRUE ( or fewer occurrences) or FALSE (exactly occurrences).   (Donnelly 5.23)  Consider a Poisson probability distribution with . Calculate the probability of exactly 5 occurrences. (Round your answer to 4 decimal places.)          Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?       (Donnelly 5.23)  Consider a Poisson probability distribution with . Calculate the probability of more than 6 occurrences. (Round your answer to 4 decimal places.)          Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?       (Donnelly 5.23)  Consider a Poisson probability distribution with . Calculate the probability of 3 or fewer occurrences. (Round your answer to 4 decimal places.)          Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?       (Donnelly 5.29)  A customer support center for a computer manufacturer receives an average of 2.9 phone calls every five minutes. Assume the number of calls received follows the Poisson distribution. Use Excel to answer the following questions.   What is the probability that no calls will arrive during the next five minutes?       What is the probability that 3 or more calls will arrive during the next five minutes?       What is the probability that 3 calls will arrive during the next ten minutes?          What is the probability that no more than 2 calls will arrive during the next ten minutes?           "
+  "body": " Discrete Probability Distributions Worksheet   Discrete Uniform Probability Mass Function     Discrete Uniform Probability Mass Function:        The Binomial Distribution    A binomial experiment is a probability experiment possessing the following characteristics:   It has a fixed number of trials, .    Each trial has only two possible outcomes: success or failure.    The probability of success, , and the probability of failure, , are constant.    Each trial is independent of the other trials.       The outcomes of a binomial experiment and the corresponding probabilities of these outcomes are called a binomial distribution .  The probability of exactly successes in trials with probability of success, , is where .  Good news! The mean and standard deviation of a binomial distribution are simple computations:   As the number of trials in a binomial experiment increases, calculating the probabilities required using the complex formula becomes tedious. Therefore, we will compute probabilities using Excel formulas.  In Excel:           The Poisson Distribution    We might want to understand how busy traffic is near campus. Let's say that we stand at the intersection of Clyde Way and Austin Bluffs Parkway and count how many cars drive by on Austin Bluffs from noon-1pm on a particular day. Is this a binomial experiment?      A Poisson process is a probability experiment possessing the following characteristics:     It counts the number of occurrences of an event over a period of time, area, distance, or some other measurement.    The mean is the same for each equal interval of measurement.    The number of occurences in distinct intervals is indpendent.    The intervals defined in the Poisson process cannot overlap.        (From )  A bank expects to receive six bad checks per day, on average. What is the probability of the bank getting fewer than five bad checks on any given day? Of interest is the number of checks the bank receives in one day, so the time interval of interest is one day. Let the number of bad checks the bank receives in one day. If the bank expects to receive six bad checks per day then the average is six checks per day. Which of the following is a mathematical statement for the probability question.                                              The outcome for the random variable for a Poisson distribution is the actual number of occurrences of an event over a period of time, area, distance, or any other type of measurement.  The probability of exactly occurrences over a given interval is:   The mean and standard deviation of a Poisson distribution are even simpler than what we saw for a binomial distribution:   Once again, we will usually use Excel or tables to compute probabilities associated with Poisson distributions.  (Here is a link to a table that you can use as well: . Make sure to pay attention to if any table you're using is giving you a cumulative probability or not.)  In Excel, we'll use the formula: where cumulative=TRUE ( or fewer occurrences) or FALSE (exactly occurrences).   (Donnelly 5.23)  Consider a Poisson probability distribution with . Calculate the probability of exactly 5 occurrences. (Round your answer to 4 decimal places.)          Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?       (Donnelly 5.23)  Consider a Poisson probability distribution with . Calculate the probability of more than 6 occurrences. (Round your answer to 4 decimal places.)          Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?       (Donnelly 5.23)  Consider a Poisson probability distribution with . Calculate the probability of 3 or fewer occurrences. (Round your answer to 4 decimal places.)          Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?       (Donnelly 5.29)  A customer support center for a computer manufacturer receives an average of 2.9 phone calls every five minutes. Assume the number of calls received follows the Poisson distribution. Use Excel to answer the following questions.   What is the probability that no calls will arrive during the next five minutes?       What is the probability that 3 or more calls will arrive during the next five minutes?       What is the probability that 3 calls will arrive during the next ten minutes?          What is the probability that no more than 2 calls will arrive during the next ten minutes?              "
 },
 {
   "id": "def-disc-uniform",
@@ -721,20 +721,11 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "subsec-binom-dist-11",
-  "level": "2",
-  "url": "worksheet-discrete-distributions.html#subsec-binom-dist-11",
-  "type": "Example",
-  "number": "5.16",
-  "title": "",
-  "body": ""
-},
-{
   "id": "subsec-poisson-dist-2-1",
   "level": "2",
   "url": "worksheet-discrete-distributions.html#subsec-poisson-dist-2-1",
   "type": "Question",
-  "number": "5.17",
+  "number": "5.16",
   "title": "",
   "body": " We might want to understand how busy traffic is near campus. Let's say that we stand at the intersection of Clyde Way and Austin Bluffs Parkway and count how many cars drive by on Austin Bluffs from noon-1pm on a particular day. Is this a binomial experiment?  "
 },
@@ -743,7 +734,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-discrete-distributions.html#def-Poisson",
   "type": "Definition",
-  "number": "5.18",
+  "number": "5.17",
   "title": "",
   "body": "  A Poisson process is a probability experiment possessing the following characteristics:     It counts the number of occurrences of an event over a period of time, area, distance, or some other measurement.    The mean is the same for each equal interval of measurement.    The number of occurences in distinct intervals is indpendent.    The intervals defined in the Poisson process cannot overlap.      "
 },
@@ -752,7 +743,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-discrete-distributions.html#subsec-poisson-dist-4",
   "type": "Example",
-  "number": "5.19",
+  "number": "5.18",
   "title": "",
   "body": " (From )  A bank expects to receive six bad checks per day, on average. What is the probability of the bank getting fewer than five bad checks on any given day? Of interest is the number of checks the bank receives in one day, so the time interval of interest is one day. Let the number of bad checks the bank receives in one day. If the bank expects to receive six bad checks per day then the average is six checks per day. Which of the following is a mathematical statement for the probability question.                                             "
 },
@@ -761,7 +752,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-discrete-distributions.html#subsec-poisson-dist-11",
   "type": "Example",
-  "number": "5.20",
+  "number": "5.19",
   "title": "",
   "body": " (Donnelly 5.23)  Consider a Poisson probability distribution with . Calculate the probability of exactly 5 occurrences. (Round your answer to 4 decimal places.)          Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?     "
 },
@@ -770,7 +761,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-discrete-distributions.html#subsec-poisson-dist-12",
   "type": "Example",
-  "number": "5.21",
+  "number": "5.20",
   "title": "",
   "body": " (Donnelly 5.23)  Consider a Poisson probability distribution with . Calculate the probability of more than 6 occurrences. (Round your answer to 4 decimal places.)          Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?     "
 },
@@ -779,7 +770,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-discrete-distributions.html#subsec-poisson-dist-13",
   "type": "Example",
-  "number": "5.22",
+  "number": "5.21",
   "title": "",
   "body": " (Donnelly 5.23)  Consider a Poisson probability distribution with . Calculate the probability of 3 or fewer occurrences. (Round your answer to 4 decimal places.)          Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?     "
 },
@@ -788,9 +779,18 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-discrete-distributions.html#subsec-poisson-dist-14",
   "type": "Example",
-  "number": "5.23",
+  "number": "5.22",
   "title": "",
   "body": " (Donnelly 5.29)  A customer support center for a computer manufacturer receives an average of 2.9 phone calls every five minutes. Assume the number of calls received follows the Poisson distribution. Use Excel to answer the following questions.   What is the probability that no calls will arrive during the next five minutes?       What is the probability that 3 or more calls will arrive during the next five minutes?       What is the probability that 3 calls will arrive during the next ten minutes?          What is the probability that no more than 2 calls will arrive during the next ten minutes?         "
+},
+{
+  "id": "worksheet-discrete-distributions-5-1",
+  "level": "2",
+  "url": "worksheet-discrete-distributions.html#worksheet-discrete-distributions-5-1",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": ""
 },
 {
   "id": "worksheet-continuous-distributions",
@@ -799,14 +799,14 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Continuous Probability Distributions Worksheet",
-  "body": " Continuous Probability Distributions Worksheet   Now we will study probability distributions that arise from continuous random variables, which are outcomes that take on any numerical value in an interval, including numbers with decimal points. Recall that probabilities for specific values of a discrete random variable were easy to calculate and the graph of the discrete probability distribution looks like a histogram with a countable number of bars. By contrast, only the probability of a range of values (not a specific value) can be calculated for a continuous random variable. Why?  Since there is an infinite number of possible values for a continuous random variable, the probability of one specific value is theoretically equal to zero!  Let's study four specific continuous probability distributions and identify the types of data where they are useful.    Common Continuous Probability Distributions     Normal Distribution:    Normal Distribution (Made in GeoGebra by the GeoGebra Materials Team)  Link to GeoGebra:          Exponential Distribution:    Exponential Distribution (Made in GeoGebra by DavidK)  Link to GeoGebra:          Uniform Distribution:    Uniform Distribution (Made in GeoGebra by David Ramsay)  Link to GeoGebra:          Triangular Probability Distribution:    Triangular Distribution (Made in Desmos)  Link to Desmos:          Continuous Probability Distribution Matching Problem  Match each probability distribution with the situation in which it is useful.    Normal Distribution   Useful when data tends to fall in the center and extreme values are rare     exponential distribution   Useful when low values for data occur often and high values are rare     uniform distribution   Useful when data of all values have an equal chance of occurring      The Normal Probability Distribution  The mathematical expression that describes the shape of the normal probability distribution is called the normal probability density function:   Despite the complexity of this function, there are only two parameters that completely determine the shape of the distribution: the mean, , and the standard deviation, . Let's take a closer look at how they impact the distribution. (Don't worry -- we won't be using this formula to compute probabilities. We have other tools!)    How does changing the standard deviation ( ) and the mean ( ) change the curve?  Graph of Normal Distribution powered by Desmos           controls the spread of the curve. Larger results in a flatter, more spread out curve     controls the location of the center. Larger shifts the hill of the curve to the right       The first two commands apply to situations where the goal is to compute a probability associated with a data value.   The NORM.DIST( , mean, standard deviation, cumulative) applies to problems involving a normal distribution with a specified mean and standard deviation.    The NORM.S.DIST( , cumulative) applies to problems involving the standard normal distribution ( and ).   (Cumulative = TRUE or FALSE)  What if we want to know the specific that satisfies a given probability? Then we can work backward using the tables ( Standard Normal Table ) and use the -score formula in reverse. If the exact probability cannot be found in the table, then we can use the closest values.  The Excel formulas that apply to this situation are similar to the ones we saw earlier, replacing .DIST with .INV:   NORM.INV(probability, mean, standard deviation) applies to normal distributions with a specified mean and standard deviation    NORM.S.INV(probability) is used for standard normal distributions         The Exponential Probability Distribution   The exponential probability distribution is a continuous distribution commonly used in business to measure the time between customer arrivals or the time between failures in a business process  The mathematical expression that describes the shape of the curve for the exponential probability distribution is called the exponential probability density function:   Recall the we saw in a previous chapter when the discrete Poisson distribution was introduced. It is not a coincidence that we are using in both of these distributions. A discrete random variable that follows a Poisson distribution with a mean equal to has a counterpart continuous random variable that follows the exponential distribution with a mean equal to .  It is easy to confuse the two -- try to remember that is a countable (discrete) rate while is a measurable (continuous) interval.  A small bit of good news: the standard deviation for an exponential distribution is equal to its mean. That is, .   The only parameter in the formula is . Let's look at how it impacts the shape of the distribution.  Exponential Distribution powered by Desmos     Computing Probabilities for the Exponential Distributions  The formula for calculating the probability that a random variable is less than a specified value is: where .  The Excel formula for calculating probabilities for the exponential distribution is where cumulative=TRUE (if you want cumulative probability) or FALSE (if you do not want cumulative probability).   An exponential probability distribution has lambda equal to customers per hour. Find the probability that the next customer will arrive within the next minute. (Round your answer to 4 decimal places.)       Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?  (Here )        The Uniform Distribution   The uniform distribution is a continuous distribution where the probability of any interval is equal to any other interval with the same width.  The mathematical expression that describes the shape of the curve for the uniform probability distribution is called the continuous uniform probability density function:   Uniform Distribution:  Uniform Distribution (Made in GeoGebra by David Ramsay)     Since this function is a constant, the shape of the uniform probability distribution is a rectangle. So computing probabilities associated with it simply involves finding areas of rectangles:    The mean and standard deviation for the uniform distribution are:               (Donnelly 6.34)  Assume the time required to pass through security at a particular airport follows the continuous uniform distribution with a minimum time of 8 minutes and a maximum time of 31 minutes.  Calculate the value of .     What are the mean and standard deviation for this distribution?                 What is the probability that the next passenger will require less than 25 minutes to pass through security?       What is the probability that the next passenger will require more than 23 minutes to pass through security?       What is the probability that the next passenger will require between 13 and 20 minutes to pass through security?       What time represents the 75th percentile of this distribution?    minutes     The Triangular Probability Distribution   The triangular probability distribution is useful when only subjective probability estimates are available. There are many situations for which we do not have sufficient data and only subjective estimates of possible values are available. In the triangular probability distribution, we need only to specify the minimum possible value , the maximum possible value , and the most likely value (or mode) of the distribution . If these values can be knowledgeably estimated for a continuous random variable by a subject-matter expert, then as an approximation of the actual probability density function, we can assume that the triangular distribution applies.    Consider a situation in which a project manager is attempting to estimate the time that will be required to complete an initial assessment of the capital project of constructing a new corporate headquarters. The assessment process includes completing environmental-impact studies, procuring the required permits, and lining up all the contractors and subcontractors needed to complete the project. There is considerable uncertainty regarding the duration of these tasks, and generally little or no historical data are available to help estimate the probability distribution for the time required for this assessment process.  Suppose that we are able to discuss this project with several subject-matter experts who have worked on similar projects. From these expert opinions and our own experience, we estimate that the minimum required time for the initial assessment phase is six months and that the worst-case estimate is that this phase could require 24 months if we are delayed in the permit process or if the results from the environmental-impact studies require additional action. While a time of six months represents a best case and 24 months a worst case, the consensus is that the most likely amount of time required for the initial assessment phase of the project is 12 months. From these estimates, we can use a triangular distribution as an approximation for the probability density function for the time required for the initial assessment phase of constructing a new corporate headquarters.                 "
+  "body": " Continuous Probability Distributions Worksheet   Now we will study probability distributions that arise from continuous random variables, which are outcomes that take on any numerical value in an interval, including numbers with decimal points. Recall that probabilities for specific values of a discrete random variable were easy to calculate and the graph of the discrete probability distribution looks like a histogram with a countable number of bars. By contrast, only the probability of a range of values (not a specific value) can be calculated for a continuous random variable. Why?  Since there is an infinite number of possible values for a continuous random variable, the probability of one specific value is theoretically equal to zero!  Let's study four specific continuous probability distributions and identify the types of data where they are useful.    Common Continuous Probability Distributions     Normal Distribution:    Normal Distribution (Made in GeoGebra by the GeoGebra Materials Team)  Link to GeoGebra:          Exponential Distribution:    Exponential Distribution (Made in GeoGebra by DavidK)  Link to GeoGebra:          Uniform Distribution:    Uniform Distribution (Made in GeoGebra by David Ramsay)  Link to GeoGebra:          Triangular Probability Distribution:    Triangular Distribution (Made in Desmos)  Link to Desmos:          Continuous Probability Distribution Matching Problem  Match each probability distribution with the situation in which it is useful.    Normal Distribution   Useful when data tends to fall in the center and extreme values are rare     exponential distribution   Useful when low values for data occur often and high values are rare     uniform distribution   Useful when data of all values have an equal chance of occurring      The Normal Probability Distribution  The mathematical expression that describes the shape of the normal probability distribution is called the normal probability density function:   Despite the complexity of this function, there are only two parameters that completely determine the shape of the distribution: the mean, , and the standard deviation, . Let's take a closer look at how they impact the distribution. (Don't worry -- we won't be using this formula to compute probabilities. We have other tools!)    How does changing the standard deviation ( ) and the mean ( ) change the curve?  Graph of Normal Distribution powered by Desmos           controls the spread of the curve. Larger results in a flatter, more spread out curve     controls the location of the center. Larger shifts the hill of the curve to the right       The first two commands apply to situations where the goal is to compute a probability associated with a data value.   The NORM.DIST( , mean, standard deviation, cumulative) applies to problems involving a normal distribution with a specified mean and standard deviation.    The NORM.S.DIST( , cumulative) applies to problems involving the standard normal distribution ( and ).   (Cumulative = TRUE or FALSE)  What if we want to know the specific that satisfies a given probability? Then we can work backward using the tables ( Standard Normal Table ) and use the -score formula in reverse. If the exact probability cannot be found in the table, then we can use the closest values.  The Excel formulas that apply to this situation are similar to the ones we saw earlier, replacing .DIST with .INV:   NORM.INV(probability, mean, standard deviation) applies to normal distributions with a specified mean and standard deviation    NORM.S.INV(probability) is used for standard normal distributions        The Exponential Probability Distribution   The exponential probability distribution is a continuous distribution commonly used in business to measure the time between customer arrivals or the time between failures in a business process  The mathematical expression that describes the shape of the curve for the exponential probability distribution is called the exponential probability density function:   Recall the we saw in a previous chapter when the discrete Poisson distribution was introduced. It is not a coincidence that we are using in both of these distributions. A discrete random variable that follows a Poisson distribution with a mean equal to has a counterpart continuous random variable that follows the exponential distribution with a mean equal to .  It is easy to confuse the two -- try to remember that is a countable (discrete) rate while is a measurable (continuous) interval.  A small bit of good news: the standard deviation for an exponential distribution is equal to its mean. That is, .   The only parameter in the formula is . Let's look at how it impacts the shape of the distribution.  Exponential Distribution powered by Desmos     Computing Probabilities for the Exponential Distributions  The formula for calculating the probability that a random variable is less than a specified value is: where .  The Excel formula for calculating probabilities for the exponential distribution is where cumulative=TRUE (if you want cumulative probability) or FALSE (if you do not want cumulative probability).   An exponential probability distribution has lambda equal to customers per hour. Find the probability that the next customer will arrive within the next minute. (Round your answer to 4 decimal places.)       Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?  (Here )        The Uniform Distribution   The uniform distribution is a continuous distribution where the probability of any interval is equal to any other interval with the same width.  The mathematical expression that describes the shape of the curve for the uniform probability distribution is called the continuous uniform probability density function:   Uniform Distribution:  Uniform Distribution (Made in GeoGebra by David Ramsay)     Since this function is a constant, the shape of the uniform probability distribution is a rectangle. So computing probabilities associated with it simply involves finding areas of rectangles:    The mean and standard deviation for the uniform distribution are:               (Donnelly 6.34)  Assume the time required to pass through security at a particular airport follows the continuous uniform distribution with a minimum time of 8 minutes and a maximum time of 31 minutes.  Calculate the value of .     What are the mean and standard deviation for this distribution?                 What is the probability that the next passenger will require less than 25 minutes to pass through security?       What is the probability that the next passenger will require more than 23 minutes to pass through security?       What is the probability that the next passenger will require between 13 and 20 minutes to pass through security?       What time represents the 75th percentile of this distribution?    minutes     The Triangular Probability Distribution   The triangular probability distribution is useful when only subjective probability estimates are available. There are many situations for which we do not have sufficient data and only subjective estimates of possible values are available. In the triangular probability distribution, we need only to specify the minimum possible value , the maximum possible value , and the most likely value (or mode) of the distribution . If these values can be knowledgeably estimated for a continuous random variable by a subject-matter expert, then as an approximation of the actual probability density function, we can assume that the triangular distribution applies.    Consider a situation in which a project manager is attempting to estimate the time that will be required to complete an initial assessment of the capital project of constructing a new corporate headquarters. The assessment process includes completing environmental-impact studies, procuring the required permits, and lining up all the contractors and subcontractors needed to complete the project. There is considerable uncertainty regarding the duration of these tasks, and generally little or no historical data are available to help estimate the probability distribution for the time required for this assessment process.  Suppose that we are able to discuss this project with several subject-matter experts who have worked on similar projects. From these expert opinions and our own experience, we estimate that the minimum required time for the initial assessment phase is six months and that the worst-case estimate is that this phase could require 24 months if we are delayed in the permit process or if the results from the environmental-impact studies require additional action. While a time of six months represents a best case and 24 months a worst case, the consensus is that the most likely amount of time required for the initial assessment phase of the project is 12 months. From these estimates, we can use a triangular distribution as an approximation for the probability density function for the time required for the initial assessment phase of constructing a new corporate headquarters.                    "
 },
 {
   "id": "figure-geogebra-normaldist",
   "level": "2",
   "url": "worksheet-continuous-distributions.html#figure-geogebra-normaldist",
   "type": "Figure",
-  "number": "5.24",
+  "number": "5.23",
   "title": "",
   "body": "  Normal Distribution (Made in GeoGebra by the GeoGebra Materials Team)  Link to GeoGebra:     "
 },
@@ -815,7 +815,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#figure-geogebra-expondist",
   "type": "Figure",
-  "number": "5.25",
+  "number": "5.24",
   "title": "",
   "body": "  Exponential Distribution (Made in GeoGebra by DavidK)  Link to GeoGebra:     "
 },
@@ -824,7 +824,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#figure-geogebra-unifdist",
   "type": "Figure",
-  "number": "5.26",
+  "number": "5.25",
   "title": "",
   "body": "  Uniform Distribution (Made in GeoGebra by David Ramsay)  Link to GeoGebra:     "
 },
@@ -833,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#figure-desmos-triangular-dist",
   "type": "Figure",
-  "number": "5.27",
+  "number": "5.26",
   "title": "",
   "body": "  Triangular Distribution (Made in Desmos)  Link to Desmos:     "
 },
@@ -842,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#matching",
   "type": "Example",
-  "number": "5.28",
+  "number": "5.27",
   "title": "Continuous Probability Distribution Matching Problem.",
   "body": "Continuous Probability Distribution Matching Problem  Match each probability distribution with the situation in which it is useful.    Normal Distribution   Useful when data tends to fall in the center and extreme values are rare     exponential distribution   Useful when low values for data occur often and high values are rare     uniform distribution   Useful when data of all values have an equal chance of occurring    "
 },
@@ -851,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#subsec-normal-dist-4",
   "type": "Question",
-  "number": "5.29",
+  "number": "5.28",
   "title": "",
   "body": "  How does changing the standard deviation ( ) and the mean ( ) change the curve?  Graph of Normal Distribution powered by Desmos           controls the spread of the curve. Larger results in a flatter, more spread out curve     controls the location of the center. Larger shifts the hill of the curve to the right      "
 },
@@ -860,16 +860,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#subsec-normal-dist-8",
   "type": "Example",
-  "number": "5.31",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "subsec-normal-dist-9",
-  "level": "2",
-  "url": "worksheet-continuous-distributions.html#subsec-normal-dist-9",
-  "type": "Example",
-  "number": "5.32",
+  "number": "5.30",
   "title": "",
   "body": ""
 },
@@ -878,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#subsec-expon-dist-2",
   "type": "Definition",
-  "number": "5.33",
+  "number": "5.31",
   "title": "",
   "body": " The exponential probability distribution is a continuous distribution commonly used in business to measure the time between customer arrivals or the time between failures in a business process  The mathematical expression that describes the shape of the curve for the exponential probability distribution is called the exponential probability density function:   Recall the we saw in a previous chapter when the discrete Poisson distribution was introduced. It is not a coincidence that we are using in both of these distributions. A discrete random variable that follows a Poisson distribution with a mean equal to has a counterpart continuous random variable that follows the exponential distribution with a mean equal to .  It is easy to confuse the two -- try to remember that is a countable (discrete) rate while is a measurable (continuous) interval.  A small bit of good news: the standard deviation for an exponential distribution is equal to its mean. That is, .  "
 },
@@ -887,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#subsec-expon-dist-3-2",
   "type": "Figure",
-  "number": "5.34",
+  "number": "5.32",
   "title": "",
   "body": " Exponential Distribution powered by Desmos   "
 },
@@ -896,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#subsec-expon-dist-7",
   "type": "Example",
-  "number": "5.35",
+  "number": "5.33",
   "title": "",
   "body": " An exponential probability distribution has lambda equal to customers per hour. Find the probability that the next customer will arrive within the next minute. (Round your answer to 4 decimal places.)       Any value in the interval is marked as correct for this problem.      Incorrect. Did you round to four decimal places?  (Here )     "
 },
@@ -905,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#subsec-uniform-dist-2",
   "type": "Definition",
-  "number": "5.36",
+  "number": "5.34",
   "title": "",
   "body": " The uniform distribution is a continuous distribution where the probability of any interval is equal to any other interval with the same width.  The mathematical expression that describes the shape of the curve for the uniform probability distribution is called the continuous uniform probability density function:   Uniform Distribution:  Uniform Distribution (Made in GeoGebra by David Ramsay)     Since this function is a constant, the shape of the uniform probability distribution is a rectangle. So computing probabilities associated with it simply involves finding areas of rectangles:   "
 },
@@ -914,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#subsec-uniform-dist-4",
   "type": "Example",
-  "number": "5.38",
+  "number": "5.36",
   "title": "",
   "body": " (Donnelly 6.34)  Assume the time required to pass through security at a particular airport follows the continuous uniform distribution with a minimum time of 8 minutes and a maximum time of 31 minutes.  Calculate the value of .     What are the mean and standard deviation for this distribution?                 What is the probability that the next passenger will require less than 25 minutes to pass through security?       What is the probability that the next passenger will require more than 23 minutes to pass through security?       What is the probability that the next passenger will require between 13 and 20 minutes to pass through security?       What time represents the 75th percentile of this distribution?    minutes  "
 },
@@ -923,9 +914,18 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-continuous-distributions.html#subsec-triangular-dist-3",
   "type": "Example",
-  "number": "5.39",
+  "number": "5.37",
   "title": "",
   "body": " Consider a situation in which a project manager is attempting to estimate the time that will be required to complete an initial assessment of the capital project of constructing a new corporate headquarters. The assessment process includes completing environmental-impact studies, procuring the required permits, and lining up all the contractors and subcontractors needed to complete the project. There is considerable uncertainty regarding the duration of these tasks, and generally little or no historical data are available to help estimate the probability distribution for the time required for this assessment process.  Suppose that we are able to discuss this project with several subject-matter experts who have worked on similar projects. From these expert opinions and our own experience, we estimate that the minimum required time for the initial assessment phase is six months and that the worst-case estimate is that this phase could require 24 months if we are delayed in the permit process or if the results from the environmental-impact studies require additional action. While a time of six months represents a best case and 24 months a worst case, the consensus is that the most likely amount of time required for the initial assessment phase of the project is 12 months. From these estimates, we can use a triangular distribution as an approximation for the probability density function for the time required for the initial assessment phase of constructing a new corporate headquarters.               "
+},
+{
+  "id": "worksheet-continuous-distributions-9-1",
+  "level": "2",
+  "url": "worksheet-continuous-distributions.html#worksheet-continuous-distributions-9-1",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": ""
 },
 {
   "id": "sec-desc-data-mining-slides",
