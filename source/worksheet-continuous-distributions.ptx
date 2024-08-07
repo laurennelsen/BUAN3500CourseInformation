@@ -244,9 +244,7 @@ Despite the complexity of this function, there are only two parameters that comp
     <myopenmath problem="1102015" />
   </exercise>
 
-  <exercise>
-    <myopenmath problem="803116" />
-  </exercise>
+  
 
   
 
@@ -550,6 +548,15 @@ Suppose that we are able to discuss this project with several subject-matter exp
     
 </subsection>
 
+
+<exercises component="web-only-exercises">
+
+<exercise>
+    <myopenmath problem="803116" />
+  </exercise>
+
+
+</exercises>
 
 
 

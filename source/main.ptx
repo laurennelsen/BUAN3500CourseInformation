@@ -17,7 +17,7 @@
     <xi:include href="./ch-descriptive-statistics.ptx" />
     <xi:include href="./ch-data-visualization.ptx" />
     <xi:include href="./ch-dashboards.ptx" />
-    <xi:include href="./ch-probability.ptx" />
+ <xi:include href="./ch-probability.ptx" />
     <xi:include href="./ch-descriptive-data-mining.ptx" />
     <xi:include href="./ch-statistical-inference.ptx" />
     <xi:include href="./ch-generative-ai.ptx" />
