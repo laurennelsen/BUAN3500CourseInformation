@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1064915">
 <statement>
-<p>It is estimated that 45.6<percent/> of Kickstarter projects are successfully funded. Assume each Kickstarter project is independent. A random sample of 19 Kickstarter projects are followed. Let <m>\displaystyle{X}</m> be the number Kickstarter projects that are successfully funded. Calculate the following:</p>
+<p>It is estimated that 52.2<percent/> of Kickstarter projects are successfully funded. Assume each Kickstarter project is independent. A random sample of 17 Kickstarter projects are followed. Let <m>\displaystyle{X}</m> be the number Kickstarter projects that are successfully funded. Calculate the following:</p>
 <p>a. <m>\displaystyle\mu_{{X}}</m>: <fillin characters="4" /></p>
 <p>b. <m>\displaystyle\sigma_{{X}}</m>: <fillin characters="4" /></p>
 <p>c. <m>\displaystyle{P}{\left({X}={9}\right)}</m>: <fillin characters="4" /></p>
@@ -12,7 +12,7 @@
 
 </statement>
 <solution>
-<p><ul><li>8.664</li><li>2.170994242277</li><li>0.17874797745141</li><li>0.8013501632</li><li>0.7017023896</li><li>0.8404635161</li><li>0.6418136793</li></ul></p>
+<p><ul><li>8.874</li><li>2.0595562628877</li><li>0.19065256772348</li><li>0.784145601</li><li>0.7476509468</li><li>0.8755441386</li><li>0.6596897396</li></ul></p>
 </solution>
 </myopenmath>
 
