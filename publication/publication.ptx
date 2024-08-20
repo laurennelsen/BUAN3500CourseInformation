@@ -77,6 +77,9 @@
   </latex>
 
   <html>
+    <analytics google-gst="G-G-PPQ70P783P"/>
+
+
     <platform host="web"/>
     <!-- The host above could also be "runestone" -->
 

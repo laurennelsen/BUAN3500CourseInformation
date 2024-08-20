@@ -13,7 +13,7 @@
 
     <!-- Include chapters -->
      <xi:include href="./ch-syllabus.ptx" />
-    <xi:include href="./ch-intro-bus-analytics.ptx" />
+    <!--<xi:include href="./ch-intro-bus-analytics.ptx" />
     <xi:include href="./ch-descriptive-statistics.ptx" />
     <xi:include href="./ch-data-visualization.ptx" />
     <xi:include href="./ch-dashboards.ptx" />
@@ -21,7 +21,7 @@
     <xi:include href="./ch-descriptive-data-mining.ptx" />
     <xi:include href="./ch-statistical-inference.ptx" />
     <xi:include href="./ch-generative-ai.ptx" />
-    <xi:include href="./ch-videos.ptx" />
+    <xi:include href="./ch-videos.ptx" />-->
 
 
     <!-- Include backmatter -->
