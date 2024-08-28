@@ -1108,6 +1108,33 @@ var ptx_lunr_docs = [
   "body": "We want to test the hypothesis that the proportion of households in the US in which someones owns a business or a farm is using the US Census sample data from October 2023::  (This data can be found at .) (Look at HUBUS like we did in .) Determine the null and alternative hypotheses and find the test statistic. Then find the p-value and decide what you can conclude based on this sample. "
 },
 {
+  "id": "worksheet-sample-size",
+  "level": "1",
+  "url": "worksheet-sample-size.html",
+  "type": "Section",
+  "number": "",
+  "title": "Sample Size",
+  "body": " Sample Size   Determining the Sample Size  How large a sample is necessary to make an accurate estimate? The answer is not simple, since it depends on three things:   The confidence level    The standard deviation    The margin of error     The more confident we want to be, the wider we want our interval, but there is a tradeoff. If an interval is too wide, it provides little information. On the other hand, a narrow interval requires a larger sample size and sampling can be a costly procedure. Hence, it is handy to be able to be able to calculate ahead of time the sample size required to achieve a specified margin of error. With a bit of algebra on the appropriate margin of error from the confidence interval formula, we can determine the sample size.      The formula when working with a mean is where is the desired margin of error.    Similarly, the formula when working with a proportion is where is the desired margin of error.      If necessary, round the answer up to obtain a whole number. If you round down, then you won't achieve the desired margin of error.   (Donnelly 8.44) Determine the sample size needed to construct a confidence interval to estimate the average GPA for the student population at a college with a margin of error equal to 0.5. Assume the standard deviation of the GPA for the student population is 2.5.  (Donnelly 8.47) A certain region would like to estimate the proportion of voters who intend to participate in upcoming elections. A pilot sample of 50 voters found that 39 of them intended to vote in the election. Determine the additional number of voters that need to be sampled to construct a interval with a margin of error equal to 0.08 to estimate the proportion.  "
+},
+{
+  "id": "worksheet-sample-size-5",
+  "level": "2",
+  "url": "worksheet-sample-size.html#worksheet-sample-size-5",
+  "type": "Example",
+  "number": "7.8",
+  "title": "",
+  "body": "(Donnelly 8.44) Determine the sample size needed to construct a confidence interval to estimate the average GPA for the student population at a college with a margin of error equal to 0.5. Assume the standard deviation of the GPA for the student population is 2.5. "
+},
+{
+  "id": "worksheet-sample-size-6",
+  "level": "2",
+  "url": "worksheet-sample-size.html#worksheet-sample-size-6",
+  "type": "Example",
+  "number": "7.9",
+  "title": "",
+  "body": "(Donnelly 8.47) A certain region would like to estimate the proportion of voters who intend to participate in upcoming elections. A pilot sample of 50 voters found that 39 of them intended to vote in the election. Determine the additional number of voters that need to be sampled to construct a interval with a margin of error equal to 0.08 to estimate the proportion. "
+},
+{
   "id": "sec-intro-gen-ai",
   "level": "1",
   "url": "sec-intro-gen-ai.html",

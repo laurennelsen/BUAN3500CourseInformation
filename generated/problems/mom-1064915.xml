@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1064915">
 <statement>
-<p>It is estimated that 45.1<percent/> of Kickstarter projects are successfully funded. Assume each Kickstarter project is independent. A random sample of 17 Kickstarter projects are followed. Let <m>\displaystyle{X}</m> be the number Kickstarter projects that are successfully funded. Calculate the following:</p>
+<p>It is estimated that 41.5<percent/> of Kickstarter projects are successfully funded. Assume each Kickstarter project is independent. A random sample of 18 Kickstarter projects are followed. Let <m>\displaystyle{X}</m> be the number Kickstarter projects that are successfully funded. Calculate the following:</p>
 <p>a. <m>\displaystyle\mu_{{X}}</m>: <fillin characters="4" /></p>
 <p>b. <m>\displaystyle\sigma_{{X}}</m>: <fillin characters="4" /></p>
-<p>c. <m>\displaystyle{P}{\left({X}={8}\right)}</m>: <fillin characters="4" /></p>
-<p>d. <m>\displaystyle{P}{\left({X}{<}{10}\right)}</m>: <fillin characters="4" /></p>
+<p>c. <m>\displaystyle{P}{\left({X}={7}\right)}</m>: <fillin characters="4" /></p>
+<p>d. <m>\displaystyle{P}{\left({X}{<}{11}\right)}</m>: <fillin characters="4" /></p>
 <p>e. <m>\displaystyle{P}{\left({X}{>}{6}\right)}</m>: <fillin characters="4" /></p>
 <p>f.  <m>\displaystyle{P}{\left({X}\geq{6}\right)}</m>: <fillin characters="4" /></p>
 <p>g. <m>\displaystyle{P}{\left({6}\leq{X}\leq{9}\right)}</m>: <fillin characters="20" /></p>
 
 </statement>
 <solution>
-<p><ul><li>7.667</li><li>2.0516293524904</li><li>0.18851607715597</li><li>0.8143436336</li><li>0.7126209269</li><li>0.8548326312</li><li>0.6691762648</li></ul></p>
+<p><ul><li>7.47</li><li>2.0904425368806</li><li>0.18527037035525</li><li>0.925344166</li><li>0.6740364773</li><li>0.8263822939</li><li>0.6607800923</li></ul></p>
 </solution>
 </myopenmath>
 
