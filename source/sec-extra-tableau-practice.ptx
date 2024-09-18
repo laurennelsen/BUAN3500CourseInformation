@@ -6,8 +6,6 @@
 
   <exercise>
     <title>US Home Sales</title>
-    
-    <url href="external/sheets/NewHouseSalesUS.xlsx" />
 
     <p>
         The file <q>NewHouseSalesUS.xls</q> contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.  
