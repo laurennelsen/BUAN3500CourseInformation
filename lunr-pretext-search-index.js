@@ -487,6 +487,60 @@ var ptx_lunr_docs = [
   "body": "Tableau Visualizations We're going to see how to create several visualizations in Tableau using the files listed below:    NewHouseSalesUS         electronics         KirklandRegional         AccountsManaged         billionaires         NYCityData         global100         WorldGDP2014         AuditTime         HomeSalesStacked        "
 },
 {
+  "id": "sec-extra-tableau-practice",
+  "level": "1",
+  "url": "sec-extra-tableau-practice.html",
+  "type": "Section",
+  "number": "",
+  "title": "Other Tableau Practice",
+  "body": " Other Tableau Practice  US Home Sales The file NewHouseSalesUS.xls contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.   (This file can also be found at .) We're going to create some visualizations in Tableau communicating aspects of this data and see how to animate charts in Tableau.  Austin Animal Shelter Intake Data Download the following dataset:  (This file is from ) We're going to practice making some visualizations with this dataset.  Colorado Childcare Data Download the file below that has data on licensed childcare facilities in Colorado:  We're going to use this file to create a geographic heat map in Tableau.  Maddison Project Database  The Maddison Project Database provides information on comparative economic growth and income levels over the very long run.  Use the link below to download the Maddison Project Database as an Excel file for the period up to 2022:   Think about what visualizations would make sense to create with this data and use Tableau to create visualizations for a few different aspects of the data.  Domestic Box Office Download the file below showing box office totals for new movie releases starting in 2022 through mid-September 2024.   Create at least one visualization showing some aspect of this data.  "
+},
+{
+  "id": "sec-extra-tableau-practice-2",
+  "level": "2",
+  "url": "sec-extra-tableau-practice.html#sec-extra-tableau-practice-2",
+  "type": "Example",
+  "number": "3.11",
+  "title": "US Home Sales.",
+  "body": "US Home Sales The file NewHouseSalesUS.xls contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.   (This file can also be found at .) We're going to create some visualizations in Tableau communicating aspects of this data and see how to animate charts in Tableau. "
+},
+{
+  "id": "sec-extra-tableau-practice-3",
+  "level": "2",
+  "url": "sec-extra-tableau-practice.html#sec-extra-tableau-practice-3",
+  "type": "Example",
+  "number": "3.12",
+  "title": "Austin Animal Shelter Intake Data.",
+  "body": "Austin Animal Shelter Intake Data Download the following dataset:  (This file is from ) We're going to practice making some visualizations with this dataset. "
+},
+{
+  "id": "sec-extra-tableau-practice-4",
+  "level": "2",
+  "url": "sec-extra-tableau-practice.html#sec-extra-tableau-practice-4",
+  "type": "Example",
+  "number": "3.13",
+  "title": "Colorado Childcare Data.",
+  "body": "Colorado Childcare Data Download the file below that has data on licensed childcare facilities in Colorado:  We're going to use this file to create a geographic heat map in Tableau. "
+},
+{
+  "id": "sec-extra-tableau-practice-5",
+  "level": "2",
+  "url": "sec-extra-tableau-practice.html#sec-extra-tableau-practice-5",
+  "type": "Example",
+  "number": "3.14",
+  "title": "Maddison Project Database.",
+  "body": "Maddison Project Database  The Maddison Project Database provides information on comparative economic growth and income levels over the very long run.  Use the link below to download the Maddison Project Database as an Excel file for the period up to 2022:   Think about what visualizations would make sense to create with this data and use Tableau to create visualizations for a few different aspects of the data. "
+},
+{
+  "id": "sec-extra-tableau-practice-6",
+  "level": "2",
+  "url": "sec-extra-tableau-practice.html#sec-extra-tableau-practice-6",
+  "type": "Example",
+  "number": "3.15",
+  "title": "Domestic Box Office.",
+  "body": "Domestic Box Office Download the file below showing box office totals for new movie releases starting in 2022 through mid-September 2024.   Create at least one visualization showing some aspect of this data. "
+},
+{
   "id": "sec-generative-ai-and-data-viz",
   "level": "1",
   "url": "sec-generative-ai-and-data-viz.html",
@@ -500,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-generative-ai-and-data-viz.html#subsec-gen-ai-describe-data-viz-2",
   "type": "Example",
-  "number": "3.11",
+  "number": "3.16",
   "title": "",
   "body": "Choose (or create) a visualization of data that you want to describe. Use either ChatGPT or Copilot to generate a description of the image. Think about the following questions after generating the description:   (Is the image you used misleading in any way?)    Is the description accurate?    Is there anything notable that the generated description does not mention\/include?    Does the description make sense?    If you aren't sure what image to use, here are some that you can try:                            "
 },
@@ -509,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-generative-ai-and-data-viz.html#subsec-gen-ai-generate-data-viz-3",
   "type": "Example",
-  "number": "3.12",
+  "number": "3.17",
   "title": "",
   "body": "The file below shows the number of Snapchat messages sent per day for a particular user.   Think about what type of chart you would want to use to visualize the data and try to use either ChatGPT or Copilot to create a visualization of the data. "
 },
@@ -518,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-generative-ai-and-data-viz.html#subsec-gen-ai-generate-data-viz-4",
   "type": "Example",
-  "number": "3.13",
+  "number": "3.18",
   "title": "",
   "body": "Choose a larger dataset that you would like to analyze. Try to use either ChatGPT or Copilot to create a visualization of the data. Here is a link to some datasets that you could use:  "
 },
