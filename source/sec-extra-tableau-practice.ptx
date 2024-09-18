@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-extra-tableau-practice" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Other Tableau Practice</title>
+
+
+  <exercise>
+    <title>US Home Sales</title>
+    
+    <url href="external/sheets/NewHouseSalesUS.xlsx" />
+
+    <p>
+        The file <q>NewHouseSalesUS.xls</q> contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.  
+        </p>
+        <p>
+            <url href="external/sheets/NewHouseSalesUS.xls" />
+    
+        </p>
+        <p>
+        (This file can also be found at <url href="https://www.census.gov/construction/nrs/data/series.html" />.)
+        </p>
+
+        <p>
+            We're going to create some visualizations in Tableau communicating aspects of this data and see how to animate charts in Tableau.
+        </p>
+    
+  </exercise>
+
+
+
+  <exercise>
+    <title>Austin Animal Shelter Intake Data</title>
+    
+    <p>
+        Download the following dataset:  <url href="https://bit.ly/3WuohjT" />
+        </p> 
+        <p>
+            (This file is from <url href="https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Intakes/wter-evkm" />)
+        </p>
+
+        <p>
+            We're going to practice making some visualizations with this dataset.
+        </p>
+    
+  </exercise>
+
+
+
+  <exercise>
+    <title>Colorado Childcare Data</title>
+
+    <p>
+    Download the file below that has data on licensed childcare facilities in Colorado:
+    <url href="external/sheets/Colorado_Licensed_Child_Care_Facilities_Report.csv" />
+    </p>
+
+    <p>
+        We're going to use this file to create a geographic heat map in Tableau.
+    </p>
+
+    
+    
+  </exercise>
+
+
+  <exercise>
+    <title>Maddison Project Database</title>
+    
+    <p>
+    <q>The Maddison Project Database provides information on comparative economic growth and income levels over the very long run.</q>
+    </p>
+
+    <p>
+        Use the link below to download the Maddison Project Database as an Excel file for the period up to 2022:
+    </p>
+    <p>
+        <url href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023" />
+    </p>
+
+    <p>
+        Think about what visualizations would make sense to create with this data and use Tableau to create visualizations for a few different aspects of the data.
+    </p>
+
+  </exercise>
+
+
+  <exercise>
+    <title>Domestic Box Office</title>
+    
+    <p>
+        Download the file below showing box office totals for new movie releases starting in 2022 through mid-September 2024.
+    </p>
+    <p>
+        <url href="external/sheets/DomesticBoxOffice.xlsx" />
+
+    </p>
+
+    <p>
+        Create at least one visualization showing some aspect of this data.
+    </p>
+    
+  </exercise>
+
+
+
+  </section>
