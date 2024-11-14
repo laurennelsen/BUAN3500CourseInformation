@@ -1006,7 +1006,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Exercises",
-  "body": " Exercises  Euclidean Distance Let's look at a problem from the Chapter 6 MyLab assignment where we can calculate Euclidean distance.  k-Means Clustering in Tableau Use Tableau to do k-means clustering in the following examples:   Salary Data:     Online Retail Data:      k-Means Clustering Let's look at a problem involving k-means clustering from the Chapter 6 MyLab assignment.  Hierarchical Clustering Let's look at a problem involving hierarchical clustering from the Chapter 6 MyLab assignment.  Association Rules for Hy-Vee Let's apply the ideas we learned about association rules to the Hy-Vee data files:      Apriori Algorithm in Python If we have time, we can see how to implement the \\textbf{Apriori algorithm} to automate the process for analyzing transaction data in Python:    Sentiment Analysis Example: Classifying Product Reviews (Remember that this is an example of predictive analytics instead of descriptive analytics , which we focus on in this class.)    Visualizing Text Data Let's see how to create a word cloud in Tableau and see when it might be helpful.    "
+  "body": " Exercises  Euclidean Distance Let's look at a problem from the Chapter 6 MyLab assignment where we can calculate Euclidean distance.  k-Means Clustering in Tableau Use Tableau to do k-means clustering in the following examples:   Salary Data:     Online Retail Data:      k-Means Clustering Let's look at a problem involving k-means clustering from the Chapter 6 MyLab assignment.  Hierarchical Clustering Let's look at a problem involving hierarchical clustering from the Chapter 6 MyLab assignment.  Association Rules for Hy-Vee Let's apply the ideas we learned about association rules to the Hy-Vee data files:      Apriori Algorithm in Python If we have time, we can see how to implement the \\textbf{Apriori algorithm} to automate the process for analyzing transaction data in Python:    Additional Clustering Example using Generative AI Let's use the gender inequality index data that can be found at the link below, and see some additional ways we can leverage generative AI to cluster countries based on this data.   Here are the files we will use:                             Sentiment Analysis Example: Classifying Product Reviews (Remember that this is an example of predictive analytics instead of descriptive analytics , which we focus on in this class.)    Visualizing Text Data Let's see how to create a word cloud in Tableau and see when it might be helpful.    "
 },
 {
   "id": "sec-desc-data-mining-exercises-2",
@@ -1068,8 +1068,8 @@ var ptx_lunr_docs = [
   "url": "sec-desc-data-mining-exercises.html#sec-desc-data-mining-exercises-8",
   "type": "Example",
   "number": "6.7",
-  "title": "Sentiment Analysis Example:  Classifying Product Reviews.",
-  "body": "Sentiment Analysis Example: Classifying Product Reviews (Remember that this is an example of predictive analytics instead of descriptive analytics , which we focus on in this class.)   "
+  "title": "Additional Clustering Example using Generative AI.",
+  "body": "Additional Clustering Example using Generative AI Let's use the gender inequality index data that can be found at the link below, and see some additional ways we can leverage generative AI to cluster countries based on this data.   Here are the files we will use:                            "
 },
 {
   "id": "sec-desc-data-mining-exercises-9",
@@ -1077,6 +1077,15 @@ var ptx_lunr_docs = [
   "url": "sec-desc-data-mining-exercises.html#sec-desc-data-mining-exercises-9",
   "type": "Example",
   "number": "6.8",
+  "title": "Sentiment Analysis Example:  Classifying Product Reviews.",
+  "body": "Sentiment Analysis Example: Classifying Product Reviews (Remember that this is an example of predictive analytics instead of descriptive analytics , which we focus on in this class.)   "
+},
+{
+  "id": "sec-desc-data-mining-exercises-10",
+  "level": "2",
+  "url": "sec-desc-data-mining-exercises.html#sec-desc-data-mining-exercises-10",
+  "type": "Example",
+  "number": "6.9",
   "title": "Visualizing Text Data.",
   "body": "Visualizing Text Data Let's see how to create a word cloud in Tableau and see when it might be helpful.   "
 },
