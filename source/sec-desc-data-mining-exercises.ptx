@@ -84,6 +84,53 @@ Let's look at a problem from the Chapter 6 MyLab assignment where we can calcula
     
 </exercise>
 
+<exercise>
+<title>Additional Clustering Example using Generative AI</title>
+
+<p>
+    Let's use the gender inequality index data that can be found at the link below, and see some additional ways we can leverage generative AI to cluster countries based on this data.
+
+</p>
+<p>
+    <url href="https://hdr.undp.org/data-center/documentation-and-downloads" />
+</p>
+
+<p>
+    Here are the files we will use:
+    <ul>
+        <li>
+            <p>
+                <url href="external/sheets/HDI Gender Inequality 23-24.xlsx" />
+            </p>
+        </li>
+        <li>
+            <p>
+                <url href="external/sheets/GenderInequalityIndex.xlsx" />
+
+            </p>
+        </li>
+        <li>
+            <p>
+                <url href="external/sheets/GenderInequalityHierarchySingleValues.xlsx" />
+
+            </p>
+        </li>
+        <li>
+            <p>
+                <url href="external/sheets/GenderInequalityHierarchySetup.xlsx" />
+
+            </p>
+        </li>
+        <li>
+            <p>
+                <url href="external/sheets/GenderInequalityHierarchyPairwise.xlsx" />
+
+            </p>
+        </li>
+    </ul>
+</p>
+
+    </exercise>
 
 
 <exercise>
