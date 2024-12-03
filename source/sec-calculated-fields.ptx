@@ -36,7 +36,7 @@
 
 <exercise>
     <p>
-        Continue working with the Tableau Workbook below that includes data from the 2023 National Survey of Children’s Health, and now create a calculated field for the proportion of children who need or get special therapy such as physical, occupational, or speech therapy.  (This is in <q>C_K2Q19</q>.)
+        Continue working with the Tableau Workbook from the previous problem that includes data from the 2023 National Survey of Children’s Health, and now create a calculated field for the proportion of children who need or get special therapy such as physical, occupational, or speech therapy.  (This is in <q>C_K2Q19</q>.)
     </p>
 
     <answer>
