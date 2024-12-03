@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-viz-and-dashboard-extensions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Viz Extensions and Dashboard Extensions in Tableau</title>
+
+
+  <subsection xml:id="subsec-Sankey-chart">
+    <title>Sankey Chart using a Viz Extension in Tableau</title>
+
+    <p>
+        An example of a chart that can be made using a <em>Viz Extension</em> in Tableau is a <em>Sankey Chart</em>.
+    </p>
+
+    <p>
+        (This is a relatively new feature from a couple years ago.)
+    </p>
+
+<p>
+    Sankey charts can be helpful for showing <q>flow</q>, such as the flow of money like in the image below from the budgeting software <em>Monarch</em>.
+</p>
+
+    <p>
+        <image source="sheets/MonarchSankey.png" width="100%">
+        </image>
+    </p>
+
+
+    <p>
+        We're going to see how to use a Viz Extension in Tableau to create a Sankey chart.
+    </p>
+
+
+    <exercise>
+        <p>
+            Use a Viz extension in Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.
+        </p>
+
+        <p>
+            <url href="external/sheets/2023 NBA Playoffs.xlsx" />
+        </p>
+
+
+        <p>
+            <image source="sheets/NBASankey.png" width="100%">
+            </image>
+        </p>
+
+        <p>
+            Questions to consider:
+            <ol>
+                <li>
+                    <p>
+                        Is this the best way to visualize this data?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What is wrong with the way colors are being used in this chart?  (How could the chart be improved?)
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </exercise>
+    
+  </subsection>
+
+
+  <subsection xml:id="subsec-dashboard-extension">
+    <title>Dashboard Extensions in Tableau</title>
+
+
+    <p>
+        We've made dashboards in Tableau, but there are a lot of extensions that can take our dashboards to the next level.
+    </p>
+
+    <p>
+        In the problem below, we're going to use the <em>Image Map Filter</em> dashboard extension in Tableau. 
+    </p>
+
+
+    <exercise>
+        <p>
+            In this problem, we're going to create a dashboard like the one at the link below:
+        </p>
+        <p>
+            <url href="https://public.tableau.com/views/Superstoredashboard_17331671994430/Dashboard1?:language=en-USpublish=yes:sid=:redirect=auth:display_count=n:origin=viz_share_link" >
+Link to Dashboard </url>            
+</p>
+<p>
+    To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:
+</p>
+<p>
+    <ul>
+        <li>
+            <p>
+                Excel file:   <url href="external/sheets/Sample - Superstore.xls" />
+
+            </p>
+        </li>
+        <li>
+            <p>
+                Image:  <url href="external/sheets/CategoryImage.png" />
+               
+            </p>
+        </li>
+    </ul>
+</p>
+        <p>
+            Create two charts in Tableau:
+            <ol>
+                <li>
+                    <p>
+                        A map shading each state with the total profit
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A line chart showing profit over time
+                    </p>
+                </li>
+            </ol>
+            Add <q>Category</q> to <em>Filters</em> on both of these sheets.
+        </p>
+
+        <p>
+            Now create a dashboard and add both of these sheets to your dashboard.
+        </p>
+
+        <p>
+            Next we're going to add the <q>Image Map Filter</q> extension to the dashboard:
+        </p>
+
+        <p>
+            <image source="sheets/DashboardExtension.png" width="100%">
+            </image>
+        </p>
+
+    </exercise>
+    
+  </subsection>
+
+
+  </section>

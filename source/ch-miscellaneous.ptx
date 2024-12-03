@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-generative-ai" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Generative AI and Data Analytics and Visualization</title>
+  <title>Miscellaneous Topics</title>
 
 
 
   <!-- include sections -->
  <xi:include href="sec-intro-gen-ai.ptx" />
+ <xi:include href="sec-calculated-fields.ptx" />
+ <xi:include href="sec-viz-and-dashboard-extensions.ptx" />
 
 </chapter>

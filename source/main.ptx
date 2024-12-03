@@ -20,7 +20,7 @@
  <xi:include href="./ch-probability.ptx" />
     <xi:include href="./ch-descriptive-data-mining.ptx" />
     <xi:include href="./ch-statistical-inference.ptx" />
-    <xi:include href="./ch-generative-ai.ptx" />
+    <xi:include href="./ch-miscellaneous.ptx" />
     <xi:include href="./ch-videos.ptx" />
 
 

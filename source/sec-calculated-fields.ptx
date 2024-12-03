@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-calculated-fields" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Calculated Fields</title>
+
+<exercise>
+    <p>
+        Download the Tableau Workbook below that includes data from the 2023 National Survey of Children’s Health.  Here is a link to information about the dataset:  <url href="https://www2.census.gov/programs-surveys/nsch/technical-documentation/codebook/2023-NSCH-Screener-Variable-List.pdf">Link to information about variables</url>
+    </p>
+    <p>
+        <url href="external/sheets/CensusKidsDataBlank.twbx" />
+    </p>
+    <p>
+        Let's look at the proportion of children who need or currently take medication, which is labeled <q>C_K2Q10</q>.  We want to find the number of responses with a "<q>1</q>" and divide by the total number of responses.
+    </p>
+    <p>
+        We've practiced doing things like this in Excel, but Tableau is a little different.
+    </p>
+
+    <p>
+        Use ChatGPT or Copilot and ask <q>If I have a variable labeled C_K2Q10, how would I calculate the proportion of responses that were a "1" in a calculated field in Tableau?</q>
+    </p>
+    <p>
+        Check to see if you get the answer below, and then create this calculated field in Tableau.
+    </p>
+
+
+    <answer>
+        <p>
+            SUM(IF [C K2Q10]=1 THEN 1 ELSE 0 END)/COUNT([C K2Q10])
+
+        </p>
+    </answer>
+</exercise>
+
+
+<exercise>
+    <p>
+        Continue working with the Tableau Workbook below that includes data from the 2023 National Survey of Children’s Health, and now create a calculated field for the proportion of children who need or get special therapy such as physical, occupational, or speech therapy.  (This is in <q>C_K2Q19</q>.)
+    </p>
+
+    <answer>
+        <p>
+            SUM(IF [C K2Q19]=1 THEN 1 ELSE 0 END)/COUNT([C K2Q19])
+        </p>
+    </answer>
+</exercise>
+
+
+<exercise>
+    <p>
+        Use the calculated fields you found in the last two exercises and make a table containing those values.
+    </p>
+</exercise>
+
+  </section>
