@@ -1203,8 +1203,8 @@ var ptx_lunr_docs = [
   "url": "sec-intro-gen-ai.html",
   "type": "Section",
   "number": "",
-  "title": "Generative AI",
-  "body": " Generative AI  In we talked a little about generative AI in the context of creating and describing data visualizations.  As of July 2024, there are many examples of AI chatbots that are commonly used. A few examples are:   ChatGPT    Google Bard    Microsoft Copilot    Jasper     The field of generative AI is constantly changing, and so by the time you read what is written here, it will almost certainly already be outdated.  At the moment, there are many things that generative AI is useful for, and there are things that it cannot do (reliably) quite yet. It is important that we know how to use AI in our work but also understand its current limitations. It is still important for us to have a good understanding of what we are doing so that we are not presenting misleading visualizations or analysis.  For example, here is a YouTube video showing how ChatGPT-4 did not provide correct analysis of a relatively simple data set:   Newer versions of ChatGPT allow us to upload a data file, and the chatbot can use Python behind the scenes to analyze the data. We're going to play around more with what it can currently do in terms of analyzing data and\/or creating visualizations.   Netflix Data Let's download the Netflix Engagement Report from the first half of 2023 and upload the Excel file into ChatGPT to see what we can learn.   (Feel free to also open the file in Tableau to investigate and create visualizations.)  "
+  "title": "Generative AI and Data Analytics and Visualization",
+  "body": " Generative AI and Data Analytics and Visualization  In we talked a little about generative AI in the context of creating and describing data visualizations.  As of July 2024, there are many examples of AI chatbots that are commonly used. A few examples are:   ChatGPT    Google Bard    Microsoft Copilot    Jasper     The field of generative AI is constantly changing, and so by the time you read what is written here, it will almost certainly already be outdated.  At the moment, there are many things that generative AI is useful for, and there are things that it cannot do (reliably) quite yet. It is important that we know how to use AI in our work but also understand its current limitations. It is still important for us to have a good understanding of what we are doing so that we are not presenting misleading visualizations or analysis.  For example, here is a YouTube video showing how ChatGPT-4 did not provide correct analysis of a relatively simple data set:   Newer versions of ChatGPT allow us to upload a data file, and the chatbot can use Python behind the scenes to analyze the data. We're going to play around more with what it can currently do in terms of analyzing data and\/or creating visualizations.   Netflix Data Let's download the Netflix Engagement Report from the first half of 2023 and upload the Excel file into ChatGPT to see what we can learn.   (Feel free to also open the file in Tableau to investigate and create visualizations.)  "
 },
 {
   "id": "sec-intro-gen-ai-8",
@@ -1214,6 +1214,69 @@ var ptx_lunr_docs = [
   "number": "8.1",
   "title": "Netflix Data.",
   "body": "Netflix Data Let's download the Netflix Engagement Report from the first half of 2023 and upload the Excel file into ChatGPT to see what we can learn.   (Feel free to also open the file in Tableau to investigate and create visualizations.) "
+},
+{
+  "id": "sec-calculated-fields",
+  "level": "1",
+  "url": "sec-calculated-fields.html",
+  "type": "Section",
+  "number": "",
+  "title": "Calculated Fields",
+  "body": " Calculated Fields  Download the Tableau Workbook below that includes data from the 2023 National Survey of Children’s Health. Here is a link to information about the dataset: Link to information about variables    Let's look at the proportion of children who need or currently take medication, which is labeled C_K2Q10 . We want to find the number of responses with a \" 1 \" and divide by the total number of responses. We've practiced doing things like this in Excel, but Tableau is a little different. Use ChatGPT or Copilot and ask If I have a variable labeled C_K2Q10, how would I calculate the proportion of responses that were a \"1\" in a calculated field in Tableau?  Check to see if you get the answer below, and then create this calculated field in Tableau.  SUM(IF [C K2Q10]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q10])   Continue working with the Tableau Workbook below that includes data from the 2023 National Survey of Children’s Health, and now create a calculated field for the proportion of children who need or get special therapy such as physical, occupational, or speech therapy. (This is in C_K2Q19 .)  SUM(IF [C K2Q19]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q19])   Use the calculated fields you found in the last two exercises and make a table containing those values.  "
+},
+{
+  "id": "sec-calculated-fields-2",
+  "level": "2",
+  "url": "sec-calculated-fields.html#sec-calculated-fields-2",
+  "type": "Example",
+  "number": "8.2",
+  "title": "",
+  "body": "Download the Tableau Workbook below that includes data from the 2023 National Survey of Children’s Health. Here is a link to information about the dataset: Link to information about variables    Let's look at the proportion of children who need or currently take medication, which is labeled C_K2Q10 . We want to find the number of responses with a \" 1 \" and divide by the total number of responses. We've practiced doing things like this in Excel, but Tableau is a little different. Use ChatGPT or Copilot and ask If I have a variable labeled C_K2Q10, how would I calculate the proportion of responses that were a \"1\" in a calculated field in Tableau?  Check to see if you get the answer below, and then create this calculated field in Tableau.  SUM(IF [C K2Q10]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q10])  "
+},
+{
+  "id": "sec-calculated-fields-3",
+  "level": "2",
+  "url": "sec-calculated-fields.html#sec-calculated-fields-3",
+  "type": "Example",
+  "number": "8.3",
+  "title": "",
+  "body": "Continue working with the Tableau Workbook below that includes data from the 2023 National Survey of Children’s Health, and now create a calculated field for the proportion of children who need or get special therapy such as physical, occupational, or speech therapy. (This is in C_K2Q19 .)  SUM(IF [C K2Q19]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q19])  "
+},
+{
+  "id": "sec-calculated-fields-4",
+  "level": "2",
+  "url": "sec-calculated-fields.html#sec-calculated-fields-4",
+  "type": "Example",
+  "number": "8.4",
+  "title": "",
+  "body": "Use the calculated fields you found in the last two exercises and make a table containing those values. "
+},
+{
+  "id": "sec-viz-and-dashboard-extensions",
+  "level": "1",
+  "url": "sec-viz-and-dashboard-extensions.html",
+  "type": "Section",
+  "number": "",
+  "title": "Viz Extensions and Dashboard Extensions in Tableau",
+  "body": " Viz Extensions and Dashboard Extensions in Tableau   Sankey Chart using a Viz Extension in Tableau  An example of a chart that can be made using a Viz Extension in Tableau is a Sankey Chart .  (This is a relatively new feature from a couple years ago.)  Sankey charts can be helpful for showing flow , such as the flow of money like in the image below from the budgeting software Monarch .      We're going to see how to use a Viz Extension in Tableau to create a Sankey chart.  Use a Viz extension in Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.      Questions to consider:   Is this the best way to visualize this data?    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)       Dashboard Extensions in Tableau  We've made dashboards in Tableau, but there are a lot of extensions that can take our dashboards to the next level.  In the problem below, we're going to use the Image Map Filter dashboard extension in Tableau.  In this problem, we're going to create a dashboard like the one at the link below:  Link to Dashboard  To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:    Excel file:     Image:     Create two charts in Tableau:   A map shading each state with the total profit    A line chart showing profit over time   Add Category to Filters on both of these sheets. Now create a dashboard and add both of these sheets to your dashboard. Next we're going to add the Image Map Filter extension to the dashboard:      "
+},
+{
+  "id": "subsec-Sankey-chart-7",
+  "level": "2",
+  "url": "sec-viz-and-dashboard-extensions.html#subsec-Sankey-chart-7",
+  "type": "Example",
+  "number": "8.5",
+  "title": "",
+  "body": "Use a Viz extension in Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.      Questions to consider:   Is this the best way to visualize this data?    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)    "
+},
+{
+  "id": "subsec-dashboard-extension-4",
+  "level": "2",
+  "url": "sec-viz-and-dashboard-extensions.html#subsec-dashboard-extension-4",
+  "type": "Example",
+  "number": "8.6",
+  "title": "",
+  "body": "In this problem, we're going to create a dashboard like the one at the link below:  Link to Dashboard  To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:    Excel file:     Image:     Create two charts in Tableau:   A map shading each state with the total profit    A line chart showing profit over time   Add Category to Filters on both of these sheets. Now create a dashboard and add both of these sheets to your dashboard. Next we're going to add the Image Map Filter extension to the dashboard:    "
 },
 {
   "id": "sec-week-1-videos",
