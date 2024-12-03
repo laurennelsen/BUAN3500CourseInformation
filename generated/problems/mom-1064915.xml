@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1064915">
 <statement>
-<p>It is estimated that 41.9<percent/> of Kickstarter projects are successfully funded. Assume each Kickstarter project is independent. A random sample of 18 Kickstarter projects are followed. Let <m>\displaystyle{X}</m> be the number Kickstarter projects that are successfully funded. Calculate the following:</p>
+<p>It is estimated that 48<percent/> of Kickstarter projects are successfully funded. Assume each Kickstarter project is independent. A random sample of 18 Kickstarter projects are followed. Let <m>\displaystyle{X}</m> be the number Kickstarter projects that are successfully funded. Calculate the following:</p>
 <p>a. <m>\displaystyle\mu_{{X}}</m>: <fillin characters="4" /></p>
 <p>b. <m>\displaystyle\sigma_{{X}}</m>: <fillin characters="4" /></p>
-<p>c. <m>\displaystyle{P}{\left({X}={7}\right)}</m>: <fillin characters="4" /></p>
-<p>d. <m>\displaystyle{P}{\left({X}{<}{10}\right)}</m>: <fillin characters="4" /></p>
-<p>e. <m>\displaystyle{P}{\left({X}{>}{5}\right)}</m>: <fillin characters="4" /></p>
-<p>f.  <m>\displaystyle{P}{\left({X}\geq{5}\right)}</m>: <fillin characters="4" /></p>
-<p>g. <m>\displaystyle{P}{\left({6}\leq{X}\leq{9}\right)}</m>: <fillin characters="20" /></p>
+<p>c. <m>\displaystyle{P}{\left({X}={9}\right)}</m>: <fillin characters="4" /></p>
+<p>d. <m>\displaystyle{P}{\left({X}{<}{11}\right)}</m>: <fillin characters="4" /></p>
+<p>e. <m>\displaystyle{P}{\left({X}{>}{7}\right)}</m>: <fillin characters="4" /></p>
+<p>f.  <m>\displaystyle{P}{\left({X}\geq{7}\right)}</m>: <fillin characters="4" /></p>
+<p>g. <m>\displaystyle{P}{\left({7}\leq{X}\leq{10}\right)}</m>: <fillin characters="20" /></p>
 
 </statement>
 <solution>
-<p><ul><li>7.542</li><li>2.0932993097023</li><li>0.18373436080826</li><li>0.82549172091793</li><li>0.83504370322992</li><li>0.93015657479917</li><li>0.66053542414785</li></ul></p>
+<p><ul><li>8.64</li><li>2.1196226079187</li><li>0.18281683399541</li><li>0.80977249973202</li><li>0.70316934870023</li><li>0.84360591684573</li><li>0.65337841657775</li></ul></p>
 </solution>
 </myopenmath>
 
