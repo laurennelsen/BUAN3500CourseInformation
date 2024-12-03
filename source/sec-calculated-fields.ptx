@@ -19,6 +19,8 @@
 
     <p>
         Use ChatGPT or Copilot and ask <q>If I have a variable labeled C_K2Q10, how would I calculate the proportion of responses that were a <q>1</q> in a calculated field in Tableau?</q>
+
+        
     </p>
     <p>
         Check to see if you get the answer below, and then create this calculated field in Tableau.
