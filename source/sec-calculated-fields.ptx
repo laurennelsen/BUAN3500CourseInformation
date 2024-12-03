@@ -11,7 +11,7 @@
         <url href="external/sheets/CensusKidsDataBlank.twbx" />
     </p>
     <p>
-        Let's look at the proportion of children who need or currently take medication, which is labeled <q>C_K2Q10</q>.  We want to find the number of responses with a "<q>1</q>" and divide by the total number of responses.
+        Let's look at the proportion of children who need or currently take medication, which is labeled <q>C_K2Q10</q>.  We want to find the number of responses with a <q>1</q> and divide by the total number of responses.
     </p>
     <p>
         We've practiced doing things like this in Excel, but Tableau is a little different.
