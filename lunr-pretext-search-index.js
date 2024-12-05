@@ -1258,7 +1258,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Viz Extensions and Dashboard Extensions in Tableau",
-  "body": " Viz Extensions and Dashboard Extensions in Tableau   Sankey Chart using a Viz Extension in Tableau  An example of a chart that can be made using a Viz Extension in Tableau is a Sankey Chart .  (This is a relatively new feature from a couple years ago.)  Sankey charts can be helpful for showing flow , such as the flow of money like in the image below from the budgeting software Monarch .      We're going to see how to use a Viz Extension in Tableau to create a Sankey chart.  Use a Viz extension in Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.      Questions to consider:   Is this the best way to visualize this data?    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)       Dashboard Extensions in Tableau  We've made dashboards in Tableau, but there are a lot of extensions that can take our dashboards to the next level.  In the problem below, we're going to use the Image Map Filter dashboard extension in Tableau.  In this problem, we're going to create a dashboard like the one at the link below:  Link to Dashboard  To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:    Excel file:     Image:     Create two charts in Tableau:   A map shading each state with the total profit    A line chart showing profit over time   Add Category to Filters on both of these sheets. Now create a dashboard and add both of these sheets to your dashboard. Next we're going to add the Image Map Filter extension to the dashboard:      "
+  "body": " Viz Extensions and Dashboard Extensions in Tableau   Sankey Chart using a Viz Extension in Tableau  An example of a chart that can be made using a Viz Extension in Tableau is a Sankey Chart .  (This is a relatively new feature from a couple years ago.)  Sankey charts can be helpful for showing flow , such as the flow of money like in the image below from the budgeting software Monarch .      We're going to see how to use a Viz Extension in Tableau to create a Sankey chart.  Use a Viz extension in Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.      Questions to consider:   Is this the best way to visualize this data?    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)     The file below contains information about passengers on the Titanic and whether or not they survived.  Use a viz extension in Tableau to create a Sankey chart like the one below:   (You'll need to create a calculated field.)    Dashboard Extensions in Tableau  We've made dashboards in Tableau, but there are a lot of extensions that can take our dashboards to the next level.  In the problem below, we're going to use the Image Map Filter dashboard extension in Tableau.  In this problem, we're going to create a dashboard like the one at the link below:  Link to Dashboard  To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:    Excel file:     Image:     Create two charts in Tableau:   A map shading each state with the total profit    A line chart showing profit over time   Add Category to Filters on both of these sheets. Now create a dashboard and add both of these sheets to your dashboard. Next we're going to add the Image Map Filter extension to the dashboard:      "
 },
 {
   "id": "subsec-Sankey-chart-7",
@@ -1270,11 +1270,20 @@ var ptx_lunr_docs = [
   "body": "Use a Viz extension in Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.      Questions to consider:   Is this the best way to visualize this data?    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)    "
 },
 {
+  "id": "subsec-Sankey-chart-8",
+  "level": "2",
+  "url": "sec-viz-and-dashboard-extensions.html#subsec-Sankey-chart-8",
+  "type": "Example",
+  "number": "8.6",
+  "title": "",
+  "body": "The file below contains information about passengers on the Titanic and whether or not they survived.  Use a viz extension in Tableau to create a Sankey chart like the one below:   (You'll need to create a calculated field.) "
+},
+{
   "id": "subsec-dashboard-extension-4",
   "level": "2",
   "url": "sec-viz-and-dashboard-extensions.html#subsec-dashboard-extension-4",
   "type": "Example",
-  "number": "8.6",
+  "number": "8.7",
   "title": "",
   "body": "In this problem, we're going to create a dashboard like the one at the link below:  Link to Dashboard  To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:    Excel file:     Image:     Create two charts in Tableau:   A map shading each state with the total profit    A line chart showing profit over time   Add Category to Filters on both of these sheets. Now create a dashboard and add both of these sheets to your dashboard. Next we're going to add the Image Map Filter extension to the dashboard:    "
 },
