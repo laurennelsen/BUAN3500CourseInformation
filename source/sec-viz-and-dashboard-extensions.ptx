@@ -61,6 +61,24 @@
             </ol>
         </p>
     </exercise>
+
+
+
+    <exercise>
+    <p>
+        The file below contains information about passengers on the Titanic and whether or not they survived.
+         <url href="external/sheets/Titanic.csv" />
+
+    </p>
+        <p>
+            Use a viz extension in Tableau to create a Sankey chart like the one below:
+            <image source="sheets/TitanicSankey.png" width="100%">
+</image>
+        </p>
+        <p>
+            (You'll need to create a calculated field.)
+        </p>
+    </exercise>
     
   </subsection>
 
