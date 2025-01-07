@@ -17,15 +17,15 @@
             <title>Grading Category Weights</title>
         <tabular>
             <row>
-                <cell>Reading Quizzes</cell>
-                <cell><m>5\%</m></cell>
+                <cell>Course Content Quizzes</cell>
+                <cell><m>20\%</m></cell>
             </row>
             <row>
-                <cell>Written Assignments</cell>
-                <cell><m>15\%</m></cell>
+                <cell>Class Engagement Assignemnts</cell>
+                <cell><m>10\%</m></cell>
             </row>
             <row>
-                <cell>MindTap Assignments</cell>
+                <cell>WebAssign Assignments</cell>
                 <cell><m>20\%</m></cell>
             </row>
             <row>
@@ -34,11 +34,11 @@
             </row>
             <row>
                 <cell>Midterm Project</cell>
-                <cell><m>20\%</m></cell>
+                <cell><m>15\%</m></cell>
             </row>
             <row>
                 <cell>Final Project</cell>
-                <cell><m>20\%</m></cell>
+                <cell><m>15\%</m></cell>
             </row>
             
             <row>
@@ -56,7 +56,7 @@
     <title>Missed/Late Work</title>
 
     <p>
-        I do not have to allow make-ups or accept late work, but I often consider them according to each student's situation.  I strongly recommend asking me for extensions if you find yourself needing them.  In general, communicating with me earlier rather than later about your situation makes it more likely that we can make some kind of arrangement appropriate to your situation.   Let me know as soon as possible if you are going to miss a quiz or exam.   If you don't notify me in advance of your absence, or if you do not have a valid excuse, you may not be allowed to make up the assignment/assessment, and you may receive a score of zero for that assignment/assessment.
+        I do not have to allow make-ups or accept late work, but I often consider them according to each student's situation.  I strongly recommend asking me for extensions if you find yourself needing them.  In general, communicating with me earlier rather than later about your situation makes it more likely that we can make some kind of arrangement appropriate to your situation.   Let me know as soon as possible if you are going to miss an assignment.   If you don't notify me in advance, or if you do not have a valid excuse, you may not be allowed to make up the assignment/assessment, and you may receive a score of zero for that assignment/assessment.
     </p>
     
 </subsection>
