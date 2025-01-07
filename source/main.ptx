@@ -5,8 +5,8 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="syllabus">
-    <title>BUAN 3500: Data Visualization and Descriptive Analytics</title>
-    <subtitle>Fall 2024</subtitle>
+    <title>BUAN 3500: Data Visualization and Descriptive Analytics in Business</title>
+    <subtitle>Spring 2025</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
