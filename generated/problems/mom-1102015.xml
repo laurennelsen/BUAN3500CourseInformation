@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1102015">
 <statement>
-<p>Janice is conducting market research on the cost of a private helicopter tour. Janice has determined that the average cost of a private helicopter tour is <dollar/>650, and that the distribution of costs is normally distributed with a standard deviation of <dollar/>96.
+<p>Natalie is conducting market research on the cost of a touchscreen laptop computer. Natalie has determined that the average cost of a touchscreen laptop computer is <dollar/>1400, and that the distribution of costs is normally distributed with a standard deviation of <dollar/>173.
   </p>
 <p>
-  a. Find the probability that a single randomly selected consumer spends less than <dollar/>550 on a private helicopter tour.</p>
+  a. Find the probability that a single randomly selected consumer spends more than <dollar/>1580 on a touchscreen laptop computer.</p>
 <p style="padding-left: 40px;"><fillin characters="20" /></p>
-<p>b. The cost of the middle 50<percent/> of private helicopter tours falls between (round to the nearest dollar):</p>
+<p>b. The cost of the middle 70<percent/> of touchscreen laptop computers falls between (round to the nearest dollar):</p>
 <p style="padding-left: 40px;"><dollar/><fillin characters="20" /> to <dollar/><fillin characters="20" /></p>
-<p>c. The <em>most expensive </em>14<percent/> of private helicopter tours cost at least how much? (round to the nearest dollar)</p>
+<p>c. The <em>most expensive </em>13<percent/> of touchscreen laptop computers cost at least how much? (round to the nearest dollar)</p>
 <p style="padding-left: 40px;"><dollar/><fillin characters="20" /></p>
 
 
 </statement>
 <solution>
-<p><ul><li>0.1488</li><li>585</li><li>715</li><li>754</li></ul></p>
+<p><ul><li>0.1491</li><li>1221</li><li>1579</li><li>1595</li></ul></p>
 </solution>
 </myopenmath>
 
