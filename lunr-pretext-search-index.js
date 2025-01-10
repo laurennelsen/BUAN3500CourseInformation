@@ -1288,15 +1288,6 @@ var ptx_lunr_docs = [
   "body": "In this problem, we're going to create a dashboard like the one at the link below:  Link to Dashboard  To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:    Excel file:     Image:     Create two charts in Tableau:   A map shading each state with the total profit    A line chart showing profit over time   Add Category to Filters on both of these sheets. Now create a dashboard and add both of these sheets to your dashboard. Next we're going to add the Image Map Filter extension to the dashboard:    "
 },
 {
-  "id": "sec-week-1-videos",
-  "level": "1",
-  "url": "sec-week-1-videos.html",
-  "type": "Section",
-  "number": "",
-  "title": "YouTube Video Playlists",
-  "body": " YouTube Video Playlists    Below are links to YouTube videos for the planned course content for each week.  I want to give you a heads-up that these videos are from an old online course, and so the content might not exactly line up with what we do each week, and the chapter numbers might not match our current textbook.  (So I do not recommend using these as your primary source, but they might be helpful if you ever need to miss class and\/or want to watch videos of some examples.)   The videos embedded below are playlists, so subsequent videos should start once the previous ones finish. (You should be able to click the icon on the upper right to see all videos in the playlist.)    Week 1 Playlist     Week 2 Playlist     Week 3 Playlist     Week 4 Playlist     Week 5 Playlist     Week 6 Playlist     Week 7 Playlist     Week 10 Playlist     Week 11 Playlist     Week 12 Playlist     Week 13 Playlist     Week 14 Playlist    "
-},
-{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
