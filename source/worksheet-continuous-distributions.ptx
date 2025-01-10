@@ -551,9 +551,9 @@ Suppose that we are able to discuss this project with several subject-matter exp
 
 <exercises component="web-only-exercises">
 
-<exercise>
-    <myopenmath problem="803116" />
-  </exercise>
+         <exercise>
+            <myopenmath problem="803116" />
+        </exercise> 
 
 
 </exercises>

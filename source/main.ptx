@@ -21,7 +21,7 @@
     <xi:include href="./ch-descriptive-data-mining.ptx" />
     <xi:include href="./ch-statistical-inference.ptx" />
     <xi:include href="./ch-miscellaneous.ptx" />
-    <xi:include href="./ch-videos.ptx" />
+   <!-- <xi:include href="./ch-videos.ptx" />--> 
 
 
     <!-- Include backmatter -->
