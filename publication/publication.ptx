@@ -31,8 +31,8 @@
   <source>
 
   <!--Include the following line to remove the problematic MyOpenMath Problems for the print version (they can be included in the online version):-->
-<!--  <version include=""/>
--->
+  <!-- <version include=""/> -->
+
     <directories external="../assets" generated="../generated-assets" />
     <!-- Set which marked elements are included in this version: -->
     <!-- See
