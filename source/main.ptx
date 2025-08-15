@@ -12,7 +12,7 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-     <xi:include href="./ch-syllabus.ptx" />
+     <!--<xi:include href="./ch-syllabus.ptx" />-->
     <xi:include href="./ch-intro-bus-analytics.ptx" />
     <xi:include href="./ch-descriptive-statistics.ptx" />
     <xi:include href="./ch-data-visualization.ptx" />
