@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1064915">
 <statement>
-<p>It is estimated that 54.9<percent/> of Kickstarter projects are successfully funded. Assume each Kickstarter project is independent. A random sample of 18 Kickstarter projects are followed. Let <m>\displaystyle{X}</m> be the number Kickstarter projects that are successfully funded. Calculate the following:</p>
+<p>It is estimated that 46.7<percent/> of Kickstarter projects are successfully funded. Assume each Kickstarter project is independent. A random sample of 18 Kickstarter projects are followed. Let <m>\displaystyle{X}</m> be the number Kickstarter projects that are successfully funded. Calculate the following:</p>
 <p>a. <m>\displaystyle\mu_{{X}}</m>: <input type="text" style="width:5.8ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 7" class="text" /></p>
 <p>b. <m>\displaystyle\sigma_{{X}}</m>: <input type="text" style="width:5.8ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 7" class="text" /></p>
-<p>c. <m>\displaystyle{P}{\left({X}={11}\right)}</m>: <input type="text" style="width:5.8ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 7" class="text" /></p>
-<p>d. <m>\displaystyle{P}{\left({X}{<}{13}\right)}</m>: <input type="text" style="width:5.8ch" name="qn1003" id="qn1003" value="" autocomplete="off" aria-label="Question 1 Part 4 of 7" class="text" /></p>
-<p>e. <m>\displaystyle{P}{\left({X}{>}{8}\right)}</m>: <input type="text" style="width:5.8ch" name="qn1004" id="qn1004" value="" autocomplete="off" aria-label="Question 1 Part 5 of 7" class="text" /></p>
-<p>f.  <m>\displaystyle{P}{\left({X}\geq{8}\right)}</m>: <input type="text" style="width:5.8ch" name="qn1005" id="qn1005" value="" autocomplete="off" aria-label="Question 1 Part 6 of 7" class="text" /></p>
-<p>g. <m>\displaystyle{P}{\left({9}\leq{X}\leq{11}\right)}</m>: <input type="text" style="width:25ch" name="qn1006" id="qn1006" value="" autocomplete="off" aria-label="Question 1 Part 7 of 7" class="text" /></p>
+<p>c. <m>\displaystyle{P}{\left({X}={8}\right)}</m>: <input type="text" style="width:5.8ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 7" class="text" /></p>
+<p>d. <m>\displaystyle{P}{\left({X}{<}{10}\right)}</m>: <input type="text" style="width:5.8ch" name="qn1003" id="qn1003" value="" autocomplete="off" aria-label="Question 1 Part 4 of 7" class="text" /></p>
+<p>e. <m>\displaystyle{P}{\left({X}{>}{6}\right)}</m>: <input type="text" style="width:5.8ch" name="qn1004" id="qn1004" value="" autocomplete="off" aria-label="Question 1 Part 5 of 7" class="text" /></p>
+<p>f.  <m>\displaystyle{P}{\left({X}\geq{6}\right)}</m>: <input type="text" style="width:5.8ch" name="qn1005" id="qn1005" value="" autocomplete="off" aria-label="Question 1 Part 6 of 7" class="text" /></p>
+<p>g. <m>\displaystyle{P}{\left({7}\leq{X}\leq{10}\right)}</m>: <input type="text" style="width:25ch" name="qn1006" id="qn1006" value="" autocomplete="off" aria-label="Question 1 Part 7 of 7" class="text" /></p>
 
 </statement>
 <solution>
-<p><ul><li>9.882</li><li>2.1111091871336</li><li>0.16492494498295</li><li>0.89386974398074</li><li>0.74449962842996</li><li>0.87021883715933</li><li>0.52125803486062</li></ul></p>
+<p><ul><li>8.406</li><li>2.1166950654263</li><li>0.18317432453969</li><li>0.69806383287063</li><li>0.81548032829847</li><li>0.91670802378918</li><li>0.65416314113072</li></ul></p>
 </solution>
 </myopenmath>
 

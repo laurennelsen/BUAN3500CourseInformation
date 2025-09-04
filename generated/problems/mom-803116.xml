@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="803116">
 <statement>
-<p>Sahana is conducting market research on the cost of auto insurance. Sahana has determined that the average annual cost of auto insurance is <dollar/>1318, and that the distribution of costs is normally distributed with a standard deviation of <dollar/>98.
+<p>Yolanda is conducting market research on the cost of  homeowners insurance. Yolanda has determined that the average annual cost of  homeowners insurance is <dollar/>1311, and that the distribution of costs is normally distributed with a standard deviation of <dollar/>65.
   </p>
 <p>
-  a. Find the probability that a single randomly selected consumer spends more than <dollar/>1180 on auto insurance.</p>
+  a. Find the probability that a single randomly selected consumer spends less than <dollar/>1404 on  homeowners insurance.</p>
 <p style="padding-left: 40px;"><input type="text" style="width:25ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 4" class="text" /></p>
-<p>b. The cost of the middle 80<percent/> of auto insurance policies falls between (round to the nearest dollar):</p>
+<p>b. The cost of the middle 30<percent/> of  homeowners insurance policies falls between (round to the nearest dollar):</p>
 <p style="padding-left: 40px;"><dollar/><input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 4" class="text" /> to <dollar/><input type="text" style="width:25ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 4" class="text" /> per year.</p>
-<p>c. The <em>most expensive </em>4<percent/> of auto insurance policies cost at least how much annually?</p>
+<p>c. The <em>most expensive </em>19<percent/> of  homeowners insurance policies cost at least how much annually?</p>
 <p style="padding-left: 40px;"><dollar/><input type="text" style="width:25ch" name="qn1003" id="qn1003" value="" autocomplete="off" aria-label="Question 1 Part 4 of 4" class="text" /></p>
 
 </statement>
 <solution>
-<p><ul><li>0.9205</li><li>1192</li><li>1444</li><li>1490</li></ul></p><p>Define the normal distribution in Desmos: <m>\displaystyle{N}=\text{normaldist}{\left({1318},{98}\right)}</m>.
+<p><ul><li>0.9238</li><li>1286</li><li>1336</li><li>1368</li></ul></p><p>Define the normal distribution in Desmos: <m>\displaystyle{N}=\text{normaldist}{\left({1311},{65}\right)}</m>.
   </p>
 <p>
-  a. <m>\displaystyle{P}{\left({x}{>}{1180}\right)}={N}.{c}{d}{f{{\left({1180},\infty\right)}}}={0.9205}</m>
-  </p>
+  a. <m>\displaystyle{P}{\left({x}{<}{1404}\right)}={N}.{c}{d}{f{{\left({1404}\right)}}}={0.9238}</m>
+  <less/>/p<greater/></p>
 <p>
-  b. For the middle 80<percent/> of the data, need the remaining 20<percent/> of the data split between the left and right tails of the distribution. So the lower bound of the range has <m>\displaystyle{0.1}</m> of the area to the left and the upper bound of the range has <m>\displaystyle{0.1}</m> of the area to the right, which means <m>\displaystyle{0.9}</m> to the left. Therefore:</p>
-<p style="padding-left: 40px;">Lower bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.1}\right)}={1192}</m></p>
-<p style="padding-left: 40px;">Upper bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.9}\right)}={1444}</m></p>
-<p>c. For the most expensive 4<percent/> of the distribution, need <m>\displaystyle{0.04}</m> of the area to the right of the data value, so need <m>\displaystyle{1}-{0.0}{.04}={0.96}</m> to the left. Therefore:</p>
-<p style="padding-left: 40px;"> <m>\displaystyle{x}={N}.\text{inversecdf}{\left({0.96}\right)}={1490}</m> </p>
+  b. For the middle 30<percent/> of the data, need the remaining 70<percent/> of the data split between the left and right tails of the distribution. So the lower bound of the range has <m>\displaystyle{0.35}</m> of the area to the left and the upper bound of the range has <m>\displaystyle{0.35}</m> of the area to the right, which means <m>\displaystyle{0.65}</m> to the left. Therefore:</p>
+<p style="padding-left: 40px;">Lower bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.35}\right)}={1286}</m></p>
+<p style="padding-left: 40px;">Upper bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.65}\right)}={1336}</m></p>
+<p>c. For the most expensive 19<percent/> of the distribution, need <m>\displaystyle{0.19}</m> of the area to the right of the data value, so need <m>\displaystyle{1}-{0.0}{.19}={0.81}</m> to the left. Therefore:</p>
+<p style="padding-left: 40px;"> <m>\displaystyle{x}={N}.\text{inversecdf}{\left({0.81}\right)}={1368}</m> </p>
 </solution>
 </myopenmath>
 

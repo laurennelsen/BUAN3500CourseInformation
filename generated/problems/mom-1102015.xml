@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1102015">
 <statement>
-<p>Damian is conducting market research on the cost of a private helicopter tour. Damian has determined that the average cost of a private helicopter tour is <dollar/>750, and that the distribution of costs is normally distributed with a standard deviation of <dollar/>85.
+<p>Imani is conducting market research on the cost of a cruise vacation. Imani has determined that the average cost of a cruise vacation is <dollar/>4000, and that the distribution of costs is normally distributed with a standard deviation of <dollar/>409.
   </p>
 <p>
-  a. Find the probability that a single randomly selected consumer spends more than <dollar/>600 on a private helicopter tour.</p>
+  a. Find the probability that a single randomly selected consumer spends more than <dollar/>4390 on a cruise vacation.</p>
 <p style="padding-left: 40px;"><input type="text" style="width:25ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 4" class="text" /></p>
-<p>b. The cost of the middle 30<percent/> of private helicopter tours falls between (round to the nearest dollar):</p>
+<p>b. The cost of the middle 80<percent/> of cruise vacations falls between (round to the nearest dollar):</p>
 <p style="padding-left: 40px;"><dollar/><input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 4" class="text" /> to <dollar/><input type="text" style="width:25ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 4" class="text" /></p>
-<p>c. The <em>most expensive </em>18<percent/> of private helicopter tours cost at least how much? (round to the nearest dollar)</p>
+<p>c. The <em>most expensive </em>4<percent/> of cruise vacations cost at least how much? (round to the nearest dollar)</p>
 <p style="padding-left: 40px;"><dollar/><input type="text" style="width:25ch" name="qn1003" id="qn1003" value="" autocomplete="off" aria-label="Question 1 Part 4 of 4" class="text" /></p>
 
 
 </statement>
 <solution>
-<p><ul><li>0.9612</li><li>717</li><li>783</li><li>828</li></ul></p>
+<p><ul><li>0.1702</li><li>3476</li><li>4524</li><li>4716</li></ul></p>
 </solution>
 </myopenmath>
 
