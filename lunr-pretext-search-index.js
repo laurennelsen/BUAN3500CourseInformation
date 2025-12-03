@@ -1123,7 +1123,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Viz Extensions and Dashboard Extensions in Tableau",
-  "body": " Viz Extensions and Dashboard Extensions in Tableau   Sankey Chart using a Viz Extension in Tableau  An example of a chart that can be made using a Viz Extension in Tableau is a Sankey Chart .  (This is a relatively new feature from a couple years ago.)  Sankey charts can be helpful for showing flow , such as the flow of money like in the image below from the budgeting software Monarch .      We're going to see how to use a Viz Extension in Tableau to create a Sankey chart.  Use a Viz extension in Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.      Questions to consider:   Is this the best way to visualize this data?    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)     The file below contains information about some of the passengers on the Titanic and whether or not they survived.  Use a viz extension in Tableau to create a Sankey chart like the one below:   (You'll need to create a calculated field.)    Dashboard Extensions in Tableau  We've made dashboards in Tableau, but there are a lot of extensions that can take our dashboards to the next level.  In the problem below, we're going to use the Image Map Filter dashboard extension in Tableau.  In this problem, we're going to create a dashboard like the one at the link below:  Link to Dashboard  To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:    Excel file:     Image:     Create two charts in Tableau:   A map shading each state with the total profit    A line chart showing profit over time   Add Category to Filters on both of these sheets. Now create a dashboard and add both of these sheets to your dashboard. Next we're going to add the Image Map Filter extension to the dashboard:      "
+  "body": " Viz Extensions and Dashboard Extensions in Tableau   Sankey Chart using a Viz Extension in Tableau  An example of a chart that can be made using a Viz Extension in Tableau is a Sankey Chart .  (This is a relatively new feature from a couple years ago.)  Sankey charts can be helpful for showing flow , such as the flow of money like in the image below from the budgeting software Monarch .      We're going to see how to use a Viz Extension in Tableau to create a Sankey chart.  Use a Viz extension in Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.      Questions to consider:   Is this the best way to visualize this data?    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)     The file below contains information about some of the passengers on the Titanic and whether or not they survived.  Use a viz extension in Tableau to create a Sankey chart like the one below:   (You'll need to create a calculated field.)    Dashboard Extensions in Tableau  We've made dashboards in Tableau, but there are a lot of extensions that can take our dashboards to the next level.  In the problem below, we're going to use the Image Map Filter dashboard extension in Tableau.  Image Map Filter Example In this problem, we're going to create a dashboard like the one at the link below:  Link to Dashboard  To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:    Excel file:     Image:     Create two charts in Tableau:   A map shading each state with the total profit    A line chart showing profit over time   Add Category to Filters on both of these sheets. Now create a dashboard and add both of these sheets to your dashboard. Next we're going to add the Image Map Filter extension to the dashboard:     Filter Bookmarks Example Use the file below to create a dashboard showing inflation-adjusted salaries over time and showing a boxplot of all inflation-adjusted salaries. (Include any other visualizations you think would be helpful for visualizing this data.) Payroll data file:  We're going to use one of the images below with the Filter Bookmarks dashboard extension.         "
 },
 {
   "id": "subsec-Sankey-chart-7",
@@ -1149,8 +1149,35 @@ var ptx_lunr_docs = [
   "url": "sec-viz-and-dashboard-extensions.html#subsec-dashboard-extension-4",
   "type": "Example",
   "number": "8.7",
-  "title": "",
-  "body": "In this problem, we're going to create a dashboard like the one at the link below:  Link to Dashboard  To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:    Excel file:     Image:     Create two charts in Tableau:   A map shading each state with the total profit    A line chart showing profit over time   Add Category to Filters on both of these sheets. Now create a dashboard and add both of these sheets to your dashboard. Next we're going to add the Image Map Filter extension to the dashboard:    "
+  "title": "Image Map Filter Example.",
+  "body": "Image Map Filter Example In this problem, we're going to create a dashboard like the one at the link below:  Link to Dashboard  To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:    Excel file:     Image:     Create two charts in Tableau:   A map shading each state with the total profit    A line chart showing profit over time   Add Category to Filters on both of these sheets. Now create a dashboard and add both of these sheets to your dashboard. Next we're going to add the Image Map Filter extension to the dashboard:    "
+},
+{
+  "id": "subsec-dashboard-extension-5",
+  "level": "2",
+  "url": "sec-viz-and-dashboard-extensions.html#subsec-dashboard-extension-5",
+  "type": "Example",
+  "number": "8.8",
+  "title": "Filter Bookmarks Example.",
+  "body": "Filter Bookmarks Example Use the file below to create a dashboard showing inflation-adjusted salaries over time and showing a boxplot of all inflation-adjusted salaries. (Include any other visualizations you think would be helpful for visualizing this data.) Payroll data file:  We're going to use one of the images below with the Filter Bookmarks dashboard extension.       "
+},
+{
+  "id": "sec-connecting-to-open-data",
+  "level": "1",
+  "url": "sec-connecting-to-open-data.html",
+  "type": "Section",
+  "number": "",
+  "title": "Connecting to Open Data",
+  "body": " Connecting to Open Data  City of Denver Checkbook OData Example Go to the link below to see information about the City of Denver Checkbook dataset on the Colorado Information Marketplace.   We could export the dataset as a csv or Excel file, but instead we're going to access the data via oData .  OData stands for Open Data Protocol . (OData is an ISO\/IEC approved, OASIS standard that defines a set of best practices for building and consuming REST APIs (API stands for Application Programming Interface ). We're going to connect Tableau to this OData data source. (We're working with open data so we don't need authentication.) (Note: Tableau Desktop only supports extracts for OData.) After connecting to the data, create a dashboard using the dataset.  "
+},
+{
+  "id": "sec-connecting-to-open-data-2",
+  "level": "2",
+  "url": "sec-connecting-to-open-data.html#sec-connecting-to-open-data-2",
+  "type": "Example",
+  "number": "8.9",
+  "title": "City of Denver Checkbook OData Example.",
+  "body": "City of Denver Checkbook OData Example Go to the link below to see information about the City of Denver Checkbook dataset on the Colorado Information Marketplace.   We could export the dataset as a csv or Excel file, but instead we're going to access the data via oData .  OData stands for Open Data Protocol . (OData is an ISO\/IEC approved, OASIS standard that defines a set of best practices for building and consuming REST APIs (API stands for Application Programming Interface ). We're going to connect Tableau to this OData data source. (We're working with open data so we don't need authentication.) (Note: Tableau Desktop only supports extracts for OData.) After connecting to the data, create a dashboard using the dataset. "
 },
 {
   "id": "backmatter-2",
