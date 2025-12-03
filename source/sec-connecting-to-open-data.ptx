@@ -35,6 +35,22 @@
     After connecting to the data, create a dashboard using the dataset.
   </p>
 
+  <p>
+    (If you want to update the dataset in the future, from the dashboard go to the <q>Data</q> tab and choose <q>Refresh all extracts</q>.)
+  </p>
+
+    </exercise>
+
+    <exercise>
+      <title>Retail Reports by County in Colorado</title>
+      
+      <p>
+    Go to the link below and connect to the dataset using OData in Tableau.  Make a dashboard using this data.
+    </p>
+    <p>
+    <url href="https://data.colorado.gov/Business/City-of-Denver-Checkbook/wnau-xrqi/about_data" />
+  </p>
+      
     </exercise>
 
 
