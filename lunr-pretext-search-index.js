@@ -1168,7 +1168,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Connecting to Open Data",
-  "body": " Connecting to Open Data  City of Denver Checkbook OData Example Go to the link below to see information about the City of Denver Checkbook dataset on the Colorado Information Marketplace.   We could export the dataset as a csv or Excel file, but instead we're going to access the data via oData .  OData stands for Open Data Protocol . (OData is an ISO\/IEC approved, OASIS standard that defines a set of best practices for building and consuming REST APIs (API stands for Application Programming Interface ). We're going to connect Tableau to this OData data source. (We're working with open data so we don't need authentication.) (Note: Tableau Desktop only supports extracts for OData.) After connecting to the data, create a dashboard using the dataset.  "
+  "body": " Connecting to Open Data  City of Denver Checkbook OData Example Go to the link below to see information about the City of Denver Checkbook dataset on the Colorado Information Marketplace.   We could export the dataset as a csv or Excel file, but instead we're going to access the data via oData .  OData stands for Open Data Protocol . (OData is an ISO\/IEC approved, OASIS standard that defines a set of best practices for building and consuming REST APIs (API stands for Application Programming Interface ). We're going to connect Tableau to this OData data source. (We're working with open data so we don't need authentication.) (Note: Tableau Desktop only supports extracts for OData.) After connecting to the data, create a dashboard using the dataset. (If you want to update the dataset in the future, from the dashboard go to the Data tab and choose Refresh all extracts .)  Retail Reports by County in Colorado Go to the link below and connect to the dataset using OData in Tableau. Make a dashboard using this data.    "
 },
 {
   "id": "sec-connecting-to-open-data-2",
@@ -1177,7 +1177,16 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "8.9",
   "title": "City of Denver Checkbook OData Example.",
-  "body": "City of Denver Checkbook OData Example Go to the link below to see information about the City of Denver Checkbook dataset on the Colorado Information Marketplace.   We could export the dataset as a csv or Excel file, but instead we're going to access the data via oData .  OData stands for Open Data Protocol . (OData is an ISO\/IEC approved, OASIS standard that defines a set of best practices for building and consuming REST APIs (API stands for Application Programming Interface ). We're going to connect Tableau to this OData data source. (We're working with open data so we don't need authentication.) (Note: Tableau Desktop only supports extracts for OData.) After connecting to the data, create a dashboard using the dataset. "
+  "body": "City of Denver Checkbook OData Example Go to the link below to see information about the City of Denver Checkbook dataset on the Colorado Information Marketplace.   We could export the dataset as a csv or Excel file, but instead we're going to access the data via oData .  OData stands for Open Data Protocol . (OData is an ISO\/IEC approved, OASIS standard that defines a set of best practices for building and consuming REST APIs (API stands for Application Programming Interface ). We're going to connect Tableau to this OData data source. (We're working with open data so we don't need authentication.) (Note: Tableau Desktop only supports extracts for OData.) After connecting to the data, create a dashboard using the dataset. (If you want to update the dataset in the future, from the dashboard go to the Data tab and choose Refresh all extracts .) "
+},
+{
+  "id": "sec-connecting-to-open-data-3",
+  "level": "2",
+  "url": "sec-connecting-to-open-data.html#sec-connecting-to-open-data-3",
+  "type": "Example",
+  "number": "8.11",
+  "title": "Retail Reports by County in Colorado.",
+  "body": "Retail Reports by County in Colorado Go to the link below and connect to the dataset using OData in Tableau. Make a dashboard using this data.   "
 },
 {
   "id": "backmatter-2",

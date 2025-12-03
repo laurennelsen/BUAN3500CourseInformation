@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1064915">
 <statement>
-<p>It is estimated that 46.8<percent/> of Kickstarter projects are successfully funded. Assume each Kickstarter project is independent. A random sample of 17 Kickstarter projects are followed. Let <m>\displaystyle{X}</m> be the number Kickstarter projects that are successfully funded. Calculate the following:</p>
+<p>It is estimated that 49.5<percent/> of Kickstarter projects are successfully funded. Assume each Kickstarter project is independent. A random sample of 16 Kickstarter projects are followed. Let <m>\displaystyle{X}</m> be the number Kickstarter projects that are successfully funded. Calculate the following:</p>
 <p>a. <m>\displaystyle\mu_{{X}}</m>: <fillin characters="4" /></p>
 <p>b. <m>\displaystyle\sigma_{{X}}</m>: <fillin characters="4" /></p>
-<p>c. <m>\displaystyle{P}{\left({X}={7}\right)}</m>: <fillin characters="4" /></p>
+<p>c. <m>\displaystyle{P}{\left({X}={8}\right)}</m>: <fillin characters="4" /></p>
 <p>d. <m>\displaystyle{P}{\left({X}{<}{10}\right)}</m>: <fillin characters="4" /></p>
-<p>e. <m>\displaystyle{P}{\left({X}{>}{6}\right)}</m>: <fillin characters="4" /></p>
-<p>f.  <m>\displaystyle{P}{\left({X}\geq{6}\right)}</m>: <fillin characters="4" /></p>
-<p>g. <m>\displaystyle{P}{\left({6}\leq{X}\leq{10}\right)}</m>: <fillin characters="20" /></p>
+<p>e. <m>\displaystyle{P}{\left({X}{>}{7}\right)}</m>: <fillin characters="4" /></p>
+<p>f.  <m>\displaystyle{P}{\left({X}\geq{7}\right)}</m>: <fillin characters="4" /></p>
+<p>g. <m>\displaystyle{P}{\left({7}\leq{X}\leq{9}\right)}</m>: <fillin characters="20" /></p>
 
 </statement>
 <solution>
-<p><ul><li>7.956</li><li>2.0573264203816</li><li>0.17366497586255</li><li>0.77366696445987</li><li>0.75895700933597</li><li>0.88458412002243</li><li>0.77647760238894</li></ul></p>
+<p><ul><li>7.92</li><li>1.9998999974999</li><li>0.19622356571776</li><li>0.78478563439823</li><li>0.58240499858862</li><li>0.76034960203956</li><li>0.54513523643779</li></ul></p>
 </solution>
 </myopenmath>
 
