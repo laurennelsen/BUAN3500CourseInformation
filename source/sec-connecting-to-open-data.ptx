@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-connecting-to-open-data" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Connecting to Open Data</title>
+
+
+<exercise>
+<title>City of Denver Checkbook OData Example</title>
+
+
+  <p>
+    Go to the link below to see information about the <q>City of Denver Checkbook</q> dataset on the Colorado Information Marketplace.
+    </p>
+    <p>
+    <url href="https://data.colorado.gov/Business/City-of-Denver-Checkbook/wnau-xrqi/about_data" />
+  </p>
+
+  <p>
+    We could export the dataset as a csv or Excel file, but instead we're going to access the data via <em>oData</em>.
+  </p>
+
+  <note>
+    <q>OData</q> stands for <q>Open Data Protocol</q>.  (OData is an ISO/IEC approved, OASIS standard that defines a set of best practices for building and consuming REST APIs (API stands for <q>Application Programming Interface</q>).
+  </note>
+
+  <p>
+   We're going to connect Tableau to this OData data source.  (We're working with open data so we don't need authentication.)
+  </p>
+
+  <p>
+    (Note:  Tableau Desktop only supports extracts for OData.)
+  </p>
+
+  <p>
+    After connecting to the data, create a dashboard using the dataset.
+  </p>
+
+    </exercise>
+
+
+  </section>

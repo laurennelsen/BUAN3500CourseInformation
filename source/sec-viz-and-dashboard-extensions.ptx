@@ -97,6 +97,9 @@
 
 
     <exercise>
+        <title>
+            Image Map Filter Example
+        </title>
         <p>
             In this problem, we're going to create a dashboard like the one at the link below:
         </p>
@@ -153,6 +156,35 @@ Link to Dashboard </url>
             </image>
         </p>
 
+    </exercise>
+
+
+    <exercise>
+        <title>
+            Filter Bookmarks Example
+        </title>
+
+        <p>
+            Use the file below to create a dashboard showing inflation-adjusted salaries over time and showing a boxplot of all inflation-adjusted salaries.  (Include any other visualizations you think would be helpful for visualizing this data.)
+        </p>
+        <p>
+                Payroll data file:   <url href="external/sheets/NBA Payroll(1990-2023).csv" />
+
+            </p>
+
+        <p>
+            We're going to use one of the images below with the Filter Bookmarks dashboard extension.
+
+        </p>
+
+        <p>
+            <image source="sheets/nba-logo.png" width="50%">
+            </image>
+        </p>
+        <p>
+            <image source="sheets/gettyimages-MJ.jpg" width="50%">
+            </image>
+        </p>
     </exercise>
     
   </subsection>

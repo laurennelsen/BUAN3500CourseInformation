@@ -9,5 +9,6 @@
  <xi:include href="sec-intro-gen-ai.ptx" />
  <xi:include href="sec-calculated-fields.ptx" />
  <xi:include href="sec-viz-and-dashboard-extensions.ptx" />
+  <xi:include href="sec-connecting-to-open-data.ptx" />
 
 </chapter>
