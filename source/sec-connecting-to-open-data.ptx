@@ -54,4 +54,18 @@
     </exercise>
 
 
+
+    <exercise>
+      <title>Businesses in Good Standing in the State of Maryland</title>
+      
+      <p>
+    Go to the link below and connect to the dataset using OData in Tableau.  Make a dashboard using this data.
+    </p>
+    <p>
+    <url href="https://opendata.maryland.gov/Business-and-Economy/Number-of-businesses-in-the-State/ftgf-3uby/about_data" />
+  </p>
+      
+    </exercise>
+
+
   </section>
