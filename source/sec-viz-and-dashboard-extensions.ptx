@@ -101,7 +101,7 @@
             Store Profit Image Map Filter Example
         </title>
         <p>
-            In this problem, we're going to create a dashboard like the one at the link below:
+            In this problem, we're going to create a dashboard like the one at the link below.  (You will likely need to be signed in to Tableau Public to view and interact with the dashboard below.)
         </p>
         <p>
             <url href="https://public.tableau.com/views/Superstoredashboard_17331671994430/Dashboard1?:language=en-USpublish=yes:sid=:redirect=auth:display_count=n:origin=viz_share_link" >
@@ -175,8 +175,10 @@ Link to Dashboard </url>
             </p>
 
         <p>
-            We're going to use one of the images below with the Filter Bookmarks dashboard extension.
-
+            We're going to use one of the images below with the Filter Bookmarks dashboard extension to create a dashboard like the one below.
+        </p>
+        <p>
+ <url href="https://public.tableau.com/app/profile/lauren.nelsen/viz/NBASalaries_17648118218800/Dashboard1?publish=yes">Link to Dashboard </url>  
         </p>
 
         <p>
@@ -198,7 +200,10 @@ Link to Dashboard </url>
             Ski Area Ownership Image Map Filter Example
         </title>
         <p>
-            In this problem, we're going to create a dashboard like the one in the image below:
+            In this problem, we're going to create a dashboard like the one below:
+        </p>
+        <p>
+            <url href="https://public.tableau.com/app/profile/lauren.nelsen/viz/SkiAreaOwnership/Dashboard1?publish=yes">Link to dashboard</url>
         </p>
         <p>
            <image source="sheets/SkiAreaOwnershipDashboard.png" width="100%">
