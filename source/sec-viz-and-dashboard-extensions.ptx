@@ -98,14 +98,16 @@
 
     <exercise>
         <title>
-            Image Map Filter Example
+            Store Profit Image Map Filter Example
         </title>
         <p>
             In this problem, we're going to create a dashboard like the one at the link below:
         </p>
         <p>
             <url href="https://public.tableau.com/views/Superstoredashboard_17331671994430/Dashboard1?:language=en-USpublish=yes:sid=:redirect=auth:display_count=n:origin=viz_share_link" >
-Link to Dashboard </url>            
+Link to Dashboard </url>  
+<image source="sheets/SuperstoreDashboard.png" width="100%">
+            </image>           
 </p>
 <p>
     To do this, we'll need the Excel file with the data, as well as the image that we're using to represent the different categories:
@@ -185,6 +187,50 @@ Link to Dashboard </url>
             <image source="sheets/gettyimages-MJ.jpg" width="50%">
             </image>
         </p>
+    </exercise>
+
+
+
+
+
+    <exercise>
+        <title>
+            Ski Area Ownership Image Map Filter Example
+        </title>
+        <p>
+            In this problem, we're going to create a dashboard like the one in the image below:
+        </p>
+        <p>
+           <image source="sheets/SkiAreaOwnershipDashboard.png" width="100%">
+            </image>          
+</p>
+<p>
+   Use the Excel file and image below:
+</p>
+<p>
+    <ul>
+        <li>
+            <p>
+                Excel file:   <url href="external/sheets/SkiAreaOwnership.xlsx" />
+
+            </p>
+        </li>
+        <li>
+            <p>
+                Image:  <image source="sheets/StateFlags.png" width="20%">
+            </image>
+               
+            </p>
+        </li>
+    </ul>
+</p>
+        
+
+        <p>
+            Create a dashboard using the dataset and use the <q>Image Map Filter</q> extension to filter by state location of the headquarters.
+        </p>
+
+
     </exercise>
     
   </subsection>
