@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="803116">
 <statement>
-<p>Karla is conducting market research on the cost of  a cell phone data plan. Karla has determined that the average annual cost of  a cell phone data plan is <dollar/>1353, and that the distribution of costs is normally distributed with a standard deviation of <dollar/>74.
+<p>Christina is conducting market research on the cost of  homeowners insurance. Christina has determined that the average annual cost of  homeowners insurance is <dollar/>982, and that the distribution of costs is normally distributed with a standard deviation of <dollar/>74.
   </p>
 <p>
-  a. Find the probability that a single randomly selected consumer spends more than <dollar/>1249 on  a cell phone data plan.</p>
-<p style="padding-left: 40px;"><fillin characters="20" /></p>
-<p>b. The cost of the middle 70<percent/> of  cell phone data plans falls between (round to the nearest dollar):</p>
-<p style="padding-left: 40px;"><dollar/><fillin characters="20" /> to <dollar/><fillin characters="20" /> per year.</p>
-<p>c. The <em>most expensive </em>16<percent/> of  cell phone data plans cost at least how much annually?</p>
-<p style="padding-left: 40px;"><dollar/><fillin characters="20" /></p>
+  a. Find the probability that a single randomly selected consumer spends more than <dollar/>877 on  homeowners insurance.</p>
+<p style="padding-left: 40px;"><fillin characters="10" /></p>
+<p>b. The cost of the middle 40<percent/> of  homeowners insurance policies falls between (round to the nearest dollar):</p>
+<p style="padding-left: 40px;"><dollar/><fillin characters="10" /> to <dollar/><fillin characters="10" /> per year.</p>
+<p>c. The <em>most expensive </em>20<percent/> of  homeowners insurance policies cost at least how much annually?</p>
+<p style="padding-left: 40px;"><dollar/><fillin characters="10" /></p>
 
 </statement>
-<solution>
-<p><ul><li>0.92</li><li>1276</li><li>1430</li><li>1427</li></ul></p><p>Define the normal distribution in Desmos: <m>\displaystyle{N}=\text{normaldist}{\left({1353},{74}\right)}</m>.
-  </p>
-<p>
-  a. <m>\displaystyle{P}{\left({x}{>}{1249}\right)}={N}.{c}{d}{f{{\left({1249},\infty\right)}}}={0.92}</m>
-  </p>
-<p>
-  b. For the middle 70<percent/> of the data, need the remaining 30<percent/> of the data split between the left and right tails of the distribution. So the lower bound of the range has <m>\displaystyle{0.15}</m> of the area to the left and the upper bound of the range has <m>\displaystyle{0.15}</m> of the area to the right, which means <m>\displaystyle{0.85}</m> to the left. Therefore:</p>
-<p style="padding-left: 40px;">Lower bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.15}\right)}={1276}</m></p>
-<p style="padding-left: 40px;">Upper bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.85}\right)}={1430}</m></p>
-<p>c. For the most expensive 16<percent/> of the distribution, need <m>\displaystyle{0.16}</m> of the area to the right of the data value, so need <m>\displaystyle{1}-{0.0}{.16}={0.84}</m> to the left. Therefore:</p>
-<p style="padding-left: 40px;"> <m>\displaystyle{x}={N}.\text{inversecdf}{\left({0.84}\right)}={1427}</m> </p>
-</solution>
+<answer>
+<p><ul><li>0.922</li><li>943</li><li>1021</li><li>1044</li></ul></p>
+</answer>
+<solution><p>Define the normal distribution in Desmos: <m>\displaystyle\text{normaldist}{\left({982},{74}\right)}</m>. </p>
+<p>a. In Desmos, select <em>RIGHT </em>region, compute <em>AREA</em>. Enter the boundary 877 and obtain the probability: <m>\displaystyle{P}{\left({x}\geq{877}\right)}={0.922}</m>.</p>
+<p>Alternatively (old Desmos approach), use: <m>\displaystyle\text{normaldist}{\left({982},{74}\right)}.{c}{d}{f{{\left({877},\infty\right)}}}={0.922}</m> </p>
+<p>b. For the middle 40<percent/> of the data, select <em>INNER </em>region, compute <em>BOUNDS</em>. Enter the area of the middle region <m>\displaystyle{0.40}</m>  and obtain the upper and lower bounds: <m>\displaystyle{943}\leq{x}\leq{1021}</m> .</p>
+<p>Alternatively (old Desmos approach): split the remaining region between the tails and find the boundaries: </p>
+<p style="padding-left: 40px;">Lower bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.3}\right)}={943}</m></p>
+<p style="padding-left: 40px;">Upper bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.7}\right)}={1021}</m></p>
+<p>c. For the most expensive 20<percent/> of the distribution, need <m>\displaystyle{0.2}</m> of the area to the right. Use a <em>RIGHT </em>region, compute <em>BOUNDS </em>and enter the area to the right <m>\displaystyle{0.2}.</m>  Obtain the lower bound: <m>\displaystyle{x}={1044}.</m> </p>
+<p>Alternatively (old Desmos approach): use the inverse function with the area needed to the LEFT:</p>
+<p style="padding-left: 40px;"> <m>\displaystyle{x}={N}.\text{inversecdf}{\left({0.8}\right)}={1044}</m> </p></solution>
 </myopenmath>
 
