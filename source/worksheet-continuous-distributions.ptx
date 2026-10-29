@@ -241,6 +241,42 @@ Despite the complexity of this function, there are only two parameters that comp
 
 
 <exercise>
+<introduction>
+<p>
+    Download the dataset below that is from the <url href="https://databank.worldbank.org/source/world-development-indicators#">World Bank Group World Development Indicators dataset</url>.
+</p>
+    <p>
+        <url href="external/sheets/Data_Extract_From_World_Development_Indicators.xlsx" />
+</p>
+
+</introduction>
+<task>
+    <statement>
+        <p>
+    Investigate the different variables in the dataset and see if any of them look approximately normally distributed.
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+            Look at the distribution of life expectancy at birth in 2021.  Does this look approximately normal?  If we do model this using a normal distribution, what would the probability of choosing a country with a life expectancy of at least 85 years? 
+        </p>
+    </statement>
+</task>
+
+</exercise>
+
+
+<note>
+    <p>
+        The Central Limit Theorem tells us that if our sample size is big enough, then sample means will be normally distributed!  (This is really where the normal distribution becomes very helpful.) 
+    </p>
+</note>
+
+
+<exercise>
     <myopenmath problem="1102015" />
   </exercise>
 
@@ -311,6 +347,66 @@ Despite the complexity of this function, there are only two parameters that comp
                 <me>EXPON.DIST(x,\lambda,\text{cumulative}),</me>
                 where cumulative=TRUE (if you want cumulative probability) or FALSE (if you do not want cumulative probability).
             </p>
+
+
+
+<exercise>
+<introduction>
+<p>
+    This exercise is modified from a problem found at <url href="https://lean6sigmahub.com/how-to-master-exponential-distribution-a-complete-guide-for-understanding-wait-times-and-failure-rates/" >this site</url>.
+</p>
+
+<p>
+    A production line experiences machine breakdowns, and quality engineers have recorded the following time intervals (in hours) between consecutive failures over the past month.  These can be found in the Excel file below.
+</p>
+<p>
+        <url href="external/sheets/TimeIntervalsBetweenFailures.xlsx" />
+</p>
+</introduction>
+
+<task>
+    <statement>
+        <p>
+            Calculate the average time between failures.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>\mu=3.6</m> hours
+        </p>
+        <p>
+            <m>\lambda=\frac{1}{\mu}\approx .28</m> failures per hour
+        </p>
+    </answer>
+</task>
+
+<task>
+    <statement>
+        <p>
+            What is the probability that a failure occurs within the next 2 hours?
+        </p>
+    </statement>
+    <answer>
+        <p>
+             <m>\approx 43\%</m>
+        </p>
+    </answer>
+</task>
+
+<task>
+    <statement>
+        <p>
+            What is the probability that the machine will operate for at least 5 hours without failure?
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>\approx 25\%</m>
+        </p>
+    </answer>
+</task>
+
+</exercise>
 
 
             <exercise>
@@ -407,6 +503,8 @@ Despite the complexity of this function, there are only two parameters that comp
                 </li>
             </ul>
         </p>
+
+
 
 
 
