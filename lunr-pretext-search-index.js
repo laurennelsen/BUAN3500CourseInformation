@@ -997,7 +997,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Confidence Intervals and Hypothesis Testing Worksheet",
-  "body": " Confidence Intervals and Hypothesis Testing Worksheet  Our goal is to use a sample to understand what is happening in our population. We are going to focus on estimating means and proportions for our population using a sample.   Confidence Intervals for the Mean  Cases that we need to consider separately:   Population standard deviation ( ) is known:     Population standard deviation ( ) is not known, and we only know the sample standard deviation:        Confidence Interval for the Proportion    Credit Balance Confidence Interval Open the file NewBalance .  This file shows credit balances for a sample of customers. Construct a confidence interval in Excel for the average credit balance.   Confidence Intervals in Tableau  Tableau can also construct confidence intervals! Let's construct the confidence interval from in Tableau.    Real-World Examples of Finding Confidence Intervals in Excel  US Census Data Confidence Intervals  Let's look at US Census data from October 2023:   (This data can be found at )   Use the sample data to estimate the average number of hours worked per week in the US among people who work a positive number of hours each week. (Look at pehract1 .)   Use the sample data to estimate the proportion of households in the US in which someone owns a business or a farm. (Look at HUBUS .)     Hypothesis Testing  We have shown how a sample could be used to develop a point and interval estimates of population parameters such as the mean ( ) and the proportion ( ). Now we will continue the discussion of statistical inference by showing how hypothesis testing can be used to determine whether a statement about the value of a population parameter should or should not be rejected.       A hypothesis is an assumption about a population parameter.    The null hypothesis , denoted , represents the status quo and involves stating the belief that the population parameter is a specific value    The alternative hypothesis , denoted , represents the opposite of , and is believed to be true if the null hypothesis is found to be false.            : No more than of the registered voters in Santa Clara County voted in the primary election.     : More than of the registered voters in Santa Clara County voted in the primary election.        Test Statistics for Hypothesis Tests     Test statistic for hypothesis tests about a population mean if is known:     Test statistic for hypothesis tests about a population mean if is NOT known:     Test statistic for hypothesis tests about a population proportion:        p-value    A p-value is the probability, assuming that is true, of obtaining a random sample of size that results in a test statistic at least as extreme as the one observed in the current sample.       We want to test the hypothesis that the proportion of households in the US in which someones owns a business or a farm is using the US Census sample data from October 2023::  (This data can be found at .) (Look at HUBUS like we did in .) Determine the null and alternative hypotheses and find the test statistic. Then find the p-value and decide what you can conclude based on this sample.  "
+  "body": " Confidence Intervals and Hypothesis Testing Worksheet  Our goal is to use a sample to understand what is happening in our population. We are going to focus on estimating means and proportions for our population using a sample.   Confidence Intervals for the Mean  Cases that we need to consider separately:   Population standard deviation ( ) is known:     Population standard deviation ( ) is not known, and we only know the sample standard deviation:        Confidence Interval for the Proportion    Credit Balance Confidence Interval Open the file NewBalance .  This file shows credit balances for a sample of customers. Construct a confidence interval in Excel for the average credit balance.   Confidence Intervals in Tableau  Tableau can also construct confidence intervals! Let's construct the confidence interval from in Tableau.    Real-World Examples of Finding Confidence Intervals in Excel  US Census Data Confidence Intervals October 2023  Let's look at US Census data from October 2023:   (This data can be found at )   Use the sample data to estimate the average number of hours worked per week in the US among people who work a positive number of hours each week. (Look at pehract1 .)   Use the sample data to estimate the proportion of households in the US in which someone owns a business or a farm. (Look at HUBUS .)   US Census Data Confidence Intervals October 2026  Now, look at US Census data from October 2026 (This data can be found at )   Use the sample data to estimate the average number of people living in a household (among households with a non-zero number of people). (Look at HRNUMHOU .)   Use the sample data to estimate the proportion of households in the US in which someone owns a business or a farm. (Look at HUBUS .)     Hypothesis Testing  We have shown how a sample could be used to develop a point and interval estimates of population parameters such as the mean ( ) and the proportion ( ). Now we will continue the discussion of statistical inference by showing how hypothesis testing can be used to determine whether a statement about the value of a population parameter should or should not be rejected.       A hypothesis is an assumption about a population parameter.    The null hypothesis , denoted , represents the status quo and involves stating the belief that the population parameter is a specific value    The alternative hypothesis , denoted , represents the opposite of , and is believed to be true if the null hypothesis is found to be false.            : No more than of the registered voters in Santa Clara County voted in the primary election.     : More than of the registered voters in Santa Clara County voted in the primary election.        Test Statistics for Hypothesis Tests     Test statistic for hypothesis tests about a population mean if is known:     Test statistic for hypothesis tests about a population mean if is NOT known:     Test statistic for hypothesis tests about a population proportion:        p-value    A p-value is the probability, assuming that is true, of obtaining a random sample of size that results in a test statistic at least as extreme as the one observed in the current sample.       We want to test the hypothesis that the proportion of households in the US in which someones owns a business or a farm is using the US Census sample data from October 2026. (This data can be found at .) (Look at HUBUS like we did in .) Determine the null and alternative hypotheses and find the test statistic. Then find the p-value and decide what you can conclude based on this sample.   Look at the Census at School site, and download a sample of 250 students in Michigan from all grade levels listed from 2026.   Test the hypothesis that the proportion of students who travel to school in a car is less than .   Test the hypothesis that the average number of text messages sent the previous day is more than 251.   "
 },
 {
   "id": "ex-newbalance-conf-int",
@@ -1018,20 +1018,29 @@ var ptx_lunr_docs = [
   "body": "Tableau can also construct confidence intervals! Let's construct the confidence interval from in Tableau. "
 },
 {
-  "id": "ex-Census-confidence-intervals",
+  "id": "ex-Census-confidence-intervals-2023",
   "level": "2",
-  "url": "worksheet-confidence-intervals-hyp-testing.html#ex-Census-confidence-intervals",
+  "url": "worksheet-confidence-intervals-hyp-testing.html#ex-Census-confidence-intervals-2023",
   "type": "Example",
   "number": "7.3",
-  "title": "US Census Data Confidence Intervals.",
-  "body": "US Census Data Confidence Intervals  Let's look at US Census data from October 2023:   (This data can be found at )   Use the sample data to estimate the average number of hours worked per week in the US among people who work a positive number of hours each week. (Look at pehract1 .)   Use the sample data to estimate the proportion of households in the US in which someone owns a business or a farm. (Look at HUBUS .)  "
+  "title": "US Census Data Confidence Intervals October 2023.",
+  "body": "US Census Data Confidence Intervals October 2023  Let's look at US Census data from October 2023:   (This data can be found at )   Use the sample data to estimate the average number of hours worked per week in the US among people who work a positive number of hours each week. (Look at pehract1 .)   Use the sample data to estimate the proportion of households in the US in which someone owns a business or a farm. (Look at HUBUS .)  "
+},
+{
+  "id": "ex-Census-confidence-intervals-2026",
+  "level": "2",
+  "url": "worksheet-confidence-intervals-hyp-testing.html#ex-Census-confidence-intervals-2026",
+  "type": "Example",
+  "number": "7.4",
+  "title": "US Census Data Confidence Intervals October 2026.",
+  "body": "US Census Data Confidence Intervals October 2026  Now, look at US Census data from October 2026 (This data can be found at )   Use the sample data to estimate the average number of people living in a household (among households with a non-zero number of people). (Look at HRNUMHOU .)   Use the sample data to estimate the proportion of households in the US in which someone owns a business or a farm. (Look at HUBUS .)  "
 },
 {
   "id": "def-hypothesis",
   "level": "2",
   "url": "worksheet-confidence-intervals-hyp-testing.html#def-hypothesis",
   "type": "Definition",
-  "number": "7.4",
+  "number": "7.5",
   "title": "",
   "body": "     A hypothesis is an assumption about a population parameter.    The null hypothesis , denoted , represents the status quo and involves stating the belief that the population parameter is a specific value    The alternative hypothesis , denoted , represents the opposite of , and is believed to be true if the null hypothesis is found to be false.      "
 },
@@ -1040,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-confidence-intervals-hyp-testing.html#ex-onetail",
   "type": "Example",
-  "number": "7.5",
+  "number": "7.6",
   "title": "",
   "body": "     : No more than of the registered voters in Santa Clara County voted in the primary election.     : More than of the registered voters in Santa Clara County voted in the primary election.     "
 },
@@ -1049,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-confidence-intervals-hyp-testing.html#def-p-value",
   "type": "Definition",
-  "number": "7.6",
+  "number": "7.7",
   "title": "",
   "body": "  A p-value is the probability, assuming that is true, of obtaining a random sample of size that results in a test statistic at least as extreme as the one observed in the current sample.   "
 },
@@ -1058,9 +1067,18 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-confidence-intervals-hyp-testing.html#worksheet-confidence-intervals-hyp-testing-12",
   "type": "Example",
-  "number": "7.7",
+  "number": "7.8",
   "title": "",
-  "body": "We want to test the hypothesis that the proportion of households in the US in which someones owns a business or a farm is using the US Census sample data from October 2023::  (This data can be found at .) (Look at HUBUS like we did in .) Determine the null and alternative hypotheses and find the test statistic. Then find the p-value and decide what you can conclude based on this sample. "
+  "body": "We want to test the hypothesis that the proportion of households in the US in which someones owns a business or a farm is using the US Census sample data from October 2026. (This data can be found at .) (Look at HUBUS like we did in .) Determine the null and alternative hypotheses and find the test statistic. Then find the p-value and decide what you can conclude based on this sample. "
+},
+{
+  "id": "worksheet-confidence-intervals-hyp-testing-13",
+  "level": "2",
+  "url": "worksheet-confidence-intervals-hyp-testing.html#worksheet-confidence-intervals-hyp-testing-13",
+  "type": "Example",
+  "number": "7.9",
+  "title": "",
+  "body": " Look at the Census at School site, and download a sample of 250 students in Michigan from all grade levels listed from 2026.   Test the hypothesis that the proportion of students who travel to school in a car is less than .   Test the hypothesis that the average number of text messages sent the previous day is more than 251.  "
 },
 {
   "id": "worksheet-sample-size",
@@ -1076,7 +1094,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-sample-size.html#worksheet-sample-size-5",
   "type": "Example",
-  "number": "7.8",
+  "number": "7.10",
   "title": "",
   "body": "(Donnelly 8.44) Determine the sample size needed to construct a confidence interval to estimate the average GPA for the student population at a college with a margin of error equal to 0.5. Assume the standard deviation of the GPA for the student population is 2.5. "
 },
@@ -1085,7 +1103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-sample-size.html#worksheet-sample-size-6",
   "type": "Example",
-  "number": "7.9",
+  "number": "7.11",
   "title": "",
   "body": "(Donnelly 8.47) A certain region would like to estimate the proportion of voters who intend to participate in upcoming elections. A pilot sample of 50 voters found that 39 of them intended to vote in the election. Determine the additional number of voters that need to be sampled to construct a interval with a margin of error equal to 0.08 to estimate the proportion. "
 },
