@@ -77,8 +77,8 @@
     
 
 
-  <exercise xml:id="ex-Census-confidence-intervals">
-    <title>US Census Data Confidence Intervals</title>
+  <exercise xml:id="ex-Census-confidence-intervals-2023">
+    <title>US Census Data Confidence Intervals October 2023</title>
     
     
     <introduction>
@@ -94,6 +94,32 @@
         <statement>
             <p>
                 Use the sample data to estimate the average number of hours worked per week in the US among people who work a positive number of hours each week.  (Look at <q>pehract1</q>.)
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use the sample data to estimate the proportion of households in the US in which someone owns a business or a farm.  (Look at <q>HUBUS</q>.)
+            </p>
+        </statement>
+    </task>
+
+  </exercise>
+
+  <exercise xml:id="ex-Census-confidence-intervals-2026">
+    <title>US Census Data Confidence Intervals October 2026</title>
+    
+    
+    <introduction>
+        <p>
+            Now, look at US Census data from October 2026 (This data can be found at <url href="https://www.census.gov/data/datasets/time-series/demo/cps/cps-basic.html" />)
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Use the sample data to estimate the average number of people living in a household (among households with a non-zero number of people).  (Look at <q>HRNUMHOU</q>.)
             </p>
         </statement>
     </task>
@@ -220,7 +246,7 @@
 
 <exercise>
     <p>
-    We want to test the hypothesis that the proportion of households in the US in which someones owns a business or a farm is <m>10.4\%</m> using the US Census sample data from October 2023::  <url href="https://bit.ly/3SskrqA" />
+    We want to test the hypothesis that the proportion of households in the US in which someones owns a business or a farm is <m>10.4\%</m> using the US Census sample data from October 2026.
 
     </p>
     <p>
@@ -228,7 +254,7 @@
     </p>
 
     <p>
-        (Look at <q>HUBUS</q> like we did in <xref ref="ex-Census-confidence-intervals"/>.)
+        (Look at <q>HUBUS</q> like we did in <xref ref="ex-Census-confidence-intervals-2026"/>.)
     </p>
 
     
@@ -240,5 +266,29 @@ Determine the null and alternative hypotheses and find the test statistic.
 </p>
 </exercise>
 
+
+<exercise>
+<introduction>
+    <p>
+                Look at the <url href="https://ww2.amstat.org/censusatschool/Randomsampleconditions.cfm">Census at School</url> site, and download a sample of 250 students in Michigan from all grade levels listed from 2026.
+
+    </p>
+</introduction>
+    <task>
+    <statement>
+        <p>
+            Test the hypothesis that the proportion of students who travel to school in a car is less than <m>75\%</m>.
+        </p>
+    </statement>
+    </task>
+
+    <task>
+    <statement>
+        <p>
+            Test the hypothesis that the average number of text messages sent the previous day is more than 251.
+        </p>
+    </statement>
+    </task>
+</exercise>
 
 </section>
