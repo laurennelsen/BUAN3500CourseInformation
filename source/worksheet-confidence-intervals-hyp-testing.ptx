@@ -245,6 +245,9 @@
 </p>
 
 <exercise>
+<title>US Census Data Hypothesis Testing</title>
+
+
     <p>
     We want to test the hypothesis that the proportion of households in the US in which someones owns a business or a farm is <m>10.4\%</m> using the US Census sample data from October 2026.
 
@@ -267,11 +270,12 @@ Determine the null and alternative hypotheses and find the test statistic.
 </exercise>
 
 
-<exercise>
+<exercise xml:id="Census-at-school-exercise">
+    <title>Census at School Hypothesis Testing</title>
+
 <introduction>
     <p>
-                Look at the <url href="https://ww2.amstat.org/censusatschool/Randomsampleconditions.cfm">Census at School</url> site, and download a sample of 250 students in Michigan from all grade levels listed from 2026.
-
+      Look at the <url href="https://ww2.amstat.org/censusatschool/Randomsampleconditions.cfm">Census at School</url> site, and download a sample of <m>250</m> students in Michigan from all grade levels listed from <m>2026</m>.
     </p>
 </introduction>
     <task>
@@ -285,9 +289,26 @@ Determine the null and alternative hypotheses and find the test statistic.
     <task>
     <statement>
         <p>
-            Test the hypothesis that the average number of text messages sent the previous day is more than 200.
+            Over a decade ago, <url href="https://www.pewresearch.org/internet/2015/04/09/mobile-access-shifts-social-media-use-and-other-online-activities/?utm_source=chatgpt.com">Pew Research</url> said that <q>The number of text messages sent or received by cell phone owning teens ages 13 to 17 (directly through phone or on apps on the phone) on a typical day is 30.</q>
+        </p>
+        <p>
+            Test the hypothesis that the average number of text messages sent the previous day is now more than <m>30</m> for students from grades 7 through 12 in Michigan.
+        </p>
+        <p>
+            (First look at the dataset and see if you need to do any <q>cleaning</q>.  Excel internally stores dates as integers.)
         </p>
     </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Create a dashboard summarizing relevant data from this sample and presenting the results of the hypothesis test about the average number of text messages.
+            </p>
+            <p>
+                (<url href="https://bit.ly/4zSHmz1">Here is a link</url> to an example.)
+                
+            </p>
+        </statement>
     </task>
 </exercise>
 

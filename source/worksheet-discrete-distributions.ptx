@@ -416,9 +416,10 @@ As the number of trials in a binomial experiment increases, calculating the prob
 
   <exercises component="web-only-exercises">
 
-    <exercise>
+     <exercise xml:id="exercise-mom">
       <myopenmath problem="1064915" />
-    </exercise> 
+    </exercise>  
+  
   
     </exercises>
   
