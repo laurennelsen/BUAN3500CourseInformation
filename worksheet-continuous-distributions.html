@@ -6,89 +6,37 @@
 <!--*                                          *-->
 <!--********************************************-->
 <html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Continuous Probability Distributions Worksheet</title>
-<meta name="Keywords" content="Authored in PreTeXt">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="_static/pretext/fonts/material-symbols-outlined.css">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer data-pretext-mathjax="true" onerror="this.dataset.loadFailed = 'true';" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
-<meta property="book:title" content="BUAN 3500: Data Visualization and Descriptive Analytics in Business">
-<meta property="book:author" content="Lauren M. Nelsen">
-<script>
-var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
-window.MathJax = {
-  "tex": {
-    "inlineMath": [
-      [
-        "\\(",
-        "\\)"
-      ]
-    ],
-    "tags": "none",
-    "tagSide": "right",
-    "tagIndent": ".8em",
-    "packages": {
-      "[+]": [
-        "base",
-        "extpfeil",
-        "ams",
-        "amscd",
-        "color",
-        "newcommand",
-        "knowl"
-      ]
-    }
-  },
-  "options": {
-    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math"
-  },
-  "chtml": {
-    "scale": 0.98,
-    "mtextInheritFont": true
-  },
-  "loader": {
-    "load": [
-      "input/asciimath",
-      "[tex]/extpfeil",
-      "[tex]/amscd",
-      "[tex]/color",
-      "[tex]/newcommand",
-      "[pretext]/mathjaxknowl3.js"
-    ],
-    "paths": {
-      "pretext": "_static/pretext/js/lib"
-    }
-  },
-  "startup": {
-    pageReady() {
-      return MathJax.startup.defaultPageReady().then(function () {
-      console.log("in ready function");
-      rsMathReady();
-      }
-    )}
-  }
-};
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
-<!--** eBookCongig is necessary to configure interactive       **-->
+<meta name="twitter:title" content="BUAN 3500: Data Visualization and Descriptive Analytics in Business: Spring 2025">
+<meta property="og:title" content="BUAN 3500: Data Visualization and Descriptive Analytics in Business: Spring 2025">
+<meta property="book:title" content="BUAN 3500: Data Visualization and Descriptive Analytics in Business: Spring 2025">
+<meta name="twitter:description" content="A simple string (no markup is allowed) to describe your book.">
+<meta property="og:description" content="A simple string (no markup is allowed) to describe your book.">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.56"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.56"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -110,50 +58,62 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.4.0';
+eBookConfig.runestone_version = '8.4.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script type="text/javascript" src="https://runestone.academy/cdn/runestone/8.4.0/prefix-runtime.7e2ee203f2ecd6c8.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/8.4.0/prefix-23.7d27cb317c36911a.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/8.4.0/prefix-runestone.35a40fea06647cf2.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/8.4.0/prefix-runestone.7062ede5334282a6.css">
-<style>
-#def-binom-experiment-1-1-2 { counter-set: def-binom-experiment-1-1-2 0; }
-#def-binom-experiment-1-1-2 > li::marker { content: ""counter(def-binom-experiment-1-1-2,decimal)"."; }
-#def-binom-experiment-1-1-2 > li { counter-increment: def-binom-experiment-1-1-2; }
-#def-Poisson-1-2-1 { counter-set: def-Poisson-1-2-1 0; }
-#def-Poisson-1-2-1 > li::marker { content: ""counter(def-Poisson-1-2-1,decimal)"."; }
-#def-Poisson-1-2-1 > li { counter-increment: def-Poisson-1-2-1; }
-#subsec-determining-sample-size-2-1 { counter-set: subsec-determining-sample-size-2-1 0; }
-#subsec-determining-sample-size-2-1 > li::marker { content: ""counter(subsec-determining-sample-size-2-1,decimal)"."; }
-#subsec-determining-sample-size-2-1 > li { counter-increment: subsec-determining-sample-size-2-1; }
-#subsec-Sankey-chart-7-4-1 { counter-set: subsec-Sankey-chart-7-4-1 0; }
-#subsec-Sankey-chart-7-4-1 > li::marker { content: ""counter(subsec-Sankey-chart-7-4-1,decimal)"."; }
-#subsec-Sankey-chart-7-4-1 > li { counter-increment: subsec-Sankey-chart-7-4-1; }
-#subsec-dashboard-extension-4-6-1 { counter-set: subsec-dashboard-extension-4-6-1 0; }
-#subsec-dashboard-extension-4-6-1 > li::marker { content: ""counter(subsec-dashboard-extension-4-6-1,decimal)"."; }
-#subsec-dashboard-extension-4-6-1 > li { counter-increment: subsec-dashboard-extension-4-6-1; }
-</style>
+<script src="_static/prefix-runtime.82b21a4699b89209.bundle.js"></script><script src="_static/prefix-23.7d27cb317c36911a.bundle.js"></script><script src="_static/prefix-runestone.35a40fea06647cf2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-runestone.7062ede5334282a6.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
 </head>
 <body id="changeme" class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
-<h1 class="heading"><a href="syllabus.html"><span class="title">BUAN 3500: Data Visualization and Descriptive Analytics in Business:</span> <span class="subtitle">Spring 2025</span></a></h1>
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner"><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="syllabus.html"><span class="title">BUAN 3500: Data Visualization and Descriptive Analytics in Business</span> <span class="subtitle">Spring 2025</span></a></div>
 <p class="byline">Lauren M. Nelsen</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
-<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
-<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
-<div class="search-results-controls">
-<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
 </div>
-<h2 class="search-results-heading">Search Results: </h2>
-<div id="searchempty" class="searchempty"><span>No results.</span></div>
-<ol id="searchresults" class="searchresults"></ol>
+<span class="nav-other-controls"><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
 </div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="worksheet-discrete-distributions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-probability.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-descriptive-data-mining.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="worksheet-discrete-distributions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-probability.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-descriptive-data-mining.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -161,31 +121,34 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-intro-bus-analytics.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Business Analytics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-intro-bus-analytics" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-intro-bus-analytics-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-intro-slides.html" class="internal"><span class="title">Introduction to Business Analytics Slides</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-intro-exercises.html" class="internal"><span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-descriptive-statistics.html" class="internal"><span class="codenumber">2</span> <span class="title">Descriptive Statistics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-descriptive-statistics" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-descriptive-statistics-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-desc-stat-slides.html" class="internal"><span class="title">Descriptive Statistics Slides</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-desc-stats-exercises.html" class="internal"><span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-data-visualization.html" class="internal"><span class="codenumber">3</span> <span class="title">Data Visualization</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-data-visualization" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-data-visualization-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-data-viz-slides.html" class="internal"><span class="title">Data Visualization Slides</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-data-viz-exercises.html" class="internal"><span class="title">Exercises</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-extra-tableau-practice.html" class="internal"><span class="title">Other Tableau Practice</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-generative-ai-and-data-viz.html" class="internal"><span class="title">Generative AI and Data Visualization</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-generative-ai-and-data-viz" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-generative-ai-and-data-viz.html#subsec-gen-ai-describe-data-viz" class="internal"><span class="title">Using Generative AI to Describe a Data Visualization</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-generative-ai-and-data-viz.html#subsec-gen-ai-generate-data-viz" class="internal"><span class="title">Using Generative AI to Create Data Visualizations</span></a></div></li>
 </ul>
@@ -194,28 +157,30 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-dashboards.html" class="internal"><span class="codenumber">4</span> <span class="title">Dashboards</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-dashboards" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-dashboards-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-dashboards-slides.html" class="internal"><span class="title">Dashboards Slides</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-dashboards-exercises.html" class="internal"><span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-probability.html" class="internal"><span class="codenumber">5</span> <span class="title">Probability</span></a></div>
-<ul class="structural toc-item-list contains-active">
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-ch-probability">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-probability-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-probability-slides.html" class="internal"><span class="title">Probability Slides</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-probability-exercises.html" class="internal"><span class="title">Exercises</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="worksheet-discrete-distributions.html" class="internal"><span class="title">Discrete Probability Distributions Worksheet</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-worksheet-discrete-distributions" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="worksheet-discrete-distributions.html#subsec-disc-uniform" class="internal"><span class="title">Discrete Uniform Probability Mass Function</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="worksheet-discrete-distributions.html#subsec-binom-dist" class="internal"><span class="title">The Binomial Distribution</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="worksheet-discrete-distributions.html#subsec-poisson-dist" class="internal"><span class="title">The Poisson Distribution</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="worksheet-discrete-distributions.html#worksheet-discrete-distributions-5" class="internal"><span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="worksheet-continuous-distributions.html" class="internal"><span class="title">Continuous Probability Distributions Worksheet</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list active" id="ptx-toc-group-worksheet-continuous-distributions">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="worksheet-continuous-distributions.html#subsec-common-cont-prob-distributions" class="internal"><span class="title">Common Continuous Probability Distributions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="worksheet-continuous-distributions.html#subsec-normal-dist" class="internal"><span class="title">The Normal Probability Distribution</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="worksheet-continuous-distributions.html#subsec-expon-dist" class="internal"><span class="title">The Exponential Probability Distribution</span></a></div></li>
@@ -228,18 +193,20 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-descriptive-data-mining.html" class="internal"><span class="codenumber">6</span> <span class="title">Descriptive Data Mining</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-descriptive-data-mining" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-descriptive-data-mining-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-desc-data-mining-slides.html" class="internal"><span class="title">Descriptive Data Mining Slides</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-desc-data-mining-exercises.html" class="internal"><span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-statistical-inference.html" class="internal"><span class="codenumber">7</span> <span class="title">Statistical Inference</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-statistical-inference" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-statistical-inference-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-stats-inference-slides.html" class="internal"><span class="title">Statistical Inference Slides</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="worksheet-confidence-intervals-hyp-testing.html" class="internal"><span class="title">Confidence Intervals and Hypothesis Testing Worksheet</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-worksheet-confidence-intervals-hyp-testing" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="worksheet-confidence-intervals-hyp-testing.html#subsec-conf-int-mean" class="internal"><span class="title">Confidence Intervals for the Mean</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="worksheet-confidence-intervals-hyp-testing.html#subsec-conf-int-prop" class="internal"><span class="title">Confidence Interval for the Proportion</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="worksheet-confidence-intervals-hyp-testing.html#subsec-conf-int-Tableau" class="internal"><span class="title">Confidence Intervals in Tableau</span></a></div></li>
@@ -251,18 +218,18 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="worksheet-sample-size.html" class="internal"><span class="title">Sample Size</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="worksheet-sample-size.html#subsec-determining-sample-size" class="internal"><span class="title">Determining the Sample Size</span></a></div></li></ul>
+<ul id="ptx-toc-group-worksheet-sample-size" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="worksheet-sample-size.html#subsec-determining-sample-size" class="internal"><span class="title">Determining the Sample Size</span></a></div></li></ul>
 </li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-generative-ai.html" class="internal"><span class="codenumber">8</span> <span class="title">Miscellaneous Topics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-generative-ai" class="structural toc-item-list">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-intro-gen-ai.html" class="internal"><span class="title">Generative AI and Data Analytics and Visualization</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-calculated-fields.html" class="internal"><span class="title">Calculated Fields</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-viz-and-dashboard-extensions.html" class="internal"><span class="title">Viz Extensions and Dashboard Extensions in Tableau</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-viz-and-dashboard-extensions" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-viz-and-dashboard-extensions.html#subsec-Sankey-chart" class="internal"><span class="title">Sankey Chart using a Viz Extension in Tableau</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-viz-and-dashboard-extensions.html#subsec-dashboard-extension" class="internal"><span class="title">Dashboard Extensions in Tableau</span></a></div></li>
 </ul>
@@ -272,153 +239,364 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="worksheet-continuous-distributions"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Continuous Probability Distributions Worksheet</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="worksheet-continuous-distributions">
+<h1 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Continuous Probability Distributions Worksheet</span>
+</h1>
+<section class="introduction" id="worksheet-continuous-distributions-2">
+<div class="para" id="worksheet-continuous-distributions-2-1">Now we will study probability distributions that arise from continuous random variables, which are outcomes that take on any numerical value in an interval, including numbers with decimal points.  Recall that probabilities for specific values of a discrete random variable were easy to calculate and the graph of the discrete probability distribution looks like a histogram with a countable number of bars.  By contrast, only the probability of a range of values (not a specific value) can be calculated for a continuous random variable.  Why?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#worksheet-continuous-distributions-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="worksheet-continuous-distributions-2-2">Since there is an infinite number of possible values for a continuous random variable, the probability of one specific value is theoretically equal to zero!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#worksheet-continuous-distributions-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="worksheet-continuous-distributions-2-3">Let’s study four specific continuous probability distributions and identify the types of data where they are useful.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#worksheet-continuous-distributions-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<section class="subsection" id="subsec-common-cont-prob-distributions">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Common Continuous Probability Distributions</span>
 </h2>
-<section class="introduction" id="worksheet-continuous-distributions-2"><div class="para" id="worksheet-continuous-distributions-2-1">Now we will study probability distributions that arise from continuous random variables, which are outcomes that take on any numerical value in an interval, including numbers with decimal points.  Recall that probabilities for specific values of a discrete random variable were easy to calculate and the graph of the discrete probability distribution looks like a histogram with a countable number of bars.  By contrast, only the probability of a range of values (not a specific value) can be calculated for a continuous random variable.  Why?</div> <div class="para" id="worksheet-continuous-distributions-2-2">Since there is an infinite number of possible values for a continuous random variable, the probability of one specific value is theoretically equal to zero!</div> <div class="para" id="worksheet-continuous-distributions-2-3">Let’s study four specific continuous probability distributions and identify the types of data where they are useful.</div></section><section class="subsection" id="subsec-common-cont-prob-distributions"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Common Continuous Probability Distributions</span>
-</h3>
 <ul class="disc" id="subsec-common-cont-prob-distributions-2">
-<li id="subsec-common-cont-prob-distributions-2-1"><div class="para" id="subsec-common-cont-prob-distributions-2-1-1">
-<em class="emphasis">Normal Distribution:</em> <figure class="figure figure-like" id="figure-geogebra-normaldist"><iframe src="https://www.geogebra.org/material/iframe/id/W9Nz53Ct/width/800/height/444/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="geogebra-normaldist" width="600" height="333"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.23<span class="period">.</span></span><span class="space"> </span><div class="para" id="figure-geogebra-normaldist-1-1">Normal Distribution (Made in GeoGebra by the GeoGebra Materials Team)</div> <div class="para" id="figure-geogebra-normaldist-1-2">Link to GeoGebra:  <a class="external" href="https://www.geogebra.org/m/W9Nz53Ct" target="_blank"><code class="code-inline tex2jax_ignore">https://www.geogebra.org/m/W9Nz53Ct</code></a>
-</div></figcaption></figure>
-</div></li>
-<li id="subsec-common-cont-prob-distributions-2-2"><div class="para" id="subsec-common-cont-prob-distributions-2-2-1">
-<em class="emphasis">Exponential Distribution:</em> <figure class="figure figure-like" id="figure-geogebra-expondist"><iframe src="https://www.geogebra.org/material/iframe/id/gjd2dmzw/width/800/height/444/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="geogebra-expondist" width="600" height="333"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.24<span class="period">.</span></span><span class="space"> </span><div class="para" id="figure-geogebra-expondist-1-1">Exponential Distribution (Made in GeoGebra by DavidK)</div> <div class="para" id="figure-geogebra-expondist-1-2">Link to GeoGebra:  <a class="external" href="https://www.geogebra.org/m/gjd2dmzw" target="_blank"><code class="code-inline tex2jax_ignore">https://www.geogebra.org/m/gjd2dmzw</code></a>
-</div></figcaption></figure>
-</div></li>
-<li id="subsec-common-cont-prob-distributions-2-3"><div class="para" id="subsec-common-cont-prob-distributions-2-3-1">
-<em class="emphasis">Uniform Distribution:</em> <figure class="figure figure-like" id="figure-geogebra-unifdist"><iframe src="https://www.geogebra.org/material/iframe/id/v2EnMNF9/width/800/height/444/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="geogebra-unifdist" width="600" height="333"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.25<span class="period">.</span></span><span class="space"> </span><div class="para" id="figure-geogebra-unifdist-1-1">Uniform Distribution (Made in GeoGebra by David Ramsay)</div> <div class="para" id="figure-geogebra-unifdist-1-2">Link to GeoGebra:  <a class="external" href="https://www.geogebra.org/m/v2EnMNF9" target="_blank"><code class="code-inline tex2jax_ignore">https://www.geogebra.org/m/v2EnMNF9</code></a>
-</div></figcaption></figure>
-</div></li>
-<li id="subsec-common-cont-prob-distributions-2-4"><div class="para" id="subsec-common-cont-prob-distributions-2-4-1">
-<em class="emphasis">Triangular Probability Distribution:</em> <figure class="figure figure-like" id="figure-desmos-triangular-dist"><iframe src="https://www.desmos.com/calculator/mggnujhria" id="desmos-triangular-dist" width="600" height="333"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.26<span class="period">.</span></span><span class="space"> </span><div class="para" id="figure-desmos-triangular-dist-1-1">Triangular Distribution (Made in Desmos)</div> <div class="para" id="figure-desmos-triangular-dist-1-2">Link to Desmos:  <a class="external" href="https://www.desmos.com/calculator/mggnujhria" target="_blank"><code class="code-inline tex2jax_ignore">https://www.desmos.com/calculator/mggnujhria</code></a>
-</div></figcaption></figure>
-</div></li>
-</ul></section><details id="matching" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.27</span><span class="period">.</span><span class="space"> </span><span class="title">Continuous Probability Distribution Matching Problem.</span>
-</h3></summary><article class="exercise exercise-like knowl__content"><div class="ptx-runestone-container"><div class="runestone matching_section"><ul data-component="dragndrop" data-question_label="" style="visibility: hidden;" id="matching">
-<span data-subcomponent="question"><div class="para" id="matching-2-1">Match each probability distribution with the situation in which it is useful.</div></span><li data-subcomponent="draggable" id="matching_drag1">Normal Distribution</li>
-<li data-subcomponent="dropzone" for="matching_drag1"><div class="para" id="matching-3-1-2-1">Useful when data tends to fall in the center and extreme values are rare</div></li>
-<li data-subcomponent="draggable" id="matching_drag2">exponential distribution</li>
-<li data-subcomponent="dropzone" for="matching_drag2"><div class="para" id="matching-3-2-2-1">Useful when low values for data occur often and high values are rare</div></li>
-<li data-subcomponent="draggable" id="matching_drag3">uniform distribution</li>
-<li data-subcomponent="dropzone" for="matching_drag3"><div class="para" id="matching-3-3-2-1">Useful when data of all values have an equal chance of occurring</div></li>
-</ul></div></div></article></details><section class="subsection" id="subsec-normal-dist"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The Normal Probability Distribution</span>
-</h3>
+<li id="subsec-common-cont-prob-distributions-2-1">
+<div class="para" id="subsec-common-cont-prob-distributions-2-1-1">
+<em class="emphasis">Normal Distribution:</em> 
+<figure class="figure figure-like" id="figure-geogebra-normaldist"><div class="interactive-iframe-container"><iframe id="geogebra-normaldist" style="width:600px; height:333px; display: block; " src="geogebra-normaldist-if.html"></iframe></div>
+<div class="interactive-iframe-container__opener"><a href="geogebra-normaldist.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.23<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>
+<div class="para" id="figure-geogebra-normaldist-1-1">Normal Distribution (Made in GeoGebra by the GeoGebra Materials Team)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#figure-geogebra-normaldist-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="figure-geogebra-normaldist-1-2">Link to GeoGebra:  <a class="external" href="https://www.geogebra.org/m/W9Nz53Ct" target="_blank"><code class="code-inline tex2jax_ignore">https://www.geogebra.org/m/W9Nz53Ct</code></a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#figure-geogebra-normaldist-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Figure 5.23"><a tabindex="-1" href="#figure-geogebra-normaldist" title="Copy heading and permalink for Figure 5.23" aria-label="Copy heading and permalink for Figure 5.23">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-common-cont-prob-distributions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-common-cont-prob-distributions-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-common-cont-prob-distributions-2-2">
+<div class="para" id="subsec-common-cont-prob-distributions-2-2-1">
+<em class="emphasis">Exponential Distribution:</em> 
+<figure class="figure figure-like" id="figure-geogebra-expondist"><div class="interactive-iframe-container"><iframe id="geogebra-expondist" style="width:600px; height:333px; display: block; " src="geogebra-expondist-if.html"></iframe></div>
+<div class="interactive-iframe-container__opener"><a href="geogebra-expondist.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.24<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>
+<div class="para" id="figure-geogebra-expondist-1-1">Exponential Distribution (Made in GeoGebra by DavidK)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#figure-geogebra-expondist-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="figure-geogebra-expondist-1-2">Link to GeoGebra:  <a class="external" href="https://www.geogebra.org/m/gjd2dmzw" target="_blank"><code class="code-inline tex2jax_ignore">https://www.geogebra.org/m/gjd2dmzw</code></a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#figure-geogebra-expondist-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Figure 5.24"><a tabindex="-1" href="#figure-geogebra-expondist" title="Copy heading and permalink for Figure 5.24" aria-label="Copy heading and permalink for Figure 5.24">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-common-cont-prob-distributions-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-common-cont-prob-distributions-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-common-cont-prob-distributions-2-3">
+<div class="para" id="subsec-common-cont-prob-distributions-2-3-1">
+<em class="emphasis">Uniform Distribution:</em> 
+<figure class="figure figure-like" id="figure-geogebra-unifdist"><div class="interactive-iframe-container"><iframe id="geogebra-unifdist" style="width:600px; height:333px; display: block; " src="geogebra-unifdist-if.html"></iframe></div>
+<div class="interactive-iframe-container__opener"><a href="geogebra-unifdist.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.25<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>
+<div class="para" id="figure-geogebra-unifdist-1-1">Uniform Distribution (Made in GeoGebra by David Ramsay)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#figure-geogebra-unifdist-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="figure-geogebra-unifdist-1-2">Link to GeoGebra:  <a class="external" href="https://www.geogebra.org/m/v2EnMNF9" target="_blank"><code class="code-inline tex2jax_ignore">https://www.geogebra.org/m/v2EnMNF9</code></a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#figure-geogebra-unifdist-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Figure 5.25"><a tabindex="-1" href="#figure-geogebra-unifdist" title="Copy heading and permalink for Figure 5.25" aria-label="Copy heading and permalink for Figure 5.25">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-common-cont-prob-distributions-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-common-cont-prob-distributions-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-common-cont-prob-distributions-2-4">
+<div class="para" id="subsec-common-cont-prob-distributions-2-4-1">
+<em class="emphasis">Triangular Probability Distribution:</em> 
+<figure class="figure figure-like" id="figure-desmos-triangular-dist"><div class="interactive-iframe-container"><iframe src="https://www.desmos.com/calculator/mggnujhria" id="desmos-triangular-dist" style="width:600px; height:333px; display: block; "></iframe></div>
+<div class="interactive-iframe-container__opener"><a href="desmos-triangular-dist.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.26<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>
+<div class="para" id="figure-desmos-triangular-dist-1-1">Triangular Distribution (Made in Desmos)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#figure-desmos-triangular-dist-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="figure-desmos-triangular-dist-1-2">Link to Desmos:  <a class="external" href="https://www.desmos.com/calculator/mggnujhria" target="_blank"><code class="code-inline tex2jax_ignore">https://www.desmos.com/calculator/mggnujhria</code></a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#figure-desmos-triangular-dist-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Figure 5.26"><a tabindex="-1" href="#figure-desmos-triangular-dist" title="Copy heading and permalink for Figure 5.26" aria-label="Copy heading and permalink for Figure 5.26">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-common-cont-prob-distributions-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-common-cont-prob-distributions-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Common Continuous Probability Distributions"><a tabindex="-1" href="#subsec-common-cont-prob-distributions" title="Copy heading and permalink for Subsection: Common Continuous Probability Distributions" aria-label="Copy heading and permalink for Subsection: Common Continuous Probability Distributions">🔗</a></div>
+</section>
+<details id="matching" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.27</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Continuous Probability Distribution Matching Problem.</span>
+</h2></summary>
+<article class="exercise exercise-like knowl__content"><div class="ptx-runestone-container"><div class="runestone cardsort_section"><ul data-component="dragndrop" data-question_label="" style="visibility: hidden;" id="rs-matching">
+<span data-subcomponent="question">
+<div class="para" id="matching-2-1">Match each probability distribution with the situation in which it is useful.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#matching-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></span><li data-subcomponent="draggable" id="rs-matching_drag1" data-category="1">Normal Distribution</li>
+<li data-subcomponent="dropzone" for="rs-matching_drag1" data-category="1">
+<div class="para" id="matching-3-1-2-1">Useful when data tends to fall in the center and extreme values are rare</div>
+</li>
+<li data-subcomponent="draggable" id="rs-matching_drag2" data-category="2">exponential distribution</li>
+<li data-subcomponent="dropzone" for="rs-matching_drag2" data-category="2">
+<div class="para" id="matching-3-2-2-1">Useful when low values for data occur often and high values are rare</div>
+</li>
+<li data-subcomponent="draggable" id="rs-matching_drag3" data-category="3">uniform distribution</li>
+<li data-subcomponent="dropzone" for="rs-matching_drag3" data-category="3">
+<div class="para" id="matching-3-3-2-1">Useful when data of all values have an equal chance of occurring</div>
+</li>
+</ul></div></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 5.27: Continuous Probability Distribution Matching Problem"><a tabindex="-1" href="#matching" title="Copy heading and permalink for Example 5.27: Continuous Probability Distribution Matching Problem" aria-label="Copy heading and permalink for Example 5.27: Continuous Probability Distribution Matching Problem">🔗</a></div>
+</article></details>
+<section class="subsection" id="subsec-normal-dist">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Normal Probability Distribution</span>
+</h2>
 <div class="para logical" id="subsec-normal-dist-2">
 <div class="para">The mathematical expression that describes the shape of the normal probability distribution is called the normal probability density function:</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="subsec-normal-dist-2-1">
 \begin{equation*}
 f(x) = \frac{1}{\sigma\sqrt{2\pi}}e^{-0.5[(x-\mu)/\sigma]^2} 
 \end{equation*}
 </div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsec-normal-dist-3">Despite the complexity of this function, there are only two parameters that completely determine the shape of the distribution:  the mean, <span class="process-math">\(\mu\text{,}\)</span> and the standard deviation, <span class="process-math">\(\sigma\text{.}\)</span>  Let’s take a closer look at how they impact the distribution.  (Don’t worry -- we won’t be using this formula to compute probabilities.  We have other tools!)</div>
-<details id="subsec-normal-dist-4" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Question</span><span class="space"> </span><span class="codenumber">5.28</span><span class="period">.</span>
-</h4></summary><article class="question example-like knowl__content"><div class="para" id="subsec-normal-dist-4-1-1">How does changing the standard deviation (<span class="process-math">\(\sigma\)</span>) and the mean (<span class="process-math">\(\mu\)</span>) change the curve? <figure class="figure figure-like" id="subsec-normal-dist-4-1-1-3"><iframe src="https://www.desmos.com/calculator/jxzs8fz9qr" id="desmos-normal" width="600" height="450"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.29<span class="period">.</span></span><span class="space"> </span>Graph of Normal Distribution powered by Desmos</figcaption></figure>
+<div class="para" id="subsec-normal-dist-3">Despite the complexity of this function, there are only two parameters that completely determine the shape of the distribution:  the mean, <span class="process-math">\(\mu\text{,}\)</span> and the standard deviation, <span class="process-math">\(\sigma\text{.}\)</span>  Let’s take a closer look at how they impact the distribution.  (Don’t worry -- we won’t be using this formula to compute probabilities.  We have other tools!)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="subsec-normal-dist-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="subsec-normal-dist-4-2-1"><ul class="disc" id="subsec-normal-dist-4-2-1-1">
-<li id="subsec-normal-dist-4-2-1-1-1"><div class="para" id="subsec-normal-dist-4-2-1-1-1-1">
-<span class="process-math">\(\sigma:\)</span> controls the “spread” of the curve.  Larger <span class="process-math">\(\sigma\)</span> results in a flatter, more spread out curve</div></li>
-<li id="subsec-normal-dist-4-2-1-1-2"><div class="para" id="subsec-normal-dist-4-2-1-1-2-1">
-<span class="process-math">\(\mu:\)</span> controls the location of the center.  Larger <span class="process-math">\(\mu\)</span> shifts the “hill” of the curve to the right</div></li>
-</ul></div></div></details></div></article></details><div class="para logical" id="subsec-normal-dist-5">
+<details id="subsec-normal-dist-4" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Question</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.28</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
+<article class="question example-like knowl__content">
+<div class="para" id="subsec-normal-dist-4-1-1">How does changing the standard deviation (<span class="process-math">\(\sigma\)</span>) and the mean (<span class="process-math">\(\mu\)</span>) change the curve? 
+<figure class="figure figure-like" id="subsec-normal-dist-4-1-1-3"><div class="interactive-iframe-container"><iframe src="https://www.desmos.com/calculator/jxzs8fz9qr" id="desmos-normal" style="width:600px; height:450px; display: block; "></iframe></div>
+<div class="interactive-iframe-container__opener"><a href="desmos-normal.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.29<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Graph of Normal Distribution powered by Desmos<div class="autopermalink" aria-hidden="true" data-description="Figure 5.29"><a tabindex="-1" href="#subsec-normal-dist-4-1-1-3" title="Copy heading and permalink for Figure 5.29" aria-label="Copy heading and permalink for Figure 5.29">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-normal-dist-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para logical" id="subsec-normal-dist-4-2-1">
+<ul class="disc" id="subsec-normal-dist-4-2-1-1">
+<li id="subsec-normal-dist-4-2-1-1-1">
+<div class="para" id="subsec-normal-dist-4-2-1-1-1-1">
+<span class="process-math">\(\sigma:\)</span> controls the “spread” of the curve.  Larger <span class="process-math">\(\sigma\)</span> results in a flatter, more spread out curve<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-4-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-normal-dist-4-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-normal-dist-4-2-1-1-2">
+<div class="para" id="subsec-normal-dist-4-2-1-1-2-1">
+<span class="process-math">\(\mu:\)</span> controls the location of the center.  Larger <span class="process-math">\(\mu\)</span> shifts the “hill” of the curve to the right<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-4-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-normal-dist-4-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.28.1"><a tabindex="-1" href="#subsec-normal-dist-4-2" title="Copy heading and permalink for Answer 5.28.1" aria-label="Copy heading and permalink for Answer 5.28.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Question 5.28"><a tabindex="-1" href="#subsec-normal-dist-4" title="Copy heading and permalink for Question 5.28" aria-label="Copy heading and permalink for Question 5.28">🔗</a></div>
+</article></details>
+<div class="para logical" id="subsec-normal-dist-5">
 <div class="para">The first two commands apply to situations where the goal is to compute a probability associated with a data value.</div>
 <ul class="disc" id="subsec-normal-dist-5-1">
-<li id="subsec-normal-dist-5-1-1"><div class="para" id="subsec-normal-dist-5-1-1-1">The NORM.DIST(<span class="process-math">\(x\text{,}\)</span> mean, standard deviation, cumulative) applies to problems involving a normal distribution with a specified mean and standard deviation.</div></li>
-<li id="subsec-normal-dist-5-1-2"><div class="para" id="subsec-normal-dist-5-1-2-1">The NORM.S.DIST(<span class="process-math">\(z\text{,}\)</span> cumulative) applies to problems involving the standard normal distribution (<span class="process-math">\(\mu=0\)</span> and <span class="process-math">\(\sigma=1\)</span>).</div></li>
+<li id="subsec-normal-dist-5-1-1">
+<div class="para" id="subsec-normal-dist-5-1-1-1">The NORM.DIST(<span class="process-math">\(x\text{,}\)</span> mean, standard deviation, cumulative) applies to problems involving a normal distribution with a specified mean and standard deviation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-5-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-normal-dist-5-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-normal-dist-5-1-2">
+<div class="para" id="subsec-normal-dist-5-1-2-1">The NORM.S.DIST(<span class="process-math">\(z\text{,}\)</span> cumulative) applies to problems involving the standard normal distribution (<span class="process-math">\(\mu=0\)</span> and <span class="process-math">\(\sigma=1\)</span>).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-5-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-normal-dist-5-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
 </ul>
 <div class="para">(Cumulative = TRUE or FALSE)</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsec-normal-dist-6">What if we want to know the specific <span class="process-math">\(X\)</span> that satisfies a given probability?  Then we can work backward using the tables (<a class="external" href="https://www.math.arizona.edu/~rsims/ma464/standardnormaltable.pdf" target="_blank">Standard Normal Table</a><details class="ptx-footnote" aria-live="polite" id="subsec-normal-dist-6-3"><summary class="ptx-footnote__number" title="Footnote 5.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="subsec-normal-dist-6-3"><code class="code-inline tex2jax_ignore">www.math.arizona.edu/~rsims/ma464/standardnormaltable.pdf</code></div></details>) and use the <span class="process-math">\(z\)</span>-score formula in reverse.  If the exact probability cannot be found in the table, then we can use the closest values.</div>
+<div class="para" id="subsec-normal-dist-6">What if we want to know the specific <span class="process-math">\(X\)</span> that satisfies a given probability?  Then we can work backward using the tables (<a class="external" href="https://www.math.arizona.edu/~rsims/ma464/standardnormaltable.pdf" target="_blank">Standard Normal Table</a>) and use the <span class="process-math">\(z\)</span>-score formula in reverse.  If the exact probability cannot be found in the table, then we can use the closest values.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="para logical" id="subsec-normal-dist-7">
 <div class="para">The Excel formulas that apply to this situation are similar to the ones we saw earlier, replacing .DIST with .INV:</div>
 <ul class="disc" id="subsec-normal-dist-7-1">
-<li id="subsec-normal-dist-7-1-1"><div class="para" id="subsec-normal-dist-7-1-1-1">NORM.INV(probability, mean, standard deviation) applies to normal distributions with a specified mean and standard deviation</div></li>
-<li id="subsec-normal-dist-7-1-2"><div class="para" id="subsec-normal-dist-7-1-2-1">NORM.S.INV(probability) is used for standard normal distributions</div></li>
+<li id="subsec-normal-dist-7-1-1">
+<div class="para" id="subsec-normal-dist-7-1-1-1">NORM.INV(probability, mean, standard deviation) applies to normal distributions with a specified mean and standard deviation<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-7-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-normal-dist-7-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-normal-dist-7-1-2">
+<div class="para" id="subsec-normal-dist-7-1-2-1">NORM.S.INV(probability) is used for standard normal distributions<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-7-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-normal-dist-7-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
 </ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-normal-dist-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.30</span><span class="period">.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="subsec-normal-dist-8-1">
-<div class="para" id="subsec-normal-dist-8-1-1">Download the dataset below that is from the <a class="external" href="https://databank.worldbank.org/source/world-development-indicators#" target="_blank">World Bank Group World Development Indicators dataset</a><details class="ptx-footnote" aria-live="polite" id="subsec-normal-dist-8-1-1-2"><summary class="ptx-footnote__number" title="Footnote 5.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="subsec-normal-dist-8-1-1-2"><code class="code-inline tex2jax_ignore">databank.worldbank.org/source/world-development-indicators#</code></div></details>.</div> <div class="para" id="subsec-normal-dist-8-1-2"><a class="external" href="external/sheets/Data_Extract_From_World_Development_Indicators.xlsx" target="_blank"><code class="code-inline tex2jax_ignore">external/sheets/Data_Extract_From_World_Development_Indicators.xlsx</code></a></div>
+<details id="subsec-normal-dist-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.30</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
+<article class="exercise exercise-like knowl__content">
+<div class="introduction" id="subsec-normal-dist-8-1">
+<div class="para" id="subsec-normal-dist-8-1-1">Download the dataset below that is from the <a class="external" href="https://databank.worldbank.org/source/world-development-indicators#" target="_blank">World Bank Group World Development Indicators dataset</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="task exercise-like" id="subsec-normal-dist-8-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="subsec-normal-dist-8-2-1-1">Investigate the different variables in the dataset and see if any of them look approximately normally distributed.</div></article><article class="task exercise-like" id="subsec-normal-dist-8-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="subsec-normal-dist-8-3-1-1">Look at the distribution of life expectancy at birth in 2021.  Does this look approximately normal?  If we do model this using a normal distribution, what would the probability of choosing a country with a life expectancy of at least 85 years?</div></article></article></details><article class="note remark-like" id="subsec-normal-dist-9"><h4 class="heading">
-<span class="type">Note</span><span class="space"> </span><span class="codenumber">5.31</span><span class="period">.</span>
-</h4>
-<div class="para" id="subsec-normal-dist-9-1">The Central Limit Theorem tells us that if our sample size is big enough, then sample means will be normally distributed!  (This is really where the normal distribution becomes very helpful.)</div></article><details id="subsec-normal-dist-10" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.32</span><span class="period">.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div id="momid3wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momid3" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1102015&amp;frame_id=momid3"></iframe></div></article></details></section><section class="subsection" id="subsec-expon-dist"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The Exponential Probability Distribution</span>
+<div class="para" id="subsec-normal-dist-8-1-2">
+<a class="external" href="external/sheets/Data_Extract_From_World_Development_Indicators.xlsx" target="_blank"><code class="code-inline tex2jax_ignore">external/sheets/Data_Extract_From_World_Development_Indicators.xlsx</code></a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-8-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="subsec-normal-dist-8-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="subsec-normal-dist-8-2-1-1">Investigate the different variables in the dataset and see if any of them look approximately normally distributed.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-8-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.30.a"><a tabindex="-1" href="#subsec-normal-dist-8-2" title="Copy heading and permalink for Task 5.30.a" aria-label="Copy heading and permalink for Task 5.30.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="subsec-normal-dist-8-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="subsec-normal-dist-8-3-1-1">Look at the distribution of life expectancy at birth in 2021.  Does this look approximately normal?  If we do model this using a normal distribution, what would the probability of choosing a country with a life expectancy of at least 85 years?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-8-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.30.b"><a tabindex="-1" href="#subsec-normal-dist-8-3" title="Copy heading and permalink for Task 5.30.b" aria-label="Copy heading and permalink for Task 5.30.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Example 5.30"><a tabindex="-1" href="#subsec-normal-dist-8" title="Copy heading and permalink for Example 5.30" aria-label="Copy heading and permalink for Example 5.30">🔗</a></div>
+</article></details>
+<article class="note remark-like" id="subsec-normal-dist-9"><h3 class="heading">
+<span class="type">Note</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.31</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<article class="definition definition-like" id="subsec-expon-dist-2"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.33</span><span class="period">.</span>
-</h4>
-<div class="para" id="subsec-expon-dist-2-1">The exponential probability distribution is a continuous distribution commonly used in business to measure the time between customer arrivals or the time between failures in a business process</div> <div class="para logical" id="subsec-expon-dist-2-2">
+<div class="para" id="subsec-normal-dist-9-1">The Central Limit Theorem tells us that if our sample size is big enough, then sample means will be normally distributed!  (This is really where the normal distribution becomes very helpful.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-normal-dist-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Note 5.31"><a tabindex="-1" href="#subsec-normal-dist-9" title="Copy heading and permalink for Note 5.31" aria-label="Copy heading and permalink for Note 5.31">🔗</a></div>
+</article>
+<details id="subsec-normal-dist-10" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.32</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
+<article class="exercise exercise-like knowl__content"><div id="momsubsec-normal-dist-10-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsec-normal-dist-10-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1102015&amp;frame_id=momsubsec-normal-dist-10-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 5.32"><a tabindex="-1" href="#subsec-normal-dist-10" title="Copy heading and permalink for Example 5.32" aria-label="Copy heading and permalink for Example 5.32">🔗</a></div>
+</article></details><div class="autopermalink" aria-hidden="true" data-description="Subsection: The Normal Probability Distribution"><a tabindex="-1" href="#subsec-normal-dist" title="Copy heading and permalink for Subsection: The Normal Probability Distribution" aria-label="Copy heading and permalink for Subsection: The Normal Probability Distribution">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-expon-dist">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Exponential Probability Distribution</span>
+</h2>
+<article class="definition definition-like" id="subsec-expon-dist-2"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.33</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="subsec-expon-dist-2-1">The exponential probability distribution is a continuous distribution commonly used in business to measure the time between customer arrivals or the time between failures in a business process<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-expon-dist-2-2">
 <div class="para">The mathematical expression that describes the shape of the curve for the exponential probability distribution is called the exponential probability density function:</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="subsec-expon-dist-2-2-1">
 \begin{equation*}
 f(x)=\lambda^{-\lambda x}\text{, where }\lambda=\text{the mean number of occurrences over an interval}
 \end{equation*}
 </div>
-</div> <div class="para" id="subsec-expon-dist-2-3">Recall the we saw <span class="process-math">\(\lambda\)</span> in a previous chapter when the discrete Poisson distribution was introduced.  It is not a coincidence that we are using <span class="process-math">\(\lambda\)</span> in both of these distributions.  A <em class="emphasis">discrete</em> random variable that follows a Poisson distribution with a mean equal to <span class="process-math">\(\lambda\)</span> has a counterpart <em class="emphasis">continuous</em> random variable that follows the exponential distribution with a mean equal to <span class="process-math">\(\mu=\frac{1}{\lambda}\text{.}\)</span>
-</div> <div class="para" id="subsec-expon-dist-2-4">It is easy to confuse the two -- try to remember that <span class="process-math">\(\lambda\)</span> is a countable (discrete) rate while <span class="process-math">\(\mu\)</span> is a measurable (continuous) interval.</div> <div class="para" id="subsec-expon-dist-2-5">A small bit of good news:  the standard deviation for an exponential distribution is equal to its mean.  That is, <span class="process-math">\(\sigma=\mu=\frac{1}{\lambda}\text{.}\)</span>
-</div></article><div class="para" id="subsec-expon-dist-3">The only parameter in the formula is <span class="process-math">\(\lambda\text{.}\)</span>  Let’s look at how it impacts the shape of the distribution. <figure class="figure figure-like" id="subsec-expon-dist-3-2"><iframe src="https://www.desmos.com/calculator/kq2tps7jbe" id="desmos-expon" width="600" height="450"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.34<span class="period">.</span></span><span class="space"> </span>Exponential Distribution powered by Desmos</figcaption></figure>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<em class="emphasis">Computing Probabilities for the Exponential Distributions</em><div class="para logical" id="subsec-expon-dist-5">
+<div class="para" id="subsec-expon-dist-2-3">Recall the we saw <span class="process-math">\(\lambda\)</span> in a previous chapter when the discrete Poisson distribution was introduced.  It is not a coincidence that we are using <span class="process-math">\(\lambda\)</span> in both of these distributions.  A <em class="emphasis">discrete</em> random variable that follows a Poisson distribution with a mean equal to <span class="process-math">\(\lambda\)</span> has a counterpart <em class="emphasis">continuous</em> random variable that follows the exponential distribution with a mean equal to <span class="process-math">\(\mu=\frac{1}{\lambda}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-expon-dist-2-4">It is easy to confuse the two -- try to remember that <span class="process-math">\(\lambda\)</span> is a countable (discrete) rate while <span class="process-math">\(\mu\)</span> is a measurable (continuous) interval.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-expon-dist-2-5">A small bit of good news:  the standard deviation for an exponential distribution is equal to its mean.  That is, <span class="process-math">\(\sigma=\mu=\frac{1}{\lambda}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 5.33"><a tabindex="-1" href="#subsec-expon-dist-2" title="Copy heading and permalink for Definition 5.33" aria-label="Copy heading and permalink for Definition 5.33">🔗</a></div>
+</article>
+<div class="para" id="subsec-expon-dist-3">The only parameter in the formula is <span class="process-math">\(\lambda\text{.}\)</span>  Let’s look at how it impacts the shape of the distribution. 
+<figure class="figure figure-like" id="subsec-expon-dist-3-2"><div class="interactive-iframe-container"><iframe src="https://www.desmos.com/calculator/kq2tps7jbe" id="desmos-expon" style="width:600px; height:450px; display: block; "></iframe></div>
+<div class="interactive-iframe-container__opener"><a href="desmos-expon.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.34<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Exponential Distribution powered by Desmos<div class="autopermalink" aria-hidden="true" data-description="Figure 5.34"><a tabindex="-1" href="#subsec-expon-dist-3-2" title="Copy heading and permalink for Figure 5.34" aria-label="Copy heading and permalink for Figure 5.34">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<em class="emphasis">Computing Probabilities for the Exponential Distributions</em>
+<div class="para logical" id="subsec-expon-dist-5">
 <div class="para">The formula for calculating the probability that a random variable is less than a specified value is:</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="subsec-expon-dist-5-1">
 \begin{equation*}
 P(x\leq a)=1-e^{-a\lambda}
 \end{equation*}
 </div>
 <div class="para">where <span class="process-math">\(\lambda=\text{the mean number of occurrences over an interval}\text{.}\)</span>
 </div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="subsec-expon-dist-6">
 <div class="para">The Excel formula for calculating probabilities for the exponential distribution is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="subsec-expon-dist-6-1">
 \begin{equation*}
 EXPON.DIST(x,\lambda,\text{cumulative}),
 \end{equation*}
 </div>
 <div class="para">where cumulative=TRUE (if you want cumulative probability) or FALSE (if you do not want cumulative probability).</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-expon-dist-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.35</span><span class="period">.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="subsec-expon-dist-7-1">
-<div class="para" id="subsec-expon-dist-7-1-1">This exercise is modified from a problem found at <a class="external" href="https://lean6sigmahub.com/how-to-master-exponential-distribution-a-complete-guide-for-understanding-wait-times-and-failure-rates/" target="_blank">this site</a><details class="ptx-footnote" aria-live="polite" id="subsec-expon-dist-7-1-1-2"><summary class="ptx-footnote__number" title="Footnote 5.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="subsec-expon-dist-7-1-1-2"><code class="code-inline tex2jax_ignore">lean6sigmahub.com/how-to-master-exponential-distribution-a-complete-guide-for-understanding-wait-times-and-failure-rates/</code></div></details>.</div> <div class="para" id="subsec-expon-dist-7-1-2">A production line experiences machine breakdowns, and quality engineers have recorded the following time intervals (in hours) between consecutive failures over the past month.  These can be found in the Excel file below.</div> <div class="para" id="subsec-expon-dist-7-1-3"><a class="external" href="external/sheets/TimeIntervalsBetweenFailures.xlsx" target="_blank"><code class="code-inline tex2jax_ignore">external/sheets/TimeIntervalsBetweenFailures.xlsx</code></a></div>
+<details id="subsec-expon-dist-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.35</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
+<article class="exercise exercise-like knowl__content">
+<div class="introduction" id="subsec-expon-dist-7-1">
+<div class="para" id="subsec-expon-dist-7-1-1">This exercise is modified from a problem found at <a class="external" href="https://lean6sigmahub.com/how-to-master-exponential-distribution-a-complete-guide-for-understanding-wait-times-and-failure-rates/" target="_blank">this site</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="task exercise-like" id="subsec-expon-dist-7-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="subsec-expon-dist-7-2-1-1">Calculate the average time between failures.</div>
-<div class="solutions"><details id="subsec-expon-dist-7-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-expon-dist-7-1-2">A production line experiences machine breakdowns, and quality engineers have recorded the following time intervals (in hours) between consecutive failures over the past month.  These can be found in the Excel file below.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-7-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-expon-dist-7-1-3">
+<a class="external" href="external/sheets/TimeIntervalsBetweenFailures.xlsx" target="_blank"><code class="code-inline tex2jax_ignore">external/sheets/TimeIntervalsBetweenFailures.xlsx</code></a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-7-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="subsec-expon-dist-7-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="subsec-expon-dist-7-2-1-1">Calculate the average time between failures.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-7-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-expon-dist-7-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-expon-dist-7-2-2-1">
-<span class="process-math">\(\mu=3.6\)</span> hours</div> <div class="para" id="subsec-expon-dist-7-2-2-2">
-<span class="process-math">\(\lambda=\frac{1}{\mu}\approx .28\)</span> failures per hour</div>
-</div></details></div></article><article class="task exercise-like" id="subsec-expon-dist-7-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="subsec-expon-dist-7-3-1-1">What is the probability that a failure occurs within the next 2 hours?</div>
-<div class="solutions"><details id="subsec-expon-dist-7-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-expon-dist-7-3-2-1"><span class="process-math">\(\approx 43\%\)</span></div></div></details></div></article><article class="task exercise-like" id="subsec-expon-dist-7-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="subsec-expon-dist-7-4-1-1">What is the probability that the machine will operate for at least 5 hours without failure?</div>
-<div class="solutions"><details id="subsec-expon-dist-7-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-expon-dist-7-4-2-1"><span class="process-math">\(\approx 25\%\)</span></div></div></details></div></article></article></details><details id="subsec-expon-dist-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.36</span><span class="period">.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="ptx-runestone-container"><div class="runestone fillintheblank_section"><div data-component="fillintheblank" data-question_label="" id="">
-<div class="para" id="subsec-expon-dist-8-1-1">An exponential probability distribution has lambda equal to <span class="process-math">\(18\)</span> customers per hour.  Find the probability that the next customer will arrive within the next minute.  (Round your answer to 4 decimal places.)  <input type="text" placeholder="Number">
+<span class="process-math">\(\mu=3.6\)</span> hours<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-7-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<script type="application/json">[[{"number": [0.2591,0.2593], "feedback": "<div class=\"para\" id=\"subsec-expon-dist-8-2-1-1-1-1\">Any value in the interval <span class=\"process-math\">\\(0.2592\\pm 0.0001\\)<\/span> is marked as correct for this problem.<\/div>"}, {"regex": "^\\s*.*\\s*$", "regexFlags": "", "feedback": "<div class=\"para\" id=\"subsec-expon-dist-8-2-1-2-1-1\">Incorrect. Did you round to four decimal places?<\/div><div class=\"para\" id=\"subsec-expon-dist-8-2-1-2-1-2\">(Here <span class=\"process-math\">\\(\\lambda=\\frac{18\\text{ customers}}{1\\text{ hour}}\\cdot\\frac{1\\text{ hour}}{60\\text{ min}}=0.3\\text{ customers per minute}.\\)<\/span>)<\/div>"}]]</script>
-</div></div></div></article></details></section><section class="subsection" id="subsec-uniform-dist"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The Uniform Distribution</span>
+<div class="para" id="subsec-expon-dist-7-2-2-2">
+<span class="process-math">\(\lambda=\frac{1}{\mu}\approx .28\)</span> failures per hour<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-7-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.35.a.1"><a tabindex="-1" href="#subsec-expon-dist-7-2-2" title="Copy heading and permalink for Answer 5.35.a.1" aria-label="Copy heading and permalink for Answer 5.35.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.35.a"><a tabindex="-1" href="#subsec-expon-dist-7-2" title="Copy heading and permalink for Task 5.35.a" aria-label="Copy heading and permalink for Task 5.35.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="subsec-expon-dist-7-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="subsec-expon-dist-7-3-1-1">What is the probability that a failure occurs within the next 2 hours?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-7-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-expon-dist-7-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="subsec-expon-dist-7-3-2-1">
+<span class="process-math">\(\approx 43\%\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-7-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.35.b.1"><a tabindex="-1" href="#subsec-expon-dist-7-3-2" title="Copy heading and permalink for Answer 5.35.b.1" aria-label="Copy heading and permalink for Answer 5.35.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.35.b"><a tabindex="-1" href="#subsec-expon-dist-7-3" title="Copy heading and permalink for Task 5.35.b" aria-label="Copy heading and permalink for Task 5.35.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="subsec-expon-dist-7-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="subsec-expon-dist-7-4-1-1">What is the probability that the machine will operate for at least 5 hours without failure?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-7-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-expon-dist-7-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="subsec-expon-dist-7-4-2-1">
+<span class="process-math">\(\approx 25\%\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-7-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.35.c.1"><a tabindex="-1" href="#subsec-expon-dist-7-4-2" title="Copy heading and permalink for Answer 5.35.c.1" aria-label="Copy heading and permalink for Answer 5.35.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.35.c"><a tabindex="-1" href="#subsec-expon-dist-7-4" title="Copy heading and permalink for Task 5.35.c" aria-label="Copy heading and permalink for Task 5.35.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Example 5.35"><a tabindex="-1" href="#subsec-expon-dist-7" title="Copy heading and permalink for Example 5.35" aria-label="Copy heading and permalink for Example 5.35">🔗</a></div>
+</article></details>
+<details id="subsec-expon-dist-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.36</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
+<article class="exercise exercise-like knowl__content"><div class="ptx-runestone-container"><div class="runestone fillintheblank_section"><div data-component="fillintheblank" data-question_label="">
+<div class="para" id="subsec-expon-dist-8-1-1">An exponential probability distribution has lambda equal to <span class="process-math">\(18\)</span> customers per hour.  Find the probability that the next customer will arrive within the next minute.  (Round your answer to 4 decimal places.)  <input type="text" placeholder="Number"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-expon-dist-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<script type="application/json">[[{"number": [0.2591,0.2593], "feedback": "\n<div class=\"para\" id=\"subsec-expon-dist-8-2-1-1-1-1\">Any value in the interval <span class=\"process-math\">\\(0.2592\\pm 0.0001\\)<\/span> is marked as correct for this problem.<\/div>"}, {"regex": "^\\s*.*\\s*$", "regexFlags": "", "feedback": "\n<div class=\"para\" id=\"subsec-expon-dist-8-2-1-2-1-1\">Incorrect. Did you round to four decimal places?<\/div>\n<div class=\"para\" id=\"subsec-expon-dist-8-2-1-2-1-2\">(Here <span class=\"process-math\">\\(\\lambda=\\frac{18\\text{ customers}}{1\\text{ hour}}\\cdot\\frac{1\\text{ hour}}{60\\text{ min}}=0.3\\text{ customers per minute}.\\)<\/span>)<\/div>"}]]</script>
+</div></div></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 5.36"><a tabindex="-1" href="#subsec-expon-dist-8" title="Copy heading and permalink for Example 5.36" aria-label="Copy heading and permalink for Example 5.36">🔗</a></div>
+</article></details><div class="autopermalink" aria-hidden="true" data-description="Subsection: The Exponential Probability Distribution"><a tabindex="-1" href="#subsec-expon-dist" title="Copy heading and permalink for Subsection: The Exponential Probability Distribution" aria-label="Copy heading and permalink for Subsection: The Exponential Probability Distribution">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-uniform-dist">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Uniform Distribution</span>
+</h2>
+<article class="definition definition-like" id="subsec-uniform-dist-2"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.37</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<article class="definition definition-like" id="subsec-uniform-dist-2"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.37</span><span class="period">.</span>
-</h4>
-<div class="para" id="subsec-uniform-dist-2-1">The uniform distribution is a continuous distribution where the probability of any interval is equal to any other interval with the same width.</div> <div class="para logical" id="subsec-uniform-dist-2-2">
+<div class="para" id="subsec-uniform-dist-2-1">The uniform distribution is a continuous distribution where the probability of any interval is equal to any other interval with the same width.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-uniform-dist-2-2">
 <div class="para">The mathematical expression that describes the shape of the curve for the uniform probability distribution is called the continuous uniform probability density function:</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="subsec-uniform-dist-2-2-1">
 \begin{equation*}
 f(x)=\begin{cases}
 \frac{1}{b-a} \amp\text{ if } a\leq x\leq b\\
@@ -426,63 +604,199 @@ f(x)=\begin{cases}
 \end{cases}.
 \end{equation*}
 </div>
-</div> <div class="para" id="subsec-uniform-dist-2-3">Uniform Distribution: <figure class="figure figure-like" id="figure-geogebra-unifdist1"><iframe src="https://www.geogebra.org/material/iframe/id/v2EnMNF9/width/800/height/444/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="geogebra-unifdist1" width="600" height="333"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.38<span class="period">.</span></span><span class="space"> </span>Uniform Distribution (Made in GeoGebra by David Ramsay)</figcaption></figure>
-</div> <div class="para logical" id="subsec-uniform-dist-2-4">
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-uniform-dist-2-3">Uniform Distribution: 
+<figure class="figure figure-like" id="figure-geogebra-unifdist1"><div class="interactive-iframe-container"><iframe id="geogebra-unifdist1" style="width:600px; height:333px; display: block; " src="geogebra-unifdist1-if.html"></iframe></div>
+<div class="interactive-iframe-container__opener"><a href="geogebra-unifdist1.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.38<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Uniform Distribution (Made in GeoGebra by David Ramsay)<div class="autopermalink" aria-hidden="true" data-description="Figure 5.38"><a tabindex="-1" href="#figure-geogebra-unifdist1" title="Copy heading and permalink for Figure 5.38" aria-label="Copy heading and permalink for Figure 5.38">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-uniform-dist-2-4">
 <div class="para">Since this function is a constant, the shape of the uniform probability distribution is a rectangle.  So computing probabilities associated with it simply involves finding areas of rectangles:</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="subsec-uniform-dist-2-4-1">
 \begin{equation*}
 (\text{width})\cdot(\text{height})
 \end{equation*}
 </div>
-</div></article><div class="para logical" id="subsec-uniform-dist-3">
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 5.37"><a tabindex="-1" href="#subsec-uniform-dist-2" title="Copy heading and permalink for Definition 5.37" aria-label="Copy heading and permalink for Definition 5.37">🔗</a></div>
+</article>
+<div class="para logical" id="subsec-uniform-dist-3">
 <div class="para">The mean and standard deviation for the uniform distribution are:</div>
 <ul class="disc" id="subsec-uniform-dist-3-1">
-<li id="subsec-uniform-dist-3-1-1"><div class="para" id="subsec-uniform-dist-3-1-1-1"><span class="process-math">\(\displaystyle \mu=\frac{a+b}{2}\)</span></div></li>
-<li id="subsec-uniform-dist-3-1-2"><div class="para" id="subsec-uniform-dist-3-1-2-1"><span class="process-math">\(\displaystyle \sigma=\frac{b-a}{\sqrt{12}}\)</span></div></li>
+<li id="subsec-uniform-dist-3-1-1">
+<div class="para" id="subsec-uniform-dist-3-1-1-1">
+<span class="process-math">\(\displaystyle \mu=\frac{a+b}{2}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-uniform-dist-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-uniform-dist-3-1-2">
+<div class="para" id="subsec-uniform-dist-3-1-2-1">
+<span class="process-math">\(\displaystyle \sigma=\frac{b-a}{\sqrt{12}}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-uniform-dist-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
 </ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-uniform-dist-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.39</span><span class="period">.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="subsec-uniform-dist-4-1">
-<div class="para" id="subsec-uniform-dist-4-1-1">(Donnelly 6.34)</div> <div class="para" id="subsec-uniform-dist-4-1-2">Assume the time required to pass through security at a particular airport follows the continuous uniform distribution with a minimum time of 8 minutes and a maximum time of 31 minutes.</div>
+<details id="subsec-uniform-dist-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.39</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
+<article class="exercise exercise-like knowl__content">
+<div class="introduction" id="subsec-uniform-dist-4-1">
+<div class="para" id="subsec-uniform-dist-4-1-1">(Donnelly 6.34)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="task exercise-like" id="subsec-uniform-dist-4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="subsec-uniform-dist-4-2-1">Calculate the value of <span class="process-math">\(f(x) \text{.}\)</span>
+<div class="para" id="subsec-uniform-dist-4-1-2">Assume the time required to pass through security at a particular airport follows the continuous uniform distribution with a minimum time of 8 minutes and a maximum time of 31 minutes.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-uniform-dist-4-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-uniform-dist-4-2-2-1"><span class="process-math">\(\frac{1}{23} \)</span></div></div></details></article><article class="task exercise-like" id="subsec-uniform-dist-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="subsec-uniform-dist-4-3-1">What are the mean and standard deviation for this distribution?</div>
-<details id="subsec-uniform-dist-4-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="subsec-uniform-dist-4-3-2-1"><ul class="disc" id="subsec-uniform-dist-4-3-2-1-1">
-<li id="subsec-uniform-dist-4-3-2-1-1-1"><div class="para" id="subsec-uniform-dist-4-3-2-1-1-1-1"><span class="process-math">\(\displaystyle \mu=19.5\)</span></div></li>
-<li id="subsec-uniform-dist-4-3-2-1-1-2"><div class="para" id="subsec-uniform-dist-4-3-2-1-1-2-1"><span class="process-math">\(\displaystyle \sigma\approx 6.64\)</span></div></li>
-</ul></div></div></details></article><article class="task exercise-like" id="subsec-uniform-dist-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="subsec-uniform-dist-4-4-1-1">What is the probability that the next passenger will require less than 25 minutes to pass through security?</div>
-<div class="solutions"><details id="subsec-uniform-dist-4-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-uniform-dist-4-4-2-1"><span class="process-math">\(P(X\lt 25)= \frac{17}{23}\)</span></div></div></details></div></article><article class="task exercise-like" id="subsec-uniform-dist-4-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="subsec-uniform-dist-4-5-1-1">What is the probability that the next passenger will require more than 23 minutes to pass through security?</div>
-<div class="solutions"><details id="subsec-uniform-dist-4-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-uniform-dist-4-5-2-1"><span class="process-math">\(P(X\gt 23)=\frac{8}{23}\)</span></div></div></details></div></article><article class="task exercise-like" id="subsec-uniform-dist-4-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="subsec-uniform-dist-4-6-1-1">What is the probability that the next passenger will require between 13 and 20 minutes to pass through security?</div>
-<div class="solutions"><details id="subsec-uniform-dist-4-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-uniform-dist-4-6-2-1"><span class="process-math">\(P(13\lt X\lt 20)= \frac{7}{23}\)</span></div></div></details></div></article><article class="task exercise-like" id="subsec-uniform-dist-4-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="subsec-uniform-dist-4-7-1-1">What time represents the 75th percentile of this distribution?</div>
-<div class="solutions"><details id="subsec-uniform-dist-4-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-uniform-dist-4-7-2-1">
-<span class="process-math">\(25.25\)</span> minutes</div></div></details></div></article></article></details></section><section class="subsection" id="subsec-triangular-dist"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The Triangular Probability Distribution</span>
-</h3>
-<div class="para" id="subsec-triangular-dist-2">“The triangular probability distribution is useful when only subjective probability estimates are available. There are many situations for which we do not have sufficient data and only subjective estimates of possible values are available. In the triangular probability distribution, we need only to specify the minimum possible value <span class="process-math">\(a\text{,}\)</span> the maximum possible value <span class="process-math">\(b\text{,}\)</span> and the most likely value (or mode) of the distribution <span class="process-math">\(m\text{.}\)</span> If these values can be knowledgeably estimated for a continuous random variable by a subject-matter expert, then as an approximation of the actual probability density function, we can assume that the triangular distribution applies.”</div>
-<details id="subsec-triangular-dist-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.40</span><span class="period">.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-triangular-dist-3-1-1">Consider a situation in which a project manager is attempting to estimate the time that will be required to complete an initial assessment of the capital project of constructing a new corporate headquarters. The assessment process includes completing environmental-impact studies, procuring the required permits, and lining up all the contractors and subcontractors needed to complete the project. There is considerable uncertainty regarding the duration of these tasks, and generally little or no historical data are available to help estimate the probability distribution for the time required for this assessment process.</div> <div class="para" id="subsec-triangular-dist-3-1-2">Suppose that we are able to discuss this project with several subject-matter experts who have worked on similar projects. From these expert opinions and our own experience, we estimate that the minimum required time for the initial assessment phase is six months and that the worst-case estimate is that this phase could require 24 months if we are delayed in the permit process or if the results from the environmental-impact studies require additional action. While a time of six months represents a best case and 24 months a worst case, the consensus is that the most likely amount of time required for the initial assessment phase of the project is 12 months. From these estimates, we can use a triangular distribution as an approximation for the probability density function for the time required for the initial assessment phase of constructing a new corporate headquarters.</div>
-<div class="solutions"><details id="subsec-triangular-dist-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
-<div class="para" id="subsec-triangular-dist-3-2-1"><span class="process-math">\(a=6,\; b=24,\; m=12 \text{ (mode)}\)</span></div> <div class="para" id="subsec-triangular-dist-3-2-2"><span class="process-math">\(1=\frac{1}{2}(6)(h)+\frac{1}{2}(12)(h)\)</span></div> <div class="para" id="subsec-triangular-dist-3-2-3"><span class="process-math">\(1=3h+6h=9h\Rightarrow h=\frac{1}{9}\)</span></div> <div class="para" id="subsec-triangular-dist-3-2-4"><span class="process-math">\(P(6\leq X\leq 12)=\frac{1}{2}(6)(h)=3\left(\frac{1}{9}\right)=\boxed{\frac{1}{3}}\)</span></div>
-</div></details></div></article></details></section><section class="exercises" id="worksheet-continuous-distributions-9"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
-</h3>
-<article class="exercise exercise-like" id="worksheet-continuous-distributions-9-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div id="momid4wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momid4" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=803116&amp;frame_id=momid4"></iframe></div></article></section></section></div>
-<div class="ptx-content-footer">
+</div>
+<article class="task exercise-like" id="subsec-uniform-dist-4-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="subsec-uniform-dist-4-2-1">Calculate the value of <span class="process-math">\(f(x) \text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="subsec-uniform-dist-4-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="subsec-uniform-dist-4-2-2-1">
+<span class="process-math">\(\frac{1}{23} \)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.39.a.1"><a tabindex="-1" href="#subsec-uniform-dist-4-2-2" title="Copy heading and permalink for Answer 5.39.a.1" aria-label="Copy heading and permalink for Answer 5.39.a.1">🔗</a></div>
+</div></details><div class="autopermalink" aria-hidden="true" data-description="Task 5.39.a"><a tabindex="-1" href="#subsec-uniform-dist-4-2" title="Copy heading and permalink for Task 5.39.a" aria-label="Copy heading and permalink for Task 5.39.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="subsec-uniform-dist-4-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="subsec-uniform-dist-4-3-1">What are the mean and standard deviation for this distribution?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="subsec-uniform-dist-4-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para logical" id="subsec-uniform-dist-4-3-2-1">
+<ul class="disc" id="subsec-uniform-dist-4-3-2-1-1">
+<li id="subsec-uniform-dist-4-3-2-1-1-1">
+<div class="para" id="subsec-uniform-dist-4-3-2-1-1-1-1">
+<span class="process-math">\(\displaystyle \mu=19.5\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-3-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-uniform-dist-4-3-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-uniform-dist-4-3-2-1-1-2">
+<div class="para" id="subsec-uniform-dist-4-3-2-1-1-2-1">
+<span class="process-math">\(\displaystyle \sigma\approx 6.64\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-3-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-uniform-dist-4-3-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.39.b.1"><a tabindex="-1" href="#subsec-uniform-dist-4-3-2" title="Copy heading and permalink for Answer 5.39.b.1" aria-label="Copy heading and permalink for Answer 5.39.b.1">🔗</a></div>
+</div></details><div class="autopermalink" aria-hidden="true" data-description="Task 5.39.b"><a tabindex="-1" href="#subsec-uniform-dist-4-3" title="Copy heading and permalink for Task 5.39.b" aria-label="Copy heading and permalink for Task 5.39.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="subsec-uniform-dist-4-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="subsec-uniform-dist-4-4-1-1">What is the probability that the next passenger will require less than 25 minutes to pass through security?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-uniform-dist-4-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="subsec-uniform-dist-4-4-2-1">
+<span class="process-math">\(P(X\lt 25)= \frac{17}{23}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.39.c.1"><a tabindex="-1" href="#subsec-uniform-dist-4-4-2" title="Copy heading and permalink for Answer 5.39.c.1" aria-label="Copy heading and permalink for Answer 5.39.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.39.c"><a tabindex="-1" href="#subsec-uniform-dist-4-4" title="Copy heading and permalink for Task 5.39.c" aria-label="Copy heading and permalink for Task 5.39.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="subsec-uniform-dist-4-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="subsec-uniform-dist-4-5-1-1">What is the probability that the next passenger will require more than 23 minutes to pass through security?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-uniform-dist-4-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="subsec-uniform-dist-4-5-2-1">
+<span class="process-math">\(P(X\gt 23)=\frac{8}{23}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.39.d.1"><a tabindex="-1" href="#subsec-uniform-dist-4-5-2" title="Copy heading and permalink for Answer 5.39.d.1" aria-label="Copy heading and permalink for Answer 5.39.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.39.d"><a tabindex="-1" href="#subsec-uniform-dist-4-5" title="Copy heading and permalink for Task 5.39.d" aria-label="Copy heading and permalink for Task 5.39.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="subsec-uniform-dist-4-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="subsec-uniform-dist-4-6-1-1">What is the probability that the next passenger will require between 13 and 20 minutes to pass through security?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-uniform-dist-4-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="subsec-uniform-dist-4-6-2-1">
+<span class="process-math">\(P(13\lt X\lt 20)= \frac{7}{23}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.39.e.1"><a tabindex="-1" href="#subsec-uniform-dist-4-6-2" title="Copy heading and permalink for Answer 5.39.e.1" aria-label="Copy heading and permalink for Answer 5.39.e.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.39.e"><a tabindex="-1" href="#subsec-uniform-dist-4-6" title="Copy heading and permalink for Task 5.39.e" aria-label="Copy heading and permalink for Task 5.39.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="subsec-uniform-dist-4-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="subsec-uniform-dist-4-7-1-1">What time represents the 75th percentile of this distribution?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-uniform-dist-4-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="subsec-uniform-dist-4-7-2-1">
+<span class="process-math">\(25.25\)</span> minutes<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-uniform-dist-4-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.39.f.1"><a tabindex="-1" href="#subsec-uniform-dist-4-7-2" title="Copy heading and permalink for Answer 5.39.f.1" aria-label="Copy heading and permalink for Answer 5.39.f.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.39.f"><a tabindex="-1" href="#subsec-uniform-dist-4-7" title="Copy heading and permalink for Task 5.39.f" aria-label="Copy heading and permalink for Task 5.39.f">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Example 5.39"><a tabindex="-1" href="#subsec-uniform-dist-4" title="Copy heading and permalink for Example 5.39" aria-label="Copy heading and permalink for Example 5.39">🔗</a></div>
+</article></details><div class="autopermalink" aria-hidden="true" data-description="Subsection: The Uniform Distribution"><a tabindex="-1" href="#subsec-uniform-dist" title="Copy heading and permalink for Subsection: The Uniform Distribution" aria-label="Copy heading and permalink for Subsection: The Uniform Distribution">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-triangular-dist">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Triangular Probability Distribution</span>
+</h2>
+<div class="para" id="subsec-triangular-dist-2">“The triangular probability distribution is useful when only subjective probability estimates are available. There are many situations for which we do not have sufficient data and only subjective estimates of possible values are available. In the triangular probability distribution, we need only to specify the minimum possible value <span class="process-math">\(a\text{,}\)</span> the maximum possible value <span class="process-math">\(b\text{,}\)</span> and the most likely value (or mode) of the distribution <span class="process-math">\(m\text{.}\)</span> If these values can be knowledgeably estimated for a continuous random variable by a subject-matter expert, then as an approximation of the actual probability density function, we can assume that the triangular distribution applies.”<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-triangular-dist-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="subsec-triangular-dist-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.40</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
+<article class="exercise exercise-like knowl__content">
+<div class="para" id="subsec-triangular-dist-3-1-1">Consider a situation in which a project manager is attempting to estimate the time that will be required to complete an initial assessment of the capital project of constructing a new corporate headquarters. The assessment process includes completing environmental-impact studies, procuring the required permits, and lining up all the contractors and subcontractors needed to complete the project. There is considerable uncertainty regarding the duration of these tasks, and generally little or no historical data are available to help estimate the probability distribution for the time required for this assessment process.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-triangular-dist-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="subsec-triangular-dist-3-1-2">Suppose that we are able to discuss this project with several subject-matter experts who have worked on similar projects. From these expert opinions and our own experience, we estimate that the minimum required time for the initial assessment phase is six months and that the worst-case estimate is that this phase could require 24 months if we are delayed in the permit process or if the results from the environmental-impact studies require additional action. While a time of six months represents a best case and 24 months a worst case, the consensus is that the most likely amount of time required for the initial assessment phase of the project is 12 months. From these estimates, we can use a triangular distribution as an approximation for the probability density function for the time required for the initial assessment phase of constructing a new corporate headquarters.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-triangular-dist-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-triangular-dist-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="subsec-triangular-dist-3-2-1">
+<span class="process-math">\(a=6,\; b=24,\; m=12 \text{ (mode)}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-triangular-dist-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-triangular-dist-3-2-2">
+<span class="process-math">\(1=\frac{1}{2}(6)(h)+\frac{1}{2}(12)(h)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-triangular-dist-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-triangular-dist-3-2-3">
+<span class="process-math">\(1=3h+6h=9h\Rightarrow h=\frac{1}{9}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-triangular-dist-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-triangular-dist-3-2-4">
+<span class="process-math">\(P(6\leq X\leq 12)=\frac{1}{2}(6)(h)=3\left(\frac{1}{9}\right)=\boxed{\frac{1}{3}}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-triangular-dist-3-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.40.1"><a tabindex="-1" href="#subsec-triangular-dist-3-2" title="Copy heading and permalink for Answer 5.40.1" aria-label="Copy heading and permalink for Answer 5.40.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 5.40"><a tabindex="-1" href="#subsec-triangular-dist-3" title="Copy heading and permalink for Example 5.40" aria-label="Copy heading and permalink for Example 5.40">🔗</a></div>
+</article></details><div class="autopermalink" aria-hidden="true" data-description="Subsection: The Triangular Probability Distribution"><a tabindex="-1" href="#subsec-triangular-dist" title="Copy heading and permalink for Subsection: The Triangular Probability Distribution" aria-label="Copy heading and permalink for Subsection: The Triangular Probability Distribution">🔗</a></div>
+</section>
+<section class="exercises" id="worksheet-continuous-distributions-9">
+<h2 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercises</span>
+</h2>
+<article class="exercise exercise-like" id="worksheet-continuous-distributions-9-1"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="momworksheet-continuous-distributions-9-1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momworksheet-continuous-distributions-9-1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=803116&amp;frame_id=momworksheet-continuous-distributions-9-1-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1"><a tabindex="-1" href="#worksheet-continuous-distributions-9-1" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercises"><a tabindex="-1" href="#worksheet-continuous-distributions-9" title="Copy heading and permalink for Exercises" aria-label="Copy heading and permalink for Exercises">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section: Continuous Probability Distributions Worksheet"><a tabindex="-1" href="#worksheet-continuous-distributions" title="Copy heading and permalink for Section: Continuous Probability Distributions Worksheet" aria-label="Copy heading and permalink for Section: Continuous Probability Distributions Worksheet">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="worksheet-discrete-distributions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-descriptive-data-mining.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" alt="Runestone Academy logo" src="data:image/png;base64,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"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" alt="MathJax logo" src="data:image/png;base64,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"></a>
 </div>
 <!--Start: Google Global Site Tag code--><!--*** DO NOT COPY ANOTHER PROJECT'S MAGIC NUMBERS/ID ***--><!--***           GET YOUR OWN FROM GOOGLE             ***-->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PPQ70P783P"></script><script>  window.dataLayer = window.dataLayer || [];

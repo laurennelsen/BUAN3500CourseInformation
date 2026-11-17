@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="530844">
 <statement>
 <p>Determine if the following scenario is a binomial experiment. If it is not binomial, then select all of the reasons why.</p>
@@ -18,4 +18,3 @@
 </answer>
 
 </myopenmath>
-

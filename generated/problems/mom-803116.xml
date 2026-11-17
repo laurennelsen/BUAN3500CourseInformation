@@ -1,30 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="803116">
 <statement>
-<p>Aleshya is conducting market research on the cost of auto insurance. Aleshya has determined that the average annual cost of auto insurance is <dollar/>1220, and that the distribution of costs is normally distributed with a standard deviation of <dollar/>68.
+<p>Jerome is conducting market research on the cost of auto insurance. Jerome has determined that the average annual cost of auto insurance is <dollar/>1346, and that the distribution of costs is normally distributed with a standard deviation of <dollar/>53.
   </p>
 <p>
-  a. Find the probability that a single randomly selected consumer spends less than <dollar/>1104 on auto insurance.</p>
-<p style="padding-left: 40px;"><fillin characters="10" /></p>
-<p>b. The cost of the middle 80<percent/> of auto insurance policies falls between (round to the nearest dollar):</p>
-<p style="padding-left: 40px;"><dollar/><fillin characters="10" /> to <dollar/><fillin characters="10" /> per year.</p>
-<p>c. The <em>most expensive </em>10<percent/> of auto insurance policies cost at least how much annually?</p>
-<p style="padding-left: 40px;"><dollar/><fillin characters="10" /></p>
+  a. Find the probability that a single randomly selected consumer spends more than <dollar/>1442 on auto insurance.</p>
+<p style="padding-left: 40px;"><fillin characters="10"/></p>
+<p>b. The cost of the middle 60<percent/> of auto insurance policies falls between (round to the nearest dollar):</p>
+<p style="padding-left: 40px;"><dollar/><fillin characters="10"/> to <dollar/><fillin characters="10"/> per year.</p>
+<p>c. The <em>most expensive </em>8<percent/> of auto insurance policies cost at least how much annually?</p>
+<p style="padding-left: 40px;"><dollar/><fillin characters="10"/></p>
 
 </statement>
 <answer>
-<p><ul><li>0.044</li><li>1133</li><li>1307</li><li>1307</li></ul></p>
+<p><ul><li>0.035</li><li>1301</li><li>1391</li><li>1420</li></ul></p>
 </answer>
-<solution><p>Define the normal distribution in Desmos: <m>\displaystyle\text{normaldist}{\left({1220},{68}\right)}</m>. </p>
-<p>a. In Desmos, select <em>LEFT </em>region, compute <em>AREA</em>. Enter the boundary 1104 and obtain the probability: <m>\displaystyle{P}{\left({x}\leq{1104}\right)}={0.044}</m>.<less/>/p<greater/>
-</p>
-<p>Alternatively (old Desmos approach), use: <m>\displaystyle\text{normaldist}{\left({1220},{68}\right)}.{c}{d}{f{{\left({1104}\right)}}}={0.044}</m> </p>
-<p>b. For the middle 80<percent/> of the data, select <em>INNER </em>region, compute <em>BOUNDS</em>. Enter the area of the middle region <m>\displaystyle{0.80}</m>  and obtain the upper and lower bounds: <m>\displaystyle{1133}\leq{x}\leq{1307}</m> .</p>
+<solution><p>Define the normal distribution in Desmos: <m>\displaystyle\text{normaldist}{\left({1346},{53}\right)}</m>. </p>
+<p>a. In Desmos, select <em>RIGHT </em>region, compute <em>AREA</em>. Enter the boundary 1442 and obtain the probability: <m>\displaystyle{P}{\left({x}\geq{1442}\right)}={0.035}</m>.</p>
+<p>Alternatively (old Desmos approach), use: <m>\displaystyle\text{normaldist}{\left({1346},{53}\right)}.{c}{d}{f{{\left({1442},\infty\right)}}}={0.035}</m> </p>
+<p>b. For the middle 60<percent/> of the data, select <em>INNER </em>region, compute <em>BOUNDS</em>. Enter the area of the middle region <m>\displaystyle{0.60}</m>  and obtain the upper and lower bounds: <m>\displaystyle{1301}\leq{x}\leq{1391}</m> .</p>
 <p>Alternatively (old Desmos approach): split the remaining region between the tails and find the boundaries: </p>
-<p style="padding-left: 40px;">Lower bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.1}\right)}={1133}</m></p>
-<p style="padding-left: 40px;">Upper bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.9}\right)}={1307}</m></p>
-<p>c. For the most expensive 10<percent/> of the distribution, need <m>\displaystyle{0.1}</m> of the area to the right. Use a <em>RIGHT </em>region, compute <em>BOUNDS </em>and enter the area to the right <m>\displaystyle{0.1}.</m>  Obtain the lower bound: <m>\displaystyle{x}={1307}.</m> </p>
+<p style="padding-left: 40px;">Lower bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.2}\right)}={1301}</m></p>
+<p style="padding-left: 40px;">Upper bound <m>\displaystyle={N}.\text{inversecdf}{\left({0.8}\right)}={1391}</m></p>
+<p>c. For the most expensive 8<percent/> of the distribution, need <m>\displaystyle{0.08}</m> of the area to the right. Use a <em>RIGHT </em>region, compute <em>BOUNDS </em>and enter the area to the right <m>\displaystyle{0.08}.</m>  Obtain the lower bound: <m>\displaystyle{x}={1420}.</m> </p>
 <p>Alternatively (old Desmos approach): use the inverse function with the area needed to the LEFT:</p>
-<p style="padding-left: 40px;"> <m>\displaystyle{x}={N}.\text{inversecdf}{\left({0.9}\right)}={1307}</m> </p></solution>
+<p style="padding-left: 40px;"> <m>\displaystyle{x}={N}.\text{inversecdf}{\left({0.92}\right)}={1420}</m> </p></solution>
 </myopenmath>
-
