@@ -336,10 +336,7 @@ Determine the null and alternative hypotheses and find the test statistic.
             <p>
                 Create a dashboard summarizing relevant data from this sample and presenting the results of the hypothesis tests about the average number of hours spent playing video games.
             </p>
-            <p>
-                (<url href="https://public.tableau.com/views/MichiganCensusatSchoolSampleData/Dashboard1">Here is a link</url> to an example.)
-                
-            </p>
+            
         </statement>
     </task>
 </exercise>
