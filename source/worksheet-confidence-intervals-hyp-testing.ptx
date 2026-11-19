@@ -312,4 +312,36 @@ Determine the null and alternative hypotheses and find the test statistic.
     </task>
 </exercise>
 
+
+
+<exercise xml:id="Census-at-school-video-games-exercise">
+    <title>Census at School Hypothesis Testing</title>
+
+<introduction>
+    <p>
+      Look at the <url href="https://ww2.amstat.org/censusatschool/Randomsampleconditions.cfm">Census at School</url> site, and download a sample of <m>250</m> students in Michigan and Oregon from grade levels 9-12 from <m>2026</m>.
+    </p>
+</introduction>
+    <task>
+    <statement>
+        <p>
+            Some groups have claimed that high school students play video games for an average of 1.5 hours/day.  If this is true, the average per week would be about 10.5.  Look at the average number of hours spent playing video games per week in the samples in Michigan and in Oregon.  Set up and test appropriate hypotheses about the average number of hours high school students spend playing video games in these states.
+            </p>
+    </statement>
+    </task>
+
+    
+    <task>
+        <statement>
+            <p>
+                Create a dashboard summarizing relevant data from this sample and presenting the results of the hypothesis tests about the average number of hours spent playing video games.
+            </p>
+            <p>
+                (<url href="https://public.tableau.com/views/MichiganCensusatSchoolSampleData/Dashboard1">Here is a link</url> to an example.)
+                
+            </p>
+        </statement>
+    </task>
+</exercise>
+
 </section>
